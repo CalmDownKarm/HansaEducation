@@ -118,34 +118,39 @@ def extract_data(path):
 
 
 def extract_table(url):
-	req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-	webpage = urlopen(req).read()
-	data = dict()
-	htmlsoup = bs(webpage,"html.parser")
-	major = htmlsoup.find("div",{"class":"faculty-main wrapper col-md-4"})
-	inner = major.find_all("div",{"class":"total faculty"})
-	for inn in inner:
-		data['Total Academic Faculty'] = inn.find("div",{"class":"number"}).get_text().strip()
-	inner = major.find_all("div",{"class":"inter faculty"})
-	for inn in inner:
-		data["International Faculty"] = inn.find("div",{"class":"number"}).get_text().strip()
-	major = htmlsoup.find("div",{"class":"students-main wrapper col-md-4"})
-	inner = major.find_all("div",{"class":"total student"})
-	for inn in inner:
-		data["Total Number of Students"] = inn.find("div",{"class":"number"}).get_text().strip()
-	inner = major.find_all("div",{"class":"stat"})
-	for inn in inner:
-		data["Percent Post Grad Students"] = inn.find("div",{"class":"post"}).find("span",{"class":"perc"}).get_text().strip()
-		data["Percent Undergraduate Students"] = inn.find("div",{"class":"grad"}).find("span",{"class":"perc"}).get_text().strip()
-	major = htmlsoup.find("div",{"class":"int-students-main wrapper col-md-4"})
-	inner = major.find_all("div",{"class":"total inter"})
-	for inn in inner:
-		data["Number of Internal Students"] = inn.find("div",{"class":"number"}).get_text().strip()
-	inner = major.find_all("div",{"class":"stat"})
-	for inn in inner:
-		data["Percent International PostGrad"] = inn.find("div",{"class":"post"}).find("span",{"class":"perc"}).get_text().strip()
-		data["Percent International UnderGrad"] = inn.find("div",{"class":"grad"}).find("span",{"class":"perc"}).get_text().strip()
-	return data
+	try:
+		req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+		webpage = urlopen(req).read()
+		data = dict()
+		htmlsoup = bs(webpage,"html.parser")
+		major = htmlsoup.find("div",{"class":"faculty-main wrapper col-md-4"})
+		inner = major.find_all("div",{"class":"total faculty"})
+		for inn in inner:
+			data['Total Academic Faculty'] = inn.find("div",{"class":"number"}).get_text().strip()
+		inner = major.find_all("div",{"class":"inter faculty"})
+		for inn in inner:
+			data["International Faculty"] = inn.find("div",{"class":"number"}).get_text().strip()
+		major = htmlsoup.find("div",{"class":"students-main wrapper col-md-4"})
+		inner = major.find_all("div",{"class":"total student"})
+		for inn in inner:
+			data["Total Number of Students"] = inn.find("div",{"class":"number"}).get_text().strip()
+		inner = major.find_all("div",{"class":"stat"})
+		for inn in inner:
+			data["Percent Post Grad Students"] = inn.find("div",{"class":"post"}).find("span",{"class":"perc"}).get_text().strip()
+			data["Percent Undergraduate Students"] = inn.find("div",{"class":"grad"}).find("span",{"class":"perc"}).get_text().strip()
+		major = htmlsoup.find("div",{"class":"int-students-main wrapper col-md-4"})
+		inner = major.find_all("div",{"class":"total inter"})
+		for inn in inner:
+			data["Number of Internal Students"] = inn.find("div",{"class":"number"}).get_text().strip()
+		inner = major.find_all("div",{"class":"stat"})
+		for inn in inner:
+			data["Percent International PostGrad"] = inn.find("div",{"class":"post"}).find("span",{"class":"perc"}).get_text().strip()
+			data["Percent International UnderGrad"] = inn.find("div",{"class":"grad"}).find("span",{"class":"perc"}).get_text().strip()
+		return data
+	except Exception as e:
+        print(e)
+        print("In Extract Everything")
+        return {}
 
 
 
@@ -153,31 +158,40 @@ def extract_table(url):
 count = 0
 def doshit(thing):
 	url = thing['URL']
+	try:
 	#moreshit = extract_everything(get_source(url))
-	moreshit = extract_table(url)
-	return {**thing,**moreshit}
+		moreshit = extract_table(url)
+		foo = {**thing, **moreshit}
+		pp.pprint(foo)
+		return foo
+	except Exception as e:
+		print(e)
+		print("Merging "+ url)
 
 result = extract_data("Chemical Engineering _ Top Universities.html")
 bullshit = list(map(doshit,result)) 
 df = pd.DataFrame(bullshit)
 df.to_csv("Chemical Engineering out.csv")
-
+print("CHEM E DONE")
 
 result = extract_data("Computer Science & Information Systems _ Top Universities.html")
 bullshit = list(map(doshit,result)) 
 df = pd.DataFrame(bullshit)
 df.to_csv("CompSci.csv")
+print("COMPSCI E DONE")
+
 
 result = extract_data("Mechanical, Aeronautical & Manufacturing Engineering _ Top Universities.html")
 bullshit = list(map(doshit,result)) 
 df = pd.DataFrame(bullshit)
 df.to_csv("Mechanical Engineering out.csv")
+print("MECH E DONE")
 
 result = extract_data("Electrical & Electronic Engineering _ Top Universities.html")
 bullshit = list(map(doshit,result)) 
 df = pd.DataFrame(bullshit)
 df.to_csv("Electrical Engineering out.csv")
-
+print("EE DONE")
 
 # result = extract_data(
 #     "Electrical & Electronic Engineering _ Top Universities.html")
