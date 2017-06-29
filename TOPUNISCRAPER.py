@@ -159,9 +159,9 @@ def extract_table(url):
                 "div", {"class": "grad"}).find("span", {"class": "perc"}).get_text().strip()
         return data
     except Exception as e:
-    print(e)
-    print("In Extract Everything")
-    return {}
+	    print(e)
+	    print("In Extract Everything")
+	    return {}
 
 
 count = 0
