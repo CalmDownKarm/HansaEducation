@@ -119,14 +119,14 @@ def doshit(thing):
 	moreshit = extract_everything(get_source(url))
 	return {**thing,**moreshit}
 
-
-result = extract_data(
-    "Electrical & Electronic Engineering _ Top Universities.html")
+result = extract_data("Chemical Engineering _ Top Universities.html")
+# result = extract_data(
+#     "Electrical & Electronic Engineering _ Top Universities.html")
 bullshit = list(map(doshit,result)) 
 
 #[extract_everything(get_source(school['URL'])) for school in result[:5]]
 df = pd.DataFrame(bullshit)
-df.to_csv("Electrical Engineering out.csv")
+df.to_csv("Chemical Engineering out.csv")
 # result = extract_data("Chemical Engineering _ Top Universities.html")
 # df = pd.DataFrame(result)
 # df.to_csv("Chemical Engineering out.csv")
