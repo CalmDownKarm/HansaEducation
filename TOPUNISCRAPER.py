@@ -158,25 +158,25 @@ def doshit(thing):
 	return {**thing,**moreshit}
 
 result = extract_data("Chemical Engineering _ Top Universities.html")
-bullshit = list(map(doshit,result[:1])) 
+bullshit = list(map(doshit,result)) 
 df = pd.DataFrame(bullshit)
 df.to_csv("Chemical Engineering out.csv")
 
 
-# result = extract_data("Computer Science & Information Systems _ Top Universities.html")
-# bullshit = list(map(doshit,result)) 
-# df = pd.DataFrame(bullshit)
-# df.to_csv("CompSci.csv")
+result = extract_data("Computer Science & Information Systems _ Top Universities.html")
+bullshit = list(map(doshit,result)) 
+df = pd.DataFrame(bullshit)
+df.to_csv("CompSci.csv")
 
-# result = extract_data("Mechanical, Aeronautical & Manufacturing Engineering _ Top Universities.html")
-# bullshit = list(map(doshit,result)) 
-# df = pd.DataFrame(bullshit)
-# df.to_csv("Mechanical Engineering out.csv")
+result = extract_data("Mechanical, Aeronautical & Manufacturing Engineering _ Top Universities.html")
+bullshit = list(map(doshit,result)) 
+df = pd.DataFrame(bullshit)
+df.to_csv("Mechanical Engineering out.csv")
 
-# result = extract_data("Electrical & Electronic Engineering _ Top Universities.html")
-# bullshit = list(map(doshit,result)) 
-# df = pd.DataFrame(bullshit)
-# df.to_csv("Electrical Engineering out.csv")
+result = extract_data("Electrical & Electronic Engineering _ Top Universities.html")
+bullshit = list(map(doshit,result)) 
+df = pd.DataFrame(bullshit)
+df.to_csv("Electrical Engineering out.csv")
 
 
 # result = extract_data(
