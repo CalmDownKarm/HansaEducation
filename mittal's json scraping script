@@ -1,0 +1,16 @@
+s.forEach(function(e, i) {
+  console.log(e.URL, i);
+  $.get(e.URL, function(e) {
+    s[i].HTML = e;
+  })
+});
+
+function downloadFile() {
+  var m = document.createElement("a");
+  a.setAttribute("download","file.json");
+  var data = new Blob([JSON.stringify(s)], {
+    type: 'text/plain'
+  });
+  a.href = window.URL.createObjectURL(data);
+  a.click();
+}

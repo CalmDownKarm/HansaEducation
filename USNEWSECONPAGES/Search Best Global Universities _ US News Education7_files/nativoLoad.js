@@ -1,0 +1,1 @@
+if(window.location.pathname.indexOf("top-law-schools/law-rankings")>-1){var nativoScript=document.createElement("script"),node=document.getElementsByTagName("script")[0];nativoScript.setAttribute("data-partner-name","nativo"),nativoScript.type="text/javascript",nativoScript.src="https://s.ntv.io/serve/load.js?async=true",node.parentNode.insertBefore(nativoScript,node)}

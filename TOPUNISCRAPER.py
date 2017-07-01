@@ -179,33 +179,33 @@ def doshit(thing):
         print(e)
         print("Merging " + url)
 
-result = extract_data("Chemical Engineering _ Top Universities.html")
+result = extract_data("QS World University Rankings by Subject 2016 - Economics & Econometrics _ Top Universities.html")
 bullshit = list(map(doshit, result))
 df = pd.DataFrame(bullshit)
-df.to_csv("Chemical Engineering out.csv")
+df.to_csv("Output/QS Economics")
 print("CHEM E DONE")
 
-result = extract_data(
-    "Computer Science & Information Systems _ Top Universities.html")
-bullshit = list(map(doshit, result))
-df = pd.DataFrame(bullshit)
-df.to_csv("CompSci.csv")
-print("COMPSCI E DONE")
+# result = extract_data(
+#     "Computer Science & Information Systems _ Top Universities.html")
+# bullshit = list(map(doshit, result))
+# df = pd.DataFrame(bullshit)
+# df.to_csv("CompSci.csv")
+# print("COMPSCI E DONE")
 
 
-result = extract_data(
-    "Mechanical, Aeronautical & Manufacturing Engineering _ Top Universities.html")
-bullshit = list(map(doshit, result))
-df = pd.DataFrame(bullshit)
-df.to_csv("Mechanical Engineering out.csv")
-print("MECH E DONE")
+# result = extract_data(
+#     "Mechanical, Aeronautical & Manufacturing Engineering _ Top Universities.html")
+# bullshit = list(map(doshit, result))
+# df = pd.DataFrame(bullshit)
+# df.to_csv("Mechanical Engineering out.csv")
+# print("MECH E DONE")
 
-result = extract_data(
-    "Electrical & Electronic Engineering _ Top Universities.html")
-bullshit = list(map(doshit, result))
-df = pd.DataFrame(bullshit)
-df.to_csv("Electrical Engineering out.csv")
-print("EE DONE")
+# result = extract_data(
+#     "Electrical & Electronic Engineering _ Top Universities.html")
+# bullshit = list(map(doshit, result))
+# df = pd.DataFrame(bullshit)
+# df.to_csv("Electrical Engineering out.csv")
+# print("EE DONE")
 
 # result = extract_data(
 #     "Electrical & Electronic Engineering _ Top Universities.html")
