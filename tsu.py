@@ -1,4 +1,4 @@
-url = "https://www.topuniversities.com/universities/massachusetts-institute-technology-mit"
+	url = "https://www.topuniversities.com/universities/massachusetts-institute-technology-mit"
 
 from bs4 import BeautifulSoup as bs
 import pandas as pd
@@ -35,20 +35,6 @@ def extract_table(url):
 	for inn in inner:
 		data["Percent International PostGrad"] = inn.find("div",{"class":"post"}).find("span",{"class":"perc"}).get_text().strip()
 		data["Percent International UnderGrad"] = inn.find("div",{"class":"grad"}).find("span",{"class":"perc"}).get_text().strip()
-	major = htmlsoup.find_all("div",{"id":"uni-classifications"})
-	# for boob in major:
-	# 	inner = boob.find_all("li",{"class":"size"})
-	# 	for inn in inner:
-	# 		moreinner =  inn.find_all("span",{"class":"l10 blue right"})
-	# 		for x in moreinner:
-	# 			print(x.get_text().strip())
-	# 	inner = boob.find_all("li",{"class":"age"})
-	# 	for inn in inner:
-	# 		moreinner =  inn.find_all("span",{"class":"l10 blue right"})
-	# 		for x in moreinner:
-	# 			print(x.get_text().strip())
-		#inner = major.find("li",{"class":"age"}).find("h4",{"class":"l12 gray"})
-	#data["Age"]= inner.find_all("span",{"class":"l10 blue right"})[1].get_text().strip()
 	return data
 	pp.pprint(data)
 
