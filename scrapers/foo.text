@@ -1,0 +1,3097 @@
+
+
+
+University of Oxford, UK | Shiksha.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ window.onerror = function (msg, url, line, col, exception) { var img = new Image(); var srcUrl = '/AppMonitor/logJSErrorsData/logJSerrors?msg=' + encodeURIComponent(msg) +'&line=' + encodeURIComponent(line) +'&url=' + encodeURIComponent(url) +'&col=' + encodeURIComponent(col) +'&exception='+encodeURIComponent(exception)+'&moduleName='+encodeURIComponent('listing')+'&className='+encodeURIComponent('abroadListings')+'&methodName='+encodeURIComponent('abroadListingPage')+'&currentUrl='+encodeURIComponent('https://studyabroad.shiksha.com/uk/universities/university-of-oxford?refCourseId=195904'); img.src = srcUrl; } 
+ try{function jsb9createCookie(name,value,min){if(min){var date=new Date();date.setTime(date.getTime()+(min*60*1000));var expires="; expires="+date.toGMTString();}else var expires=""; document.cookie=name+"="+value+expires+";path=/";}function jsb9readCookie(name){var nameEQ=name+"=";var ca=document.cookie.split(';');for(var i=0;i<ca.length;i++){var c=ca[i];while(c.charAt(0)==' ') c=c.substring(1,c.length);if(c.indexOf(nameEQ)==0) return c.substring(nameEQ.length,c.length);} return "-1|-1";}function jsb9eraseCookie(name){ jsb9createCookie(name,"",-1);}var date=new Date();jsb9TrackStartTime=date.getTime();var jsb9recordTimes=[];var jsb9TrackVal=jsb9readCookie("jsb9Track");jsb9eraseCookie("jsb9Track");}catch(e){}
+    var isStudyAbroadPage = 1;// since this header gets loaded only in study abroad pages
+
+isUserLoggedIn = false;
+var JSURL = 'js.shiksha.ws';
+var JSVERSION = '20170621';
+var JSREVISIONS = {"applyHomePageSA":1};
+var COOKIEDOMAIN = '.shiksha.com';
+	var isStudyAbroadDomain = true;
+ 
+
+<!--Facebook Pixel Code -->
+/*
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '639671932819149');
+fbq('track', "PageView");
+fbq('track', 'CompleteRegistration');*/
+
+
+
+
+
+
+
+
+
+(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+
+
+
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})
+(window,document,'script','dataLayer','GTM-5FCGK6');
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+Hey 
+
+
+
+
+
+
+
+Signup
+Login
+
+
+
+
+
+
+
+
+
+
+Bachelors 
+
+
+
+Find Colleges
+
+By Course
+
+B Tech / BE (Bachelor of Engineering)
+
+By Stream
+
+Business
+Engineering
+Science
+Computers
+Medicine
+Humanities
+Law
+
+
+
+
+
+
+Masters 
+
+
+
+Find Colleges
+
+By Course
+
+MBA (Master of Business Administration)
+MS (Master of Science)
+
+By Stream
+
+Business
+Engineering
+Science
+Computers
+Medicine
+Humanities
+Law
+
+
+
+
+Top Ranked
+
+
+Top MBA Colleges in USA
+Top MBA Colleges in UK
+Top MS Colleges Abroad
+Top MS Colleges in UK
+
+
+
+
+
+
+Countries 
+
+
+
+Study Destinations
+
+
+Study in USA
+Study in Canada
+Study in Australia
+Study in UK
+Study in Germany
+Study in Singapore
+Study in New Zealand
+Study in Netherlands
+Study in Ireland
+Explore more countries
+
+
+
+
+Top Ranked
+
+
+Top Universities Abroad
+
+
+
+
+Student Guides
+
+
+Guide for USA
+Guide for Canada
+Guide for UK
+Guide for Australia
+Guide for New Zealand
+Guide for Singapore
+Guide for Germany
+Guide for France
+Guide for Netherlands
+Guide for Ireland
+Canada vs Australia
+USA vs UK
+
+
+
+
+
+
+Application Process 
+
+
+
+Study abroad exams
+
+Language exams
+
+IELTS
+TOEFL
+PTE
+
+Aptitude exams
+
+GRE
+GMAT
+SAT
+
+
+
+
+Study abroad application writing
+
+
+Statement of purpose (SOP)
+Letter of recommendation (LOR)
+Admission Essay
+Student CV
+Student Visa
+
+
+Application Assistance
+
+Expert Help
+
+Shiksha counseling service
+
+Document Shipment
+
+DHL Student offer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Study in India 
+
+
+
+
+MBA Courses in India
+
+
+Full time MBA
+Distance MBA
+Part time MBA
+
+Courses after 12th
+
+BE/B.Tech
+BBA/BBM
+BCA, DCA, BSc CS/IT
+Bachelor in Hotel Management
+B Com
+
+
+
+
+Other courses
+
+
+Hotel Management
+Fashion & Textile Design
+Animation Courses
+Banking Courses
+Distance MCA
+MBBS
+
+
+
+
+Shiksha Café
+
+
+Q & A
+Discussions
+
+Application Forms
+
+MBA Forms
+
+Career Central
+
+Career Central
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	var compareCookiePageTitle = '';
+	var compareOverlayTrackingKeyId = '';
+	var compareButtonTrackingId = '';
+
+
+
+
+{
+    "@context" : "http://schema.org",
+    "@type"    : "CollegeOrUniversity",
+    "url"      : "https://studyabroad.shiksha.com/uk/universities/university-of-oxford",    
+    "name"     : "University of Oxford",
+    "email"    : "undergraduate.admissions@admin.ox.ac.uk",
+    "telephone" : "44 - 1865 270000"
+}
+
+try{jsb9recordTimes["SA_UNIVERSITY_PAGE"]=1;}catch(e){}  Home
+›
+
+ Study in UK
+›
+
+ Universities in UK
+›
+
+ University of Oxford
+
+
+
+
+
+University of Oxford
+
+			var rmcPageTitle = "";
+		
+
+
+Email me university details
+
+
+
+
+Popular Courses at this University
+
+
+
+MBA
+
+1st year total fees:
+Rs 45.7 Lakhs
+Eligibility:
+
+                                                                                                                                    GMAT:Accepted                                                                                                        |                                    GRE:Accepted                                                    
+
+
+
+MSc in Computer Science
+
+1st year total fees:
+Rs 22.2 Lakhs
+Eligibility:
+
+                                                                                                                                    IELTS:7.5                                                    
+
+
+
+BA in Computer Science
+
+1st year total fees:
+Rs 30.5 Lakhs
+Eligibility:
+
+                                                                                                                                    IELTS:7                                                    
+
+
+
+
+
+
+    var coursesByCourseLevel = {"Bachelors":{"Business":[195898],"Computers":[195498],"Engineering":[195542,195560],"Humanities":[195552,195569,195907],"Medicine":[194585],"Science":[204562,204574]},"Masters":{"Business":[195549,204496,195904,204501,195901],"Computers":[195501],"Science":[276876]},"PhD":{"Medicine":[195567]},"Certificate - Diploma":{"Business":[204521,204514]}};
+    var coursesByStream = {"Business":[195898,204521,204514,195549,204496,195904,204501,195901],"Computers":[195498,195501],"Engineering":[195542,195560],"Humanities":[195552,195569,195907],"Medicine":[195567,194585],"Science":[276876,204562,204574]};
+
+
+Find courses at this university  (20 courses available)
+    View all courses
+
+
+
+
+
+Select Course Level
+Bachelors
+Masters
+PhD
+Certificate - Diploma
+All Course Levels
+
+
+
+
+
+
+Select Stream
+Business
+Computers
+Engineering
+Humanities
+Medicine
+Science
+All Streams
+
+
+
+
+
+ 
+Found 20 course for:
+
+20 courses found in this university
+
+Find Again
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MBA
+
+1st year total fees:
+Rs 45.7 Lakhs
+Eligibility:
+
+                                                                                                                                                                    GMAT:Accepted                                                                                                                                |                                            GRE:Accepted                                                                    
+
+
+
+MSc in Computer Science
+
+1st year total fees:
+Rs 22.2 Lakhs
+Eligibility:
+
+                                                                                                                                                                    IELTS:7.5                                                                    
+
+
+
+BA in Computer Science
+
+1st year total fees:
+Rs 30.5 Lakhs
+Eligibility:
+
+                                                                                                                                                                    IELTS:7                                                                    
+
+
+
+BM BCh Medicine
+
+1st year total fees:
+Rs 19.8 Lakhs
+Eligibility:
+
+                                                                                                                                                                    IELTS:7                                                                    
+
+
+
+BA in Economics and Management
+
+1st year total fees:
+Rs 19.2 Lakhs
+Eligibility:
+
+                                                                                                                                                                    IELTS:7                                                                                                                                |                                            TOEFL:110                                                                    
+
+
+
+Msc in Law and Finance
+
+1st year total fees:
+Rs 29.8 Lakhs
+Eligibility:
+
+                                                                                                                                                                    IELTS:7.5                                                                    
+
+
+
+MEng in Engineering Science
+
+1st year total fees:
+Rs 30.5 Lakhs
+Eligibility:
+
+                                                                                                                                                                    IELTS:7                                                                    
+
+
+
+MSc Financial Economics
+
+1st year total fees:
+Rs 39.8 Lakhs
+Eligibility:
+
+                                                                                                                                                                    GMAT:Accepted                                                                                                                                |                                            GRE:Accepted                                                                    
+
+
+
+Executive MBA
+
+1st year total fees:
+Rs 38.0 Lakhs
+Eligibility:
+
+                                                                                                                                                                    GMAT:Accepted                                                                                                                                |                                            IELTS:7.5                                                                    
+
+
+
+BA in Philosophy and Modern Languages
+
+1st year total fees:
+Rs 24.5 Lakhs
+Eligibility:
+
+                                                                                                                                                                    IELTS:7                                                                    
+
+
+
+MSc in Psychological Research
+
+1st year total fees:
+Rs 26.1 Lakhs
+Eligibility:
+
+                                                                                                                                                                    IELTS:7.5                                                                    
+
+
+
+MEng in Materials Science
+
+1st year total fees:
+Rs 30.5 Lakhs
+Eligibility:
+
+                                                                                                                                                                    IELTS:7                                                                    
+
+
+
+Diploma in Organisational Leadership
+
+1st year total fees:
+Rs 28.3 Lakhs
+Eligibility:
+
+                                                                                                                                                                    IELTS:7                                                                    
+
+
+
+BFA in Fine Art
+
+1st year total fees:
+Rs 26.4 Lakhs
+Eligibility:
+
+                                                                                                                                                                    IELTS:7                                                                    
+
+
+
+Diploma in Financial Strategy
+
+1st year total fees:
+Rs 26.5 Lakhs
+Eligibility:
+
+                                                                                                                                                                    IELTS:7.5                                                                    
+
+
+
+BA in Experimental Psychology
+
+1st year total fees:
+Rs 26.4 Lakhs
+Eligibility:
+
+                                                                                                                                                                    IELTS:7                                                                    
+
+
+
+BA in Geography
+
+1st year total fees:
+Rs 24.5 Lakhs
+Eligibility:
+
+                                                                                                                                                                    IELTS:7                                                                    
+
+
+
+Bachelors in Biochemistry (Molecular and Cellular)
+
+1st year total fees:
+Rs 26.4 Lakhs
+Eligibility:
+
+                                                                                                                                                                    IELTS:7                                                                    
+
+
+
+DPhil (PhD) in Surgical Sciences
+
+1st year total fees:
+Rs 24.4 Lakhs
+Eligibility:
+
+                                                                                                                                                                    IELTS:7.5                                                                    
+
+
+
+MSc in Mathematical and Computational Finance
+
+1st year total fees:
+Rs 32.1 Lakhs
+Eligibility:
+
+                                                                                                                                                                    IELTS:7.5                                                                    
+
+
+
+
+
+
+ 
+
+University highlights
+
+ Ranked 7th in Top Universities Abroad
+
+
+Oxford is consistently ranked one of the world’s top five universities
+Oxford graduates include: More than 30 international leaders, 27 Nobel Prize winners, 26 British Prime Ministers
+94% of Oxford leavers are employed, in further study, or both within six months after graduating
+Almost 40% of total student body - over 8,400 students - are citizens of foreign countries, including 17% of undergraduates and 61% of graduate students
+Students come from the USA (1,516), China (865), Germany (806), Canada (401), India (336), Australia (312), Italy (264), Ireland (232), Singapore (229) and France (219)
+ 
+
+
+
+
+
+Campus Details
+
+
+
+
+
+
+
+
+
+
+
+Main Campus Address
+
+
+
+
+University of Oxford, Wellington Square, Oxford OX1 2JD, United Kingdom
+
+
+
+
+
+undergraduate.admissions@admin.ox.ac.uk
+
+
+
+
+
+http://www.ox.ac.uk/
+
+
+
+
+
+
+
+
+
+View contact number
+44 - 1865 270000
+
+
+
+Accommodation details
+
+University of Oxford provides on campus accommodation to its postgraduate students
+Only students studying on a full-time graduate course at Oxford University will be eligible for University graduate housing
+Undergraduate students who have dependent children living with them are eligible for graduate housing
+  More about accommodation  details on university website
+
+Hostel & Meal Expenses for University of Oxford, Oxford, UK
+
+
+
+
+Amount in Pound Sterling (£)
+Amount in Indian Rupees (Rs.)
+
+
+Monthly
+£ 591
+Rs. 48,925
+
+
+Yearly
+£ 7,094
+Rs. 5,87,099
+
+
+
+
+     More about living expenses on university website
+
+
+
+
+Download brochure 
+
+
+
+Tell us about yourself
+Already registered?
+
+
+
+
+
+
+
+
+Your future education preference This will help us show you only relevant information
+
+
+
+
+
+
+When do you plan to start your studies?
+
+
+
+
+2017
+
+
+
+
+
+
+2018
+
+
+
+
+
+
+Later
+
+
+
+
+
+
+
+
+
+ 
+
+
+Select course at this university
+
+
+
+BA in Computer ScienceBA in Economics and ManagementBA in Experimental PsychologyBA in GeographyBA in Philosophy and Modern LanguagesBFA in Fine ArtBM BCh MedicineBachelors in Biochemistry (Molecular and Cellular)DPhil (PhD) in Surgical SciencesDiploma in Financial StrategyDiploma in Organisational LeadershipExecutive MBAMBAMEng in Engineering ScienceMEng in Materials ScienceMSc Financial EconomicsMSc in Computer ScienceMSc in Mathematical and Computational FinanceMSc in Psychological ResearchMsc in Law and Finance 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Preferred Countries
+UK
+
+
+
+
+
+
+Top countries
+ 
+
+
+
+                                               USA                                        
+
+
+
+
+
+                                               Canada                                        
+
+
+
+
+
+                                               Australia                                        
+
+ 
+
+
+
+                                               UK                                        
+
+
+
+
+
+                                               Singapore                                        
+
+
+
+
+
+                                               New Zealand                                        
+
+ Other countries
+ 
+
+
+
+                                               Armenia                                        
+
+
+
+
+
+                                               Austria                                        
+
+
+
+
+
+                                               Bahrain                                        
+
+ 
+
+
+
+                                               Bangladesh                                        
+
+
+
+
+
+                                               Barbados                                        
+
+
+
+
+
+                                               Belgium                                        
+
+ 
+
+
+
+                                               China                                        
+
+
+
+
+
+                                               Cyprus                                        
+
+
+
+
+
+                                               Denmark                                        
+
+ 
+
+
+
+                                               Estonia                                        
+
+
+
+
+
+                                               Fiji                                        
+
+
+
+
+
+                                               Finland                                        
+
+ 
+
+
+
+                                               France                                        
+
+
+
+
+
+                                               Georgia                                        
+
+
+
+
+
+                                               Germany                                        
+
+ 
+
+
+
+                                               Greece                                        
+
+
+
+
+
+                                               Guyana                                        
+
+
+
+
+
+                                               Hong Kong                                        
+
+ 
+
+
+
+                                               Hungary                                        
+
+
+
+
+
+                                               Ireland                                        
+
+
+
+
+
+                                               Italy                                        
+
+ 
+
+
+
+                                               Japan                                        
+
+
+
+
+
+                                               Lithuania                                        
+
+
+
+
+
+                                               Luxembourg                                        
+
+ 
+
+
+
+                                               Malaysia                                        
+
+
+
+
+
+                                               Malta                                        
+
+
+
+
+
+                                               Mauritius                                        
+
+ 
+
+
+
+                                               Monaco                                        
+
+
+
+
+
+                                               Nepal                                        
+
+
+
+
+
+                                               Netherlands                                        
+
+ 
+
+
+
+                                               Norway                                        
+
+
+
+
+
+                                               Philippines                                        
+
+
+
+
+
+                                               Poland                                        
+
+ 
+
+
+
+                                               Portugal                                        
+
+
+
+
+
+                                               Russia                                        
+
+
+
+
+
+                                               Slovenia                                        
+
+ 
+
+
+
+                                               South Africa                                        
+
+
+
+
+
+                                               South Korea                                        
+
+
+
+
+
+                                               Spain                                        
+
+ 
+
+
+
+                                               Sweden                                        
+
+
+
+
+
+                                               Switzerland                                        
+
+
+
+
+
+                                               Thailand                                        
+
+ 
+
+
+
+                                               Turkey                                        
+
+
+
+
+
+                                               UAE                                        
+
+
+
+
+
+                                               Ukraine                                        
+
+ 
+Choose up to 3 countries ok 
+
+
+You can add more countries
+
+
+
+
+
+
+
+Your current education details Accurate details will help us match you with the right universities and scholarships
+
+
+
+
+
+
+Have you given any study abroad exam?
+
+
+
+
+Yes
+
+
+
+
+
+
+No
+
+
+
+
+
+
+Booked exam date
+
+
+
+
+
+
+
+
+
+
+
+Select & enter your exam score
+
+ 
+
+
+
+
+                                                   TOEFL 
+                                              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                   IELTS 
+                                              
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+                                                   GMAT 
+                                              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                   GRE 
+                                              
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+                                                   SAT 
+                                              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                   PTE 
+                                              
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Do you have a valid passport?
+
+
+
+
+Yes
+
+
+
+
+
+
+No
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Graduation Stream
+
+
+
+
+
+
+
+Engineering
+Science
+Business
+Humanities
+Social Science
+Commerce
+
+
+
+
+
+
+
+
+
+Graduation Percentage
+
+
+
+
+
+
+
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+
+
+
+
+
+
+
+
+
+Work Experience
+
+
+
+
+
+
+
+No Experience
+< 1 year
+1 - 2 years
+2 - 3 years
+3 - 4 years
+4 - 5 years
+5 - 6 years
+6 - 7 years
+7 - 8 years
+8 - 9 years
+9 - 10 years
+> 10 years
+
+
+
+
+
+
+
+
+
+
+
+Current School Name
+
+
+
+
+
+
+
+
+
+Current Class
+
+
+
+
+
+
+
+Studying in Class 11th or earlier
+Studying in Class 12th
+Completed Class 12th
+
+
+
+
+
+
+
+
+
+Class Xth Board
+
+
+
+
+
+
+
+CBSE
+ICSE/State Boards
+Cambridge IGCSE
+International Baccalaureate
+NIOS
+
+
+
+
+
+
+
+
+
+Class Xth CGPA
+
+
+
+
+
+
+
+4 - 4.9                                    
+5 - 5.9                                    
+6 - 6.9                                    
+7 - 7.9                                    
+8 - 8.9                                    
+9 - 10.0                                    
+< than 50%                                    
+50% to 60%                                    
+60% to 70%                                    
+70% to 80%                                    
+80% to 90%                                    
+90% or above                                    
+A*                                    
+A                                    
+B                                    
+C                                    
+D                                    
+E                                    
+F                                    
+G                                    
+28                                    
+29                                    
+30                                    
+31                                    
+32                                    
+33                                    
+34                                    
+35                                    
+36                                    
+37                                    
+38                                    
+39                                    
+40                                    
+41                                    
+42                                    
+43                                    
+44                                    
+45                                    
+46                                    
+47                                    
+48                                    
+49                                    
+50                                    
+51                                    
+52                                    
+53                                    
+54                                    
+55                                    
+56                                    
+< than 50%                                    
+50% to 60%                                    
+60% to 70%                                    
+70% to 80%                                    
+80% to 90%                                    
+90% or above                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Your personal detailsThis will create your account and enable you to receive recommendations (you can opt-out anytime)
+
+
+
+
+
+
+
+First Name
+
+
+
+
+
+
+
+
+
+
+
+Email ID
+
+
+
+
+
+
+Use this email to login to Shiksha
+
+
+
+
+
+India (+91)
+
+
+ India (+91) 
+ Afghanistan (+93) 
+ Albania (+355) 
+ Algeria (+213) 
+ American Samoa (+1) 
+ Andorra (+376) 
+ Angola (+244) 
+ Anguilla (+1) 
+ Antarctica (+672) 
+ Antigua and Barbuda (+1) 
+ Argentina (+54) 
+ Armenia (+374) 
+ Aruba (+297) 
+ Australia (+61) 
+ Austria (+43) 
+ Azerbaijan (+994) 
+ Bahamas (+1) 
+ Bahrain (+973) 
+ Bangladesh (+880) 
+ Barbados (+1) 
+ Belarus (+375) 
+ Belgium (+32) 
+ Belize (+501) 
+ Benin (+229) 
+ Bermuda (+1) 
+ Bhutan (+975) 
+ Bolivia (+591) 
+ Bosnia and Herzegovina (+387) 
+ Botswana (+267) 
+ Brazil (+55) 
+ British Indian Ocean Territory (+246) 
+ Brunei Darussalam (+673) 
+ Bulgaria (+359) 
+ Burkina Faso (+226) 
+ Burundi (+257) 
+ Cambodia (+855) 
+ Cameroon (+237) 
+ Canada (+1) 
+ Cape Verde (+238) 
+ Cayman Islands (+1) 
+ Central African Republic (+236) 
+ Chad (+235) 
+ Chile (+56) 
+ China (+86) 
+ Christmas Island (+61) 
+ Cocos (Keeling) Islands (+891) 
+ Colombia (+57) 
+ Comoros (+269) 
+ Republic of the Congo (+242) 
+ Cook Islands (+682) 
+ Costa Rica (+506) 
+ Croatia (+385) 
+ Cuba (+53) 
+ Curacao (+599) 
+ Cyprus (+357) 
+ Czech Republic (+420) 
+ Denmark (+45) 
+ Djibouti (+253) 
+ Dominica (+1) 
+ Dominican Republic (+1) 
+ Ecuador (+593) 
+ Egypt (+20) 
+ El Salvador (+503) 
+ Equatorial Guinea (+240) 
+ Eritrea (+291) 
+ Estonia (+372) 
+ Ethiopia (+251) 
+ Falkland Islands (Malvinas) (+500) 
+ Faroe Islands (+298) 
+ Fiji (+679) 
+ Finland (+358) 
+ France (+33) 
+ French Polynesia (+689) 
+ Gabon (+241) 
+ Gambia (+220) 
+ Georgia (+995) 
+ Germany (+49) 
+ Ghana (+233) 
+ Gibraltar (+350) 
+ Greece (+30) 
+ Greenland (+299) 
+ Grenada (+1) 
+ Guam (+1) 
+ Guatemala (+502) 
+ Guernsey (+44) 
+ Guinea (+224) 
+ Guinea-Bissau (+245) 
+ Guyana (+592) 
+ Haiti (+509) 
+ Honduras (+504) 
+ Hong Kong (+852) 
+ Hungary (+36) 
+ Iceland (+354) 
+ Indonesia (+62) 
+ Iran, Islamic Republic of (+98) 
+ Iraq (+964) 
+ Ireland (+353) 
+ Isle of Man (+44) 
+ Israel (+972) 
+ Italy (+39) 
+ Jamaica (+1) 
+ Japan (+81) 
+ Jersey (+44) 
+ Jordan (+962) 
+ Kazakhstan (+7) 
+ Kenya (+254) 
+ Kiribati (+686) 
+ Kuwait (+965) 
+ Kyrgyzstan (+996) 
+ Latvia (+371) 
+ Lebanon (+961) 
+ Lesotho (+266) 
+ Liberia (+231) 
+ Libyan Arab Jamahiriya (+218) 
+ Liechtenstein (+423) 
+ Lithuania (+370) 
+ Luxembourg (+352) 
+ Macao (+853) 
+ Macedonia (+389) 
+ Madagascar (+261) 
+ Malawi (+265) 
+ Malaysia (+60) 
+ Maldives (+960) 
+ Mali (+223) 
+ Malta (+356) 
+ Marshall Islands (+692) 
+ Mauritania (+222) 
+ Mauritius (+230) 
+ Mayotte (+262) 
+ Mexico (+52) 
+ Micronesia, Federated States of (+691) 
+ Moldova, Republic of (+373) 
+ Monaco (+377) 
+ Mongolia (+976) 
+ Montenegro (+382) 
+ Montserrat (+1) 
+ Morocco (+212) 
+ Mozambique (+258) 
+ Myanmar (+95) 
+ Namibia (+264) 
+ Nauru (+674) 
+ Nepal (+977) 
+ Netherlands (+31) 
+ New Caledonia (+687) 
+ New Zealand (+64) 
+ Nicaragua (+505) 
+ Niger (+227) 
+ Nigeria (+234) 
+ Niue (+683) 
+ North Korea (+850) 
+ Northern Mariana Islands (+1) 
+ Norway (+47) 
+ Oman (+968) 
+ Pakistan (+92) 
+ Palau (+680) 
+ Palestinian Territory (+970) 
+ Panama (+507) 
+ Papua New Guinea (+675) 
+ Paraguay (+595) 
+ Peru (+51) 
+ Philippines (+63) 
+ Pitcairn (+64) 
+ Poland (+48) 
+ Portugal (+351) 
+ Puerto Rico (+1) 
+ Qatar (+974) 
+ Republic of Korea (+82) 
+ Reunion (+262) 
+ Romania (+40) 
+ Russian Federation (+7) 
+ Rwanda (+250) 
+ Saint Bartelemey (+590) 
+ Saint Helena (+290) 
+ Saint Kitts and Nevis (+1) 
+ Saint Lucia (+1) 
+ Saint Martin (+590) 
+ Saint Pierre and Miquelon (+508) 
+ Saint Vincent and the Grenadines (+1) 
+ Samoa (+685) 
+ San Marino (+378) 
+ Sao Tome and Principe (+239) 
+ Saudi Arabia (+966) 
+ Senegal (+221) 
+ Serbia (+381) 
+ Seychelles (+248) 
+ Sierra Leone (+232) 
+ Singapore (+65) 
+ Sint Maarten (+1) 
+ Slovakia (+421) 
+ Slovenia (+386) 
+ Solomon Islands (+677) 
+ Somalia (+252) 
+ South Africa (+27) 
+ South Sudan (+211) 
+ Spain (+34) 
+ Sri Lanka (+94) 
+ Sudan (+249) 
+ Suriname (+597) 
+ Svalbard and Jan Mayen (+47) 
+ Swaziland (+268) 
+ Sweden (+46) 
+ Switzerland (+41) 
+ Syrian Arab Republic (+963) 
+ Taiwan (+886) 
+ Tajikistan (+992) 
+ Tanzania (+255) 
+ Thailand (+66) 
+ Timor-Leste (+670) 
+ Togo (+228) 
+ Tokelau (+690) 
+ Tonga (+676) 
+ Trinidad and Tobago (+1) 
+ Tunisia (+216) 
+ Turkey (+90) 
+ Turkmenistan (+993) 
+ Turks and Caicos Islands (+1) 
+ Tuvalu (+688) 
+ Uganda (+256) 
+ Ukraine (+380) 
+ United Arab Emirates (+971) 
+ United Kingdom (+44) 
+ United States (+1) 
+ Uruguay (+598) 
+ Uzbekistan (+998) 
+ Vanuatu (+678) 
+ Venezuela (+58) 
+ Vietnam (+84) 
+ Wallis and Futuna (+681) 
+ Western Sahara (+212) 
+ Yemen (+967) 
+ Zambia (+260) 
+ Zimbabwe (+263) 
+
+
+
+
+
+
+Mobile Number
+
+
+
+
+
+
+
+One time passcode will be sent to this number
+
+
+
+
+
+
+
+
+
+Last Name
+
+
+
+
+
+
+
+
+
+
+
+Current City
+
+
+
+
+
+
+What is your current city?
+ Ahmedabad
+Bangalore
+Chennai
+Delhi
+Hyderabad
+Kolkata
+Lucknow
+Mumbai
+Patna
+Pune
+ Adipur
+Agartala
+Agra
+Ahmedabad
+Ahmednagar
+Aizawl
+Ajmer
+Akola
+Aligarh
+Allahabad
+Alleppey
+Alwar
+Ambala
+Amravati
+Amritapuri
+Amritsar
+Anand
+Anantapur
+Andaman Nicobar Islands
+Andhra Pradesh - Other
+Angul
+Arrah
+Arunachal Pradesh - Other
+Asansol
+Assam - Other
+Aurangabad
+Baghpat
+Bahadurgarh
+Bangalore
+Baramati
+Bardhaman
+Bareilly
+Bathinda
+Belgaum
+Bhagalpur
+Bharatpur
+Bharuch
+Bhavnagar
+Bhilai
+Bhilwara
+Bhiwadi
+Bhopal
+Bhubaneswar
+Bidar
+Bihar - Other
+Bijapur
+Bikaner
+BilasPur
+Bilaspur(CG)
+Bokaro Steel City
+Brahmapur
+Bulandshahr
+Bundi
+Calicut
+Canacona
+Chandigarh
+Chandrapur
+Chennai
+Chhattisgarh - Other
+Chikballpura
+Chirimiri
+Chitradurga
+Chittoor
+Coimbatore
+Coorg
+Cuttack
+Dadra And Nagar Haveli - Other
+Dadri
+Daman & Diu
+Darjeeling
+Davangere
+Dehradun
+Delhi
+Delhi - Other
+Dewas
+Dhanbad
+Dharamsala
+Dharmapuri
+Dharwad
+Dhule
+Dibrugarh
+Dispur
+District 24 Parganas
+Doballapura
+Durgapur
+East Godavari
+Ernakulum
+Erode
+Faridabad
+Faridkot
+Ferozpur
+Gandhidham
+Gandhinagar
+Gangtok
+Ganjam
+Gaya
+Ghaziabad
+Ghazipur
+Goa - Other
+Gorakhpur
+Greater Noida
+Gujarat - Other
+Gulbarga
+Gulmarg
+Guntur
+Gurgaon
+Guwahati
+Gwalior
+Hajipur
+Haldia
+Haldwani
+Hamirpur
+Hampi
+Hapur
+Haridwar
+Haryana - Other
+Hassan
+Hazaribagh
+Himachal Pradesh - Other
+Hisar
+Hoshiarpur
+Hoskote
+Hosur
+Howrah
+Hubli
+Hyderabad
+Idukki
+Imphal
+Indore
+Itanagar
+Jabalpur
+Jaipur
+Jaisalmer
+Jajpur
+Jalandhar
+Jalgaon
+Jammu
+Jammu & Kashmir - Other
+Jamnagar
+Jamshedpur
+Jaunpur
+Jhajjar
+Jhansi
+Jharkhand - Other
+Jhunjhunu
+Jodhpur
+Jorhat
+Kadapa
+Kaithal
+Kakinada
+Kalyani
+Kanchipuram
+Kannur
+Kanpur
+Kanyakumari
+Karaikudi
+Karimnagar
+Karnal
+Karnataka - Other
+Karur
+Kasargode
+Kerala - Other
+Khajuraho
+Khammam
+Kharagpur
+Kochi
+Kodaikanal
+Kohima
+Kolhapur
+Kolkata
+Kollam
+Konark
+Korba
+Kota
+Kottayam
+Kovalam
+Kozhikode
+Krishna
+Kullu
+Kumarakom
+Kurnool
+Kurukshetra
+Kutch District
+Ladakh
+Lakshadweep
+Latur
+Leh
+Lucknow
+Ludhiana
+Madhya Pradesh - Other
+Madurai
+Maharashtra - Other
+Malda
+Manali
+Mandi
+Mangalore
+Manipal
+Manipur - Other
+Mapusa
+Margao
+Mathura
+Medak
+Meerut
+Meghalaya - Other
+Midnapore
+Mizoram - Other
+Modinagar
+Moga
+Mohali
+Moradabad
+Muktsar
+Mumbai
+Munnar
+Murshidabad
+Murthal
+Muzaffarnagar
+Muzaffarpur
+Mysore
+Nagaland - Other
+Nagaon
+Nagercoil
+Nagpur
+Naihati
+Nainital
+Nalanda
+Nalgonda
+Namakkal
+Nanded
+Nangal
+Nashik
+Navi Mumbai
+Navsari
+Nawanshahar
+Neemrana
+Nellore
+Neyveli
+Nizamabad
+Noida
+North Lakhimpur
+Old Goa
+Ooty
+Orchha
+Orissa - Other
+Pahalgam
+Palakkad
+Panaji
+Panchkula
+Panipat
+Parbhani
+Pathanamthitta
+Patiala
+Patna
+Phagwara
+Pilani
+Ponda
+Pondicherry
+Prakasam
+Pune
+Punjab - Other
+Puri
+Raichur
+Raigad
+Raigarh
+Raigarh Pen
+Raipur
+Rajahmundry
+Rajasthan - Other
+Rajgir
+Rajkot
+Rameshwaram
+Ramgarh
+Ranakpur
+Ranchi
+Ranga Reddy
+Ratnagiri
+Rewari
+Rishikesh
+Rohtak
+Roorkee
+Ropar
+Rourkela
+Rudrapur
+Sagar
+Saharanpur
+Salem
+Sambalpur
+Sangli
+Satara
+Secunderabad
+Serampore
+Shekhawati
+Shillong
+Shimla
+Shimoga
+Shirpur
+Sikar
+Sikkim - Other
+Silchar
+Siliguri
+Silvassa
+Singrauli
+Sirmour
+Solan
+Solapur
+Sonepat
+Sriganaganagar
+Srinagar
+Surat
+Tamil Nadu - Other
+Telangana-Other
+Tezpur
+Thane
+Thanjavur
+Thekkady
+Thiruvananthapuram
+Thrissur
+Tiruchirappalli
+Tirunelveli
+Tirupati
+Tripura - Other
+Trivandrum
+Tumkur
+Udaipur
+Udupi
+Ujjain
+Ulhasnagar
+Una
+Uttar Pradesh - Other
+Uttarakhand - Other
+Vadodara
+Vaishali
+Vapi
+Varanasi
+Vasco Da Gama
+Vellore
+Vijayawada
+Virudhunagar
+Visakhapatnam
+Vizianagaram
+Warangal
+Wardha
+Wayanad
+West Bengal - Other
+West Godavari
+Yamuna Nagar
+Yavatmal
+City not required
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Download Brochure  
+        
+By signing up you are agreeing to the terms of services and privacy policy.
+
+ 
+
+
+
+
+
+    var engageDownloadBrochureWithLogin = 0;
+    var courseCount = 20;
+
+People who viewed this university also viewed
+
+
+ 
+
+
+
+
+Technical University of Munich
+Munich, Germany
+View  all 17 courses
+
+
+
+
+
+
+
+University of Toronto
+Toronto, Canada
+View  all 30 courses
+
+
+
+ 
+
+
+
+
+University of Alberta
+Edmonton, Canada
+View  all 64 courses
+
+
+
+
+
+
+
+Massachusetts Institute of Technology
+Cambridge, USA
+View  all 18 courses
+
+
+
+ 
+
+
+
+
+University of British Columbia
+Vancouver, Canada
+View  all 56 courses
+
+
+
+
+
+
+
+Technical University of Berlin
+Berlin, Germany
+View  all 19 courses
+
+
+
+ 
+
+
+
+
+Harvard University 
+Cambridge, USA
+View  all 18 courses
+
+
+
+
+
+
+
+University of Bayreuth
+Bayreuth, Germany
+View  all 24 courses
+
+
+
+
+
+
+
+
+
+
+
+
+
+University of Oxford
+Oxford, Oxfordshire| UK
+
+
+Public University, Estd in 1096
+Affilation: IARU Russell Group Coimbra Group Europaeum EUA G5 LERU
+
+International Student Website
+
+
+
+Need help in Applying?
+Get end to end help from shiksha counselors to apply to colleges as per your profile.
+Find out more >
+
+Student Guide to the United Kingdom (UK)
+
+
+
+
+
+
+
+
+
+
+
+
+Everything you need to know before going to study in UK - education system, visa requirement and process, Indians living in UK, post-study options and more.
+
+
+Download Student Guide
+
+3006 people downloaded this guide
+
+
+Country comparison: USA vs. UK
+Get help with choosing your study abroad destination basis cost of living, visa, course eligibility, work opportunities etc. Here is a comparison between two popular countries with Indian students: US and UK.
+
+
+Download Student Guide
+
+1766 people downloaded this guide
+
+
+Study in UK: Timeline for September 2018 intake
+If you have plans to go to UK for either undergraduate or postgraduate studies, the first thing you need is an action plan. Here is an application timeline to give you an idea about what to do in which...
+
+
+Download Student Guide
+
+534 people downloaded this guide
+
+
+Country Comparison: UK vs. Australia
+Get help with choosing your study abroad destination basis cost of living, visa, course eligibility, work opportunities etc. Here is a comparison between two popular countries with Indian students: UK and...
+
+
+Download Student Guide
+
+
+
+UK Student Visa Guide
+Know all about the Student Visa guide to the UK - documents required, dependents, how to apply, where to apply etc. 
+
+
+Download Student Guide
+
+394 people downloaded this guide
+
+
+Country Comparison: UK vs. Canada
+Here is a comparison between two countries very popular among the Indian students: UK and Canada. Get help with choosing your study abroad destination on the basis of the cost of living, visa, course...
+
+
+Download Student Guide
+
+
+
+
+
+
+
+
+
+Shiksha Study Abroad
+
+
+
+
+
+
+
+
+
+
+Bachelors
+Masters
+Countries
+Popular Colleges
+Application Process
+Study in India
+Contact Us
+
+
+
+
+
+Find Colleges
+
+By course
+
+B Tech / BE (Bachelor of Engineering)
+
+By Stream
+
+Business
+Engineering
+Science
+Computers
+Medicine
+Humanities
+Law
+
+
+
+
+
+
+Find Colleges
+
+By course
+
+MBA (Master of Business Administration)
+MS (Master of Science)
+
+By Stream
+
+Business
+Engineering
+Science
+Computers
+Medicine
+Humanities
+Law
+
+
+
+
+Top Ranked
+
+
+Top MBA Colleges in USA
+Top MBA Colleges in UK
+Top MS Colleges Abroad
+Top MS Colleges in UK
+
+
+
+
+
+
+Study Destinations
+
+
+Study in USA
+Study in Canada
+Study in Australia
+Study in UK
+Study in Germany
+Study in Singapore
+Study in New Zealand
+Study in Netherlands
+Study in Ireland
+Explore more countries
+
+
+
+
+Top Ranked
+
+
+Top Universities Abroad
+
+
+
+
+Student Guides
+
+
+Guide for USA
+Guide for Canada
+Guide for UK
+Guide for Australia
+Guide for New Zealand
+Guide for Singapore
+Guide for Germany
+Guide for France
+Guide for Netherlands
+Guide for Ireland
+Canada vs Australia
+USA vs UK
+
+
+
+
+
+
+Study abroad exams
+Language exams
+
+IELTS
+TOEFL
+PTE
+
+Aptitude exams
+
+GMAT
+SAT
+GRE
+
+
+
+Study abroad application writing
+
+
+Statement of purpose (SOP)
+Letter of recommendation (LOR)
+Admission Essay
+Student CV
+Student Visa
+
+
+Application Assistance
+Expert Help
+
+Shiksha counseling service
+
+Document Shipment
+
+DHL Student offer
+
+
+
+
+
+MBA Courses in India
+
+
+Full time MBA
+Distance MBA
+Part time MBA
+
+
+Courses after 12th
+
+
+BE/B.Tech
+BBA/BBM
+BCA, DCA, BSc CS/IT
+Bachelor in Hotel Management
+B Com
+
+
+
+
+Other courses
+
+
+Hotel Management
+Fashion & Textile Design
+Animation Courses
+Banking Courses
+Distance MCA
+MBBS
+
+
+Shiksha Café
+
+
+Q & A
+Discussions
+
+
+Career Central
+
+
+Career Central
+
+
+
+
+Application Forms
+
+
+MBA Forms
+
+
+MBA Popular Exams
+
+
+CAT
+SANP
+CMAT
+MBA All Exams
+
+
+Engineering Popular Exams
+
+
+JEE Mains
+COMEDK
+GATE
+Engineering All Exams
+
+
+
+
+
+
+Students Helpline
+
+
+
+Call : 011-4046-9621(09:30 AM to 06:30 PM, Monday to Friday)
+
+
+
+
+Email: studyabroad@shiksha.com
+
+
+
+
+
+Enterprise Links
+
+
+
+Add courses and institutes here
+Advertise with us
+
+Sales Enquiries
+For advertising contact
+Nandita Bandopdhyay
+
+
+Email: nandita@shiksha.com
+
+
+
+
+
+More About Us
+
+
+
+Privacy Policy
+Terms and Conditions
+Grievances
+Summons & Notices
+About us
+Contact us
+
+
+
+
+
+
+
+
+
+
+
+
+
+Popular Colleges in US 
+Harvard University
+|
+Cornell University
+|
+Stanford University
+|
+Yale University
+|
+Arizona State University
+
+
+
+
+
+
+
+
+Popular Colleges in UK 
+Oxford University   |
+Cambridge University   |
+London Business School   |
+King's College London   |
+Cardiff University 
+
+
+
+
+
+
+Popular Colleges in Canada 
+University of Toronto  
+|
+University of British Columbia  
+|
+Centennial College  
+|
+University of Alberta  
+|
+Humber College
+
+
+
+
+
+
+
+Popular Colleges in Australia Deakin University   |
+Monash University   |
+La Trobe University   |
+Griffith University 
+
+
+
+
+
+
+
+
+Partner Sites:
+Jobs | Jobs for Freshers | Jobs in Middle East | Real Estate | Real Estate Agent | Matrimonials | Insurance Comparison | School Online | Brijj | Zomato
+mydala - Best deals in India | AmbitionBox.com
+
+
+
+A  group company
+All trademarks belong to the respective owners. Copyright © 2017 Info Edge India Ltd. All rights reserved.
+
+
+
+
+
+
+
+
+var _gaq=_gaq||[];
+_gaq.push(['_setAccount','UA-4454182-1'],['_setDomainName', 'shiksha.com'],['_deleteCustomVar', 1],['_trackPageview']);
+(function(b,c){
+    var a=b.createElement(c),d=b.getElementsByTagName(c)[0];
+    a.async=a.src='//www.google-analytics.com/ga.js';
+    d.parentNode.insertBefore(a,d)
+})(document,'script');
+function _pageTracker(e){
+    this.type=e;
+    this._trackEvent=function(e,t,n) {
+        _gaq=_gaq||[];_gaq.push(["_trackEvent",e,t,n])
+    };
+    this._trackPageview=function(e){
+        _gaq=_gaq||[];
+        if(typeof e=="undefined"){
+            _gaq.push(["_trackPageview"])
+        } else {
+            _gaq.push(["_trackPageview",e])
+        }
+    };
+    this._setCustomVar=function(e,t,n,r){
+        _gaq=_gaq||[];
+        _gaq.push(["_setCustomVar",e,t,n,r])
+    };
+    this._trackEventNonInteractive = function(a,b,c,d,e) {
+        _gaq.push(['_trackEvent', a, b, c,d,e]);
+    };
+    this._setCallback=function(e){
+        _gaq.push(['_set', 'hitCallback', e]);
+    }
+}var pageTracker=new _pageTracker;
+var gaCallbackURL;
+
+
+
+
+try{    var prevWindowOnload=window.onload;window.onload=function(){try{if(typeof(prevWindowOnload)=="function"){prevWindowOnload.call();}}catch(e){}    jsb9TrackTime();}
+var prevWindowOnunload = window.onbeforeunload; window.onbeforeunload = function(){ try{ if(typeof(prevWindowOnunload) == "function") { prevWindowOnunload.call(); } jsb9onUnloadTracking(); }catch(e){ } } 
+function jsb9onUnloadTracking() { jsb9eraseCookie("jsb9Track"); var date = new Date(); var presentTime = date.getTime(); var presentUrl = window.location.href; jsb9createCookie("jsb9Track",presentTime+"|"+presentUrl,5); }  var date = new Date(); jsb9TrackEndTime = date.getTime(); function jsb9TrackTime() { var jsb9date = new Date(); jsb9TrackFinalLoad=jsb9date.getTime(); if(typeof(jsb9TrackVal) == "string") { var cookieArr = jsb9TrackVal.split('|'); var prevTime = cookieArr[0]; var refererUrl = cookieArr[1]; var jsb9Iframe = document.createElement('div'); jsb9Iframe.id = 'jsb9Div'; var style = 'border:0;width:0;height:0;display:none'; var jsb9ServerTime = 173.84219169617; var presentUrl = window.location.href; var customTrack = ""; for(var i in jsb9recordTimes) { customTrack += "|"+i+":"+jsb9recordTimes[i]; } var data = presentUrl+"|"+refererUrl+"|"+prevTime+"|"+jsb9TrackStartTime+"|"+jsb9TrackEndTime+"|"+jsb9TrackFinalLoad+"|"+jsb9ServerTime+customTrack; jsb9Iframe.innerHTML = '<iframe border="0" height=0 widht=0 style="visibility: hidden" src="https://track.99acres.com/images/zero.gif?data='+data+'"></iframe>' 
+ document.body.appendChild(jsb9Iframe); } } }catch(e){ } 
+
+
+
+
+
+	$j = jQuery.noConflict();
+	var date = new Date();
+	date.setTime(date.getTime() - (1000*60*60*24*7));	//Expire the cookie
+	document.cookie="rmcShowSuccessPage=;expires="+date.toGMTString();
+
+		$j.ajax({
+		type:"POST",
+		url: "/common/studyAbroadUserTracking/trackUser",
+		data : {'pageUrl':window.location.href,'referrer':document.referrer},
+		success: function(data){}
+		});
+	
+
+Contact us
+
+
+
+/* <![CDATA[ */
+var google_conversion_id = 1053765138;
+var google_conversion_label = "dbEZCLKj1gQQkty89gM";
+var google_custom_params = {"categoryId":0,"subcategoryId":0,"desiredCourseId":0,"countryId":"4","cityId":"11222"};
+var google_remarketing_only = true;
+/* ]]> */
+
+
+
+
+
+
+
+
+
+	// make auto response for compare courses
+	$j(window).load(function(){
+
+	if(typeof initializeCommonFunctionality == 'function'){
+	initializeCommonFunctionality();
+	}
+	if(typeof initializeGAOnclick == 'function'){
+	initializeGAOnclick();
+	}
+	if(typeof initializeTracking == 'function'){
+	initializeTracking();
+	}
+	if(typeof publishBanners == 'function'){
+	publishBanners()
+	}
+
+	if ((typeof(showCompareLayerPage)!="undefined" && showCompareLayerPage === true) && $j("#compareCourseBottomLayer").length > 0) {
+		initializeCompareLayer();
+	}	
+	
+	//After user has loggedin,update userId for made response of compare
+	var userMadeResponse = 'cmp_user_md_rspns';
+	var productPage = '';
+	var cookieDomain = '.shiksha.com';
+		        setCookie(userMadeResponse, '', -1, '/', cookieDomain);
+	
+	});
+
+	var shikshaStudyAbroadHomeURL = "https://studyabroad.shiksha.com";
+
+		$j(document).ready(function(){
+		//This fixes the header
+		if(typeof courseShortlister == 'function'){
+			courseShortlister();
+		}
+			});
+
+
+
+	var rmcUserLimitCount = parseInt('7');
+	var useABTestAbroadSingleSignupForm = ('1');
+
+
+
+
+
+
+
+$j(document).ready(function($j) {
+    applyScrollbarStudentGuideRightWidget();
+    if ($j("#scrollbar_uniCampusDetails").length > 0) {
+        var heightOverview = $j('#scrollbar_uniCampusDetails').find(".overview").height();
+        var heightViewport = $j('#scrollbar_uniCampusDetails').find(".viewport").height();
+        if(heightOverview > heightViewport * 2)
+        {  
+            heightViewport = heightOverview/2;
+            $j('#scrollbar_uniCampusDetails').find(".viewport").height(heightViewport);
+        }
+        else if (heightOverview < heightViewport) {
+            $j('#scrollbar_uniCampusDetails').find(".viewport").height(heightOverview);
+        }
+        
+        $j("#scrollbar_uniCampusDetails").tinyscrollbar();
+    }
+	
+	// reposition box-pointer image
+	$j(".university-details .box-pointer").css('top',($j("#email-btn").position().top-8)+'px');
+	
+    /*if(SA_UCS_DEFAULT_CATEGORY != false && typeof SA_UCS_DEFAULT_COURSE_TYPE != false) {
+        applyScrollBarForCoursesByStream(SA_UCS_DEFAULT_CATEGORY, SA_UCS_DEFAULT_COURSE_TYPE);
+    }*/
+    $j('.scrollbar1').tinyscrollbar();
+    
+    // to prevent conflict with regular login
+    $j(".close-icon").click(function(){engageDownloadBrochureWithLogin = 0;});
+    // to hide request callback tooltip
+    setTimeout(function(){ $j("#requestCallbackHelptext").fadeOut(3000); },15000);
+    // To fix the UI of the consultant widget
+    if (document.getElementById('listingConsultantWidgetVisibilityDiv') !== null) {
+	$j("#listingConsultantWidgetVisibilityDiv").children("ul").each(
+	    function(){
+		$j(this).children(":last").addClass("noBrder-bottom");
+	    }
+	);
+    }
+    if (typeof(loggedInUserCity) !='undefined') {
+	    showConsultantLayerForm(FormIdBottom,loggedInUserCity);  
+    }
+	// hide all courses shown under "Find courses at this university" widget
+	$j("#findCourseResult").hide();
+});
+
+$j(window).load(function(){
+	//we need initializeCoursePageAfterLoad call for Inline download form onclick bindings
+	initializeCoursePageAfterLoad();
+	initializeInlineForm("WyJBYmh5YXNhIFJlc2lkZW50aWFsIFB1YmxpYyBTY2hvb2wiLCJBY2FkZW1pYyBIZWlnaHRzIFB1YmxpYyBTY2hvb2wgKEFIUFMpIiwiQWNhZGVteSBmb3IgUHJvZmVzc2lvbmFsIEV4Y2VsbGVuY2UiLCJBZGFtYXMgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJBZGl0eWEgQmlybGEgV29ybGQgQWNhZGVteSIsIkFFQ1MgTWFnbm9saWEgTWFhcnV0aSBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIkFnYSBLaGFuIEFjYWRlbXkiLCJBaG1lZGFiYWQgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJBam1lcmEgR2xvYmFsIFNjaG9vbCIsIkFrYWwgQWNhZGVteSIsIkFrYXNoIEludGVybmF0aW9uYWwgU2Nob29sIiwiQWtzaGFyIEFyYm9sIEludGVybmF0aW9uYWwgU2Nob29sIiwiQWtzaGF5YWggR2xvYmFsIFNjaG9vbCIsIkFsbGlhbmNlIFdvcmxkIFNjaG9vbCIsIkFscGhhLUNhbWJyaWRnZSBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIkFtYml0dXMgV29ybGQgU2Nob29sIiwiQW1lcmljYW4gRW1iYXNzeSBTY2hvb2wiLCJBbWVyaWNhbiBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIkFtZXJpY2FuIFNjaG9vbCBvZiBCb21iYXkiLCJBbWV5YSBXb3JsZCBTY2hvb2wiLCJBbWl0eSBHbG9iYWwgU2Nob29sIiwiQW11bGFraCBBbWljaGFuZCBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIkFuYW5kIE5pa2V0YW4gSW50ZXJuYXRpb25hbCIsIkFuaXNoYSBHbG9iYWwgU2Nob29sIiwiQXBlZWpheSBTY2hvb2wiLCJBUEwgR2xvYmFsIFNjaG9vbCIsIkFwb2xsbyBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIkFwcGxlIFBlcmtzIEludGVybmF0aW9uYWwgU2Nob29sLCBNZXR0dXJkYW0iLCJBcnNoYSBWaWR5YSBNYW5kaXIgU2VuaW9yIFNlY29uZGFyeSBTY2hvb2wiLCJBc2lhIFBhY2lmaWMgV29ybGQgU2Nob29sIiwiQXNwaXJlIEludGVybmF0aW9uYWwgU2Nob29sLCBOYWdwdXIiLCJBdmFsb24gSGVpZ2h0cyBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIkF2YXNhcmEgTGVhZGVyc2hpcCBJbnN0aXR1dGUiLCJCIEQgU29tYW5pIEludGVybmF0aW9uYWwgU2Nob29sIiwiQmFuZ2Fsb3JlIEludGVybmF0aW9uYWwgU2Nob29sIiwiQmVsdmVkZXJlIFNwcmluZyBTY2hvb2wiLCJCaWxhc3JhaSBLYXNoaW5hdGggR2FkaWEgKEEgTGV2ZWwpIEp1bmlvciBDb2xsZWdlIiwiQmlsbGFib25nIEhpZ2ggSW50ZXJuYXRpb25hbCBDb2xsZWdlIEJvYXJkaW5nIEhvdXNlIiwiQmlsbGFib25nIEhpZ2ggSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJCb2RoaSBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIkJvbWJheSBDYW1icmlkZ2UgU2Nob29sIiwiQm9tYmF5IEludGVybmF0aW9uYWwgU2Nob29sIiwiQnJpZGdlIEludGVybmF0aW9uYWwgU2Nob29sIiwiQnJpZ2h0IFN0YXJ0IEZlbGxvd3NoaXAgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJCcml0aXNoIENvdW5jaWwsIEtvbGthdGEiLCJCdWRkaW5nIE1pbmRzIEludGVybmF0aW9uYWwgU2Nob29sIiwiQnVudHMgU2FuZ2hhJ3MgUyBNIFNoZXR0eSBJbnRlcm5hdGlvbmFsIFNjaG9vbCAmIEp1bmlvciBDb2xsZWdlIiwiQ2FsY3V0dGEgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJDYWxjdXR0YSBOZXcgU2Nob29sIFNvY2lldHksIFRoZSBDYW1icmlkZ2UgU2Nob29sIiwiQ2Fsb3J4IE9saXZlIEludGVybmF0aW9uYWwgU2Nob29sIiwiQ2FtYnJpZGdlIEludGVybmF0aW9uYWwgU2Nob29sIiwiQ2FtcGlvbiBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIkNhbXBpb24gU2Nob29sIiwiQ2FuYWRpYW4gSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJDYW5kb3IgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJDYXJtZWwgQ29udmVudCBTY2hvb2wiLCJDYXRoZWRyYWwgYW5kIEpvaG4gQ29ubm9uIFNjaG9vbCIsIkNFVCBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIkNmQlQgRWR1Y2F0aW9uIFJlc291cmNlIE1hbmFnZW1lbnQgUHZ0IEx0ZCIsIkNoaW5tYXlhIEludGVybmF0aW9uYWwgUmVzaWRlbnRpYWwgU2Nob29sIiwiQ2hpcmVjIEludGVybmF0aW9uYWwgU2Nob29sIiwiQ2hpdGthcmEgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJDaG9pY2UgQWNhZGVteSBmb3IgVGVhY2hlciBEZXZlbG9wbWVudCIsIkNob2l0aHJhbSBJbnRlcm5hdGlvbmFsIiwiQ2hyaXN0IENodXJjaCBTY2hvb2wiLCJDaHJpc3QgSnVuaW9yIENvbGxlZ2UgLSBSZXNpZGVudGlhbCIsIkNocmlzdCBOYWdhciBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIkNpdHkgTW9udGVzc29yaSBTY2hvb2wsIEx1Y2tub3ciLCJDUCBHb2Vua2EgSW50ZXJuYXRpb25hbCBTY2hvb2wsIEp1aHUiLCJDUFMgR2xvYmFsIFNjaG9vbCIsIkNyZXNjZW50IFNjaG9vbCIsIkNTIEFjYWRlbXkiLCJEIFkgUGF0aWwgSW50ZXJuYXRpb25hbCBDb2xsZWdlIiwiRCBZIFBhdGlsIEludGVybmF0aW9uYWwgU2Nob29sIiwiRCBZIFBhdGlsIFByYW5qYWxpIEludGVybmF0aW9uYWwgU2Nob29sIiwiRC5SLlMuIEludGVybmF0aW9uYWwgU2Nob29sIiwiRGFmZm9kaWwgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJEYXlhd2F0aSBNb2RpIEFjYWRlbXkiLCJEZWNjYW4gSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJEZWxoaSBQdWJsaWMgU2Nob29sIiwiRGV4dGVyIEtpZHMiLCJEaGlydWJoYWkgQW1iYW5pIEludGVybmF0aW9uYWwgU2Nob29sIiwiRGl2aW5lIENoaWxkIEludGVybmF0aW9uYWwgU2Nob29sLCBBZGFsYWoiLCJEb24gQm9zY28gSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJEUFMgIEludGVybmF0aW9uYWwgU2Nob29sIiwiRHIuIFBpbGxhaSBHbG9iYWwgQWNhZGVteSIsIkRyLiBTIFJhZGhha3Jpc2huYW4gVmlkeWFsYXlhLCBNYWxhZCBXZXN0IiwiRHIuIFNhcnZlcGFsbGkgUmFkaGFrcmlzaG5hbiBWaWR5YWxheWEsIEJvcml2bGkgKFdlc3QpIiwiRFJTIEludGVybmF0aW9uYWwgU2Nob29sIiwiRFNCIEludGVybmF0aW9uYWwgU2Nob29sIiwiRHdhcmtpYmFpIEdhbmdhZGhhciBLaGV0YW4gSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJFYXN0ZXJuIFB1YmxpYyBTY2hvb2wiLCJFYmVuZXplciBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIkVjb2xlIEdsb2JhbGUgSW50ZXJuYXRpb25hbCBHaXJscyBTY2hvb2wiLCJcdTAwYzljb2xlIE1vbmRpYWxlIFdvcmxkIFNjaG9vbCIsIkVkdWJyaWRnZSBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIkV1cm8gSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJFdXJvcGVhbiBTY2hvb2wgb2YgR29hIiwiRXhjZWwgR2xvYmFsIFNjaG9vbCIsIkV4Y2Vsc2lvciBBbWVyaWNhbiBTY2hvb2wiLCJGYXpsYW5pIEwnQWNhZFx1MDBlOW1pZSBHbG9iYWxlIiwiRmlyc3RzdGVwcyBTY2hvb2wiLCJGb3VuZGF0aW9uIFdvcmxkIFNjaG9vbCIsIkZvdW50YWluaGVhZCBTY2hvb2wiLCJGcmF2YXNoaSBJbnRlcm5hdGlvbmFsIEFjYWRlbXkiLCJHIEQgR29lbmthIFdvcmxkIFNjaG9vbCIsIkcuTCBLYWthZGlhIEludGVybmF0aW9uYWwgU2Nob29sIiwiR2FuZGhpbmFnYXIgSW50ZXJuYXRpb25hbCBQdWJsaWMgU2Nob29sIiwiR2FyZGVuIEhpZ2ggSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJHYXJvZGlhIEludGVybmF0aW9uYWwgQ2VudHJlIGZvciBMZWFybmluZyIsIkdhdGV3YXkgLSBUaGUgQ29tcGxldGUgU2Nob29sIiwiR0QgR29lbmthIFdvcmxkIFNjaG9vbCIsIkdlZXRoYWFuamFsaSBUaGUgR2xvYmFsIFNjaG9vbCIsIkdFTSBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIkdFTVMgQWthZGVtaWEgR2xvYmFsIFNjaG9vbCIsIkdFTVMgQ2FtYnJpZGdlIEludGVybmF0aW9uYWwgU2Nob29sIiwiR0VNUyBFZHVjYXRpb24gU2VydmljZXMgSW5kaWEgUHJpdmF0ZSBMdGQiLCJHZW5lc2lzIEdsb2JhbCBTY2hvb2wiLCJHaXRhbmphbGkgSW50ZXJuYXRpb25hbCBTY2hvb2wgQmFuZ2Fsb3JlIiwiR2l0YW5qYWxpIFNjaG9vbCIsIkdsZW5kYWxlIEFjYWRlbXkiLCJHbG9iYWwgQ2l0eSBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIkdsb2JhbCBFbmdsaXNoIFNjaG9vbCIsIkdsb2JhbCBJbmRpYW4gSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJHb2xkY3Jlc3QgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJHb29kIFNoZXBoZXJkIEludGVybmF0aW9uYWwgU2Nob29sIiwiR1BTIEludGVybmF0aW9uYWwiLCJHcmVlbndvb2QgSGlnaCBTY2hvb2wiLCJHdW5kZWNoYSBFZHVjYXRpb24gQWNhZGVteSIsIkd1cnUgSGFya3Jpc2hhbiBQdWJsaWMgU2Nob29sIiwiR3VydWt1bCIsIkhhcm1vbnkgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJIYXJ2ZXN0IEludGVybmF0aW9uYWwgU2Nob29sIiwiSGVhZCBTdGFydCBFZHVjYXRpb25hbCBBY2FkZW15IiwiSGVicm9uIFNjaG9vbCIsIkhlcml0YWdlIEdpcmxzIFNjaG9vbCIsIkhGUyBJbnRlcm5hdGlvbmFsIiwiSGltYWxheWFuIEludGVybmF0aW9uYWwgUmVzaWRlbnRpYWwgU2Nob29sIiwiSGltYWxpIEJvYXJkaW5nIFNjaG9vbCIsIkhpbmR1c3RhbiBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIkhpcmFuYW5kYW5pIEZvdW5kYXRpb24gU2Nob29sIEludGVybmF0aW9uYWwiLCJITEMgSW50ZXJuYXRpb25hbCIsIkhvbHkgU2FpIEludGVybmF0aW9uYWwgU2Nob29sIiwiSFVTIFNjaG9vbCIsIkhWQiBHbG9iYWwgQWNhZGVteSIsIkhWUFMgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJJIENhbiBUaGUgTGVhcm5pbmcgQ2VudHJlIFNjaG9vbCIsIkluZGlhIEludGVybmF0aW9uYWwgU2Nob29sIiwiSW5kaXJhcHVyYW0gUHVibGljIFNjaG9vbCIsIkluZHVzIEludGVybmF0aW9uYWwgU2Nob29sIiwiSW5kdXMgVmFsbGV5IFB1YmxpYyBTY2hvb2wiLCJJbm5pc2ZyZWUgSG91c2UgU2Nob29sIiwiSW50ZXJuYXRpb25hbCBDZW50cmUgZm9yIEV4Y2VsbGVuY2UiLCJJbnRlcm5hdGlvbmFsIEZhdGVoIEFjYWRlbXkiLCJJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIkludGVybmF0aW9uYWwgU2Nob29sIEFhbWJ5IiwiSW50ZXJuYXRpb25hbCBTY2hvb2wgb2YgSHlkZXJhYmFkIiwiSW52ZW50dXJlIEFjYWRlbXkiLCJJUkEgR2xvYmFsIFNjaG9vbCIsIklUTSBHbG9iYWwgU2Nob29sIEd3YWxpb3IiLCJKYWluIEhlcml0YWdlIC0gQSBDYW1icmlkZ2UgU2Nob29sIiwiSmFpbiBIZXJpdGFnZSBTY2hvb2wiLCJKYWluIEludGVybmF0aW9uYWwgUmVzaWRlbnRpYWwgU2Nob29sIiwiSmFtbmFiYWkgTmFyc2VlIEludGVybmF0aW9uYWwgU2Nob29sIiwiSmFtbmFiYWkgTmFyc2VlIFNjaG9vbCIsIkphbmtpZGV2aSBQdWJsaWMgU2Nob29sIiwiSmF5IENhbWJyaWRnZSBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIkpheXNocmVlIFBlcml3YWwgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJKQkNOIEludGVybmF0aW9uYWwgU2Nob29sIiwiSmVldmFuYSBTY2hvb2wiLCJKRyBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIkpvaG5zb24gR3JhbW1hciBTY2hvb2wiLCJKU1MgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJKeW90aXJtYXkgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJLLksuIENhbWJyaWRnZSBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIkthc2lnYSBTY2hvb2wiLCJLYXVtYXJhbSBTdXNoaWxhIEludGVybmF0aW9uYWwgUmVzaWRlbnRpYWwgU2Nob29sIiwiS0MgSGlnaCIsIktlbm5lZHkgSGlnaCBUaGUgR2xvYmFsIFNjaG9vbCIsIktFUyBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIktlc2hhciBBY2FkZW15IG9mIExlYXJuaW5nIiwiS2lpVCBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIktpbWJlcmxleSBUaGUgQm9hcmRpbmcgU2Nob29sIiwiS29kYWlrYW5hbCBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIktvdGhhcmkgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJLdW53YXIncyBHbG9iYWwgU2Nob29sIiwiTGFsYWppIE1lbW9yaWFsIE9tZWdhIEludGVybmF0aW9uYWwgU2Nob29sIiwiTGFuY2VycyBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIkxheG1pIEdsb2JhbCBTY2hvb2wiLCJMZWFybmluZyBQYW5vcmFtYSBTY2hvb2wiLCJMJ2Vjb2xlIENoZW1wYWthIiwiTGVnYWN5IFNjaG9vbCIsIkxpdGVyYSBWYWxsZXkgU2Nob29sIFBhdG5hIiwiTG90dXMgVmFsbGV5IEludGVybmF0aW9uYWwgU2Nob29sIiwiTHVja3kgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJMdXhvciBXb3JsZCBTY2hvb2wiLCJNLkMuVC5NLiBDaGlkYW1iYXJhbSBDaGV0dHlhciBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIk0uTS4gSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJNYWhhdG1hIEdhbmRoaSBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIk1haGluZHJhIFVuaXRlZCBXb3JsZCBDb2xsZWdlIG9mIEluZGlhIiwiTWFpbmFkZXZpIEJhamFqIEludGVybmF0aW9uYWwgU2Nob29sIiwiTWFsbHlhIEFkaXRpIEludGVybmF0aW9uYWwgU2Nob29sIiwiTWFuY2hlc3RlciBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIk1hbmVja2ppIENvb3BlciBFZHVjYXRpb24gVHJ1c3QgU2Nob29sIiwiTWFudGhhbiBTY2hvb2wiLCJNYXIgQXRoYW5hc2l1cyBJbnRlcm5hdGlvbmFsIFNjaG9vbCwgS290aGFtYW5nYWxhbSIsIk1heW8gQ29sbGVnZSIsIk1heW9vciBTY2hvb2wsIEFqbWVyIiwiTURLIEludGVybmF0aW9uYWwgU2Nob29sIiwiTWVlbmFrc2hpIFdvcmxkIFNjaG9vbCIsIk1lcmNlZGVzLUJlbnogSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJNZXJpZGlhbiBTY2hvb2wgZm9yIEJveXMgYW5kIEdpcmxzIiwiTUVUIFJpc2hpa3VsIFZpZHlhbGF5YSIsIk1ldGhvZGlzdCBIaWdoIFNjaG9vbCIsIk1pcmkgUGlyaSBBY2FkZW15IiwiTUlUQ09OIEludGVybmF0aW9uYWwgU2Nob29sIiwiTW9kZXJuIFZpZHlhIE5pa2V0YW4iLCJNb2R5IFNjaG9vbCIsIk11c3Nvb3JpZSBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIk4uSC4gR29lbCBXb3JsZCBTY2hvb2wiLCJOYWhhciBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIk5hbmRpIEFjYWRlbXkiLCJOYXRpb25hbCBQdWJsaWMgU2Nob29sIiwiTmF2cmFjaGFuYSBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIk5lZXJqYSBNb2RpIHNjaG9vbCIsIk5lbHNvbidzIEludGVybmF0aW9uYWwgU2Nob29sIiwiTkVTIEludGVybmF0aW9uYWwgU2Nob29sIE11bWJhaSIsIk5ldyBCYWxkd2luIEludGVybmF0aW9uYWwgUmVzaWRlbnRpYWwgU2Nob29sIiwiTmV3IEVyYSBIaWdoIFNjaG9vbCIsIk5TUyBIaWxsIFNwcmluZyBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIk9ha3JpZGdlIEludGVybmF0aW9uYWwgU2Nob29sIiwiT2FzaXMgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJPYXNpcyBQdWJsaWMgSGlnaCBTY2hvb2wiLCJPYmVyb2kgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJPbWthciBDYW1icmlkZ2UgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJPeXN0ZXIgSW50ZXJuYXRpb25hbCBTY2hvb2wgQW5kIEp1bmlvciBDb2xsZWdlIiwiUCBQIFNhdmFuaSBDYW1icmlkZ2UgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJQYW5iYWkgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJQYXRod2F5cyBTY2hvb2wiLCJQaG9lbml4IFB1YmxpYyBTY2hvb2wiLCJQaW5uYWNsZSBIaWdoIEludGVybmF0aW9uYWwgU2Nob29sIiwiUG9kYXIgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJQcmFrcml5YSBHcmVlbiBXaXNkb20gU2Nob29sIiwiUHJpbXJvc2UgU2Nob29scyIsIlByaW11cyBQdWJsaWMgU2Nob29sIiwiUHJ1ZGVuY2UgSW50ZXJuYXRpb25hbCBTY2hvb2wsIFBhbnZlbCIsIlB1c2hwYWxhdGEgQnJpdGlzaCBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIlIuQi5LIEludGVybmF0aW9uYWwgU2Nob29sIiwiUmFmZmxlcyBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIlJBTSBSQVROQSBJTlRFUk5BVElPTkFMIFNDSE9PTCIsIlJhc2JpaGFyaSBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIlJhdW5hcSBQdWJsaWMgU2Nob29sIiwiUkJLIEludGVybmF0aW9uYWwgQWNhZGVteSIsIlJlZGJyaWRnZSBJbnRlcm5hdGlvbmFsIEFjYWRlbXkiLCJSZXFlbGZvcmQgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJSaWNobW9uZGQgR2xvYmFsIFNjaG9vbCIsIlJJTVMgSW50ZXJuYXRpb25hbCBTY2hvb2wgJiBKdW5pb3IgQ29sbGVnZSIsIlJpdmVyRGFsZSBJbnRlcm5hdGlvbmFsIFJlc2lkZW50aWFsIFNjaG9vbCIsIlJvY2t3ZWxsIEludGVybmF0aW9uYWwgU2Nob29sIiwiUm9ja3dvb2RzIEhpZ2ggU2Nob29sIiwiUnVzdG9tamVlIENhbWJyaWRnZSBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIlJ5YW4gR2xvYmFsIFNjaG9vbCIsIlJ5YW4gSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJTQUFNQVIgSW50ZXJuYXRpb25hbCBJc2xhbWljIFNjaG9vbCIsIlNhZGhiaGF2YW5hIFdvcmxkIFNjaG9vbCIsIlNhZmZyb24gUHVibGljIFNjaG9vbCIsIlNhaW50IE1zZyBHbG9yaW91cyBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIlNhbmN0YSBNYXJpYSBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIlNhbmdhbSBTY2hvb2wgb2YgRXhjZWxsZW5jZSIsIlNhbmpheSBHaG9kYXdhdCBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIlNhbmplZXdhbiBWaWR5YWxheWEiLCJTYW5za2FyIFNjaG9vbCIsIlNhbnNrcml0aSBTY2hvb2wiLCJTQU5UIE5JU0NIQUwgU0lOR0ggUFVCTElDIFNDSE9PTCIsIlNhcmFsYSBCaXJsYSBBY2FkZW15IiwiU2F2aXRyaWRldmkgSGFyaXJhbSBBZ2Fyd2FsIEludGVybmF0aW9uYWwgU2Nob29sIiwiU0NBRCBXb3JsZCBTY2hvb2wiLCJTY290dGlzaCBIaWdoIEludGVybmF0aW9uYWwiLCJTZWVkbGluZyBJbnRlcm5hdGlvbmFsIEFjYWRlbXkiLCJTZWVkbGluZyBNb2Rlcm4gUHVibGljIFNjaG9vbCIsIlNoYWxvbSBIaWxscyBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIlNoYWxvbSBQcmVzaWRlbmN5IFNjaG9vbCIsIlNoZXJ3b29kIENvbGxlZ2UiLCJTaGl2YWxpayBQdWJsaWMgU2Nob29sIiwiU2hvbGFpIFNjaG9vbCwgQ2VudHJlIEZvciBMZWFybmluZywgT3JnYW5pYyBBZ3JpY3VsdHVyZSBBbmQgQXBwcm9wcmlhdGUgVGVjaG5vbG9neSIsIlNocmluZSBWYWlsYW5rYW5uaSBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIlNpbmdhcG9yZSBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIlNNVCBQUyBTaGl2YXNoYW5rYXJhcHBhIEVuZ2xpc2ggUmVzaWRlbnRpYWwgU2Nob29sIiwiU210LiBTdWxvY2hhbmFkZXZpIFNpbmdoYW5pYSBTY2hvb2wiLCJTb3V0aCBDaXR5IEludGVybmF0aW9uYWwgU2Nob29sIiwiU3BhcmtyaWxsIEludGVybmF0aW9uYWwgU2Nob29sIiwiU3ByaW5nZGFsZXMgU2Nob29sIiwiU3JlZW5pZGhpIEludGVybmF0aW9uYWwgU2Nob29sIiwiU3JpIENoYW5kcmEgR3VwdGEgTWF1cnlhIEludGVybmF0aW9uYWwgU2Nob29sIiwiU3JpIE1heWFwdXIgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJTcmkgVmFuaSBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIlNyaWtyaXRpIC0gVGhlIFRlYWNoZXIgRWR1Y2F0aW9uIENlbnRyZSIsIlN0IFBldGVycyBNYXRyaWN1bGF0aW9uIEhpZ2hlciBTZWNvbmRhcnkgU2Nob29sIiwiU3QuIEFubmUgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJTdC4gQ29sdW1iYSdzIFNjaG9vbCIsIlN0LiBKb2FuIG9mIEFyYyBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIlN0LiBKb3NlcGgncyBDb252ZW50IEludGVybmF0aW9uYWwgU2Nob29sIiwiU3QuIFN0YW5pc2xhdXMgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJTdGVwIGJ5IFN0ZXAgU2Nob29sIiwiU3RvbmVoaWxsIEludGVybmF0aW9uYWwgU2Nob29sIiwiU3VndW5hIEludGVybmF0aW9uYWwgU2Nob29sIiwiU3VuIENpdHkgV29ybGQgU2Nob29sIiwiU1ZLTSBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIlN3YXlhbSBDYW1icmlkZ2UgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJTeW1iaW9zaXMgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJUYWdvcmUgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJUYWt0c2UgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJUaGFrdXIgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJUaGUgQXJkZWUgV29ybGQgU2Nob29sIiwiVGhlIEJsdWUgTW91bnRhaW5zIFNjaG9vbCIsIlRoZSBCcml0aXNoIFNjaG9vbCIsIlRoZSBDYW1icmlkZ2Ugc2Nob29sIiwiVGhlIENhdGhlZHJhbCBhbmQgSm9obiBDb25ub24gU2Nob29sIiwiVGhlIENhdGhlZHJhbCBWaWR5YSBTY2hvb2wsIExvbmF2YWxhIiwiVGhlIERhbHkgQ29sbGVnZSIsIlRoZSBEb29uIFNjaG9vbCIsIlRoZSBFbWVyYWxkIEhlaWdodHMgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJUaGUgR2FsYXh5IFNjaG9vbCIsIlRIRSBHQVRFV0FZIFNDSE9PTCBPRiBNVU1CQUkiLCJUaGUgR2F1ZGl1bSBTY2hvb2wiLCJUaGUgR2Vla2F5IFdvcmxkIFNjaG9vbCIsIlRoZSBIZXJpdGFnZSBTY2hvb2wiLCJUaGUgSW5kaWFuIFB1YmxpYyBTY2hvb2wiLCJUaGUgSW50ZXJuYXRpb25hbCBTY2hvb2wgQmFuZ2Fsb3JlIiwiVGhlIEtpbmcncyBTY2hvb2wiLCJUaGUgTGF3cmVuY2UgU2Nob29sIiwiVGhlIExldmVsZmllbGQgU2Nob29sIiwiVGhlIExvcmRzJyBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIlRoZSBOZXcgVHVsaXAgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJUaGUgUmFqYXMgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJUaGUgUml2ZXJzaWRlIFNjaG9vbCIsIlRoZSBTYW5za2FhciBWYWxsZXkgU2Nob29sIiwiVGhlIFNjaHJhbSBBY2FkZW15IiwiVGhlIFNjb3R0aXNoIEhpZ2ggSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJUaGUgU2hyaSBSYW0gU2Nob29sIiwiVGhlIFVuaXZlcnNhbCBTY2hvb2wiLCJUaGUgVmFsbGV5IFNjaG9vbCIsIlRoZSBWaWthc2EgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJUcmVhbWlzIEludGVybmF0aW9uYWwgU2Nob29sIiwiVHJlZSBIb3VzZSBIaWdoIFNjaG9vbCIsIlRyaWRoYSBTY2hvb2wiLCJUcmlsZWF2ZXMgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJUcmluaXR5IEludGVybmF0aW9uYWwgU2Nob29sIiwiVHJpbyBXb3JsZCBBY2FkZW15IiwiVHJpcGFkYSBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIlRyaXZhbmRydW0gSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJVbmlzb24gV29ybGQgU2Nob29sIiwiVXRwYWwgU2hhbmdodmkgR2xvYmFsIFNjaG9vbCIsIlVXQyBNYWhpbmRyYSBDb2xsZWdlIiwiVmFlbHMgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJWYXNhbnQgVmFsbGV5IFNjaG9vbCIsIlZlZXIgQmhhZ2F0IFNpbmdoIFZpZHlhbGF5YSIsIlZlbGFtbWFsIEdsb2JhbCBTY2hvb2wiLCJWaWJneW9yIEhpZ2giLCJWaWN0b3JpYSBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIlZpY3RvcmlvdXMgS2lkc3MgRWR1Y2FyZXMiLCJWaWR5YSBHbG9iYWwgU2Nob29sIiwiVmlkeWEgU2Fuc2thciBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIlZpZHlhbmphbGkgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJWaWthYXNhIFdvcmxkIFNjaG9vbCIsIlZpcCdzIEludGVybmF0aW9uYWwgU2Nob29sIiwiVmlzaHdhc2hhbnRpIEd1cnVrdWwiLCJWaXNpb24gVmlkeWFzaHJhbSBXb3JsZCBTY2hvb2wiLCJWaXZla2FsYXlhJ3MgUHJha3JpeWEgSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJWcnVrc2hhIE1vbnRlc3NvcmkgU2Nob29sIiwiV2VsaGFtIEJveXMnIFNjaG9vbCIsIldlbGhhbSBHaXJscycgU2Nob29sIiwiV2lzZG9tIEhpZ2ggSW50ZXJuYXRpb25hbCBTY2hvb2wiLCJXaXR0eSBJbnRlcm5hdGlvbmFsIFNjaG9vbCIsIldvb2RsYW5kIE92ZXJzZWFzIFNjaG9vbCIsIldvb2RzdG9jayBTY2hvb2wiLCJZYWdhcHBhIEludGVybmF0aW9uYWwgU2Nob29sIl0=");
+
+});
+
+
+$j('#mediaForStudyAbroadPage').load('/listing/abroadListings/getMediaForAbroadListing/17/university');
+
+
+var img = document.getElementById('beacon_img');
+var randNum = Math.floor(Math.random()*Math.pow(10,16));
+img.src = 'https://www.shiksha.com/beacon/Beacon/index/'+randNum+'/0011006/17+university';
+
+
+var blacklistWords = new Array('shiksha','advisor','expert','Expert','Shiksha','Advisor','18002003922'
+);
+shikshaUserRegistrationForm['PUAXA2'] = new ShikshaUserRegistrationForm('PUAXA2');
+shikshaUserRegistrationForm['PUAXA2'].setCustomValidations({"email":"Email","firstName":"DisplayName","lastName":"DisplayName","mobile":"Mobile","examsAbroad":"AllAbroadExamScores","TOEFL_score":"StudyAbroadExamScore","IELTS_score":"StudyAbroadExamScore","PTE_score":"StudyAbroadExamScore","GRE_score":"StudyAbroadExamScore","GMAT_score":"StudyAbroadExamScore","SAT_score":"StudyAbroadExamScore","CAEL_score":"StudyAbroadExamScore","MELAB_score":"StudyAbroadExamScore","CAE_score":"StudyAbroadExamScore"});
+shikshaUserRegistrationForm['PUAXA2'].setFormFieldList(["email","firstName","lastName","isdCode","mobile","whenPlanToGo","examTaken","examsAbroad","bookedExamDate","passport","abroadDesiredCourse","fieldOfInterest","desiredGraduationLevel","abroadSpecialization","destinationCountry","budget","residenceCity","contactByConsultant","tenthBoard","tenthmarks","CurrentSubjects","currentClass","currentSchool","graduationStream","workExperience","graduationMarks"]);
+registrationCustomLogic['PUAXA2'] = new RegistrationCustomLogic('PUAXA2',[{"conditions":[{"field":"graduationStatus","value":"Completed"}],"actions":[{"field":"graduationDetails","attribute":"visibility","value":"yes"},{"field":"graduationMarks","attribute":"visibility","value":"yes"}]},{"conditions":[{"field":"graduationStatus","value":"Pursuing"}],"actions":[{"field":"graduationDetails","attribute":"visibility","value":"yes"}]},{"conditions":[{"field":"desiredGraduationLevel","value":"UG"}],"actions":[{"field":"xiiStream","attribute":"visibility","value":"yes"},{"field":"xiiYear","attribute":"visibility","value":"yes"},{"field":"xiiMarks","attribute":"visibility","value":"yes"}]},{"conditions":[{"field":"desiredGraduationLevel","value":"PG"}],"actions":[{"field":"graduationStatus","attribute":"visibility","value":"yes"},{"field":"graduationDetails","attribute":"visibility","value":"yes"},{"field":"graduationMarks","attribute":"visibility","value":"yes"},{"field":"graduationCompletionYear","attribute":"visibility","value":"yes"}]}],{"email":{"visible":"yes","values":null},"firstName":{"visible":"yes","values":null},"lastName":{"visible":"yes","values":null},"isdCode":{"visible":"yes","values":null},"mobile":{"visible":"yes","values":null},"whenPlanToGo":{"visible":"yes","values":null},"examTaken":{"visible":"yes","values":null},"examsAbroad":{"visible":"no","values":null},"bookedExamDate":{"visible":"yes","values":null},"passport":{"visible":"no","values":null},"abroadDesiredCourse":{"visible":"yes","values":null},"fieldOfInterest":{"visible":"yes","values":null},"desiredGraduationLevel":{"visible":"no","values":null},"abroadSpecialization":{"visible":"no","values":null},"destinationCountry":{"visible":"yes","values":null},"budget":{"visible":"yes","values":null},"residenceCity":{"visible":"yes","values":null},"contactByConsultant":{"visible":"no","values":null},"tenthBoard":{"visible":"yes","values":null},"tenthmarks":{"visible":"yes","values":null},"CurrentSubjects":{"visible":"yes","values":null},"currentClass":{"visible":"yes","values":null},"currentSchool":{"visible":"yes","values":null},"graduationStream":{"visible":"yes","values":null},"workExperience":{"visible":"yes","values":null},"graduationMarks":{"visible":"yes","values":null}});
+shikshaUserRegistrationForm['PUAXA2'].setCustomLogic(registrationCustomLogic['PUAXA2']);
+
+shikshaUserRegistrationForm['PUAXA2'].populateForm({"residenceCity":null},true);
+
+    if(document.attachEvent) { //Internet Explorer
+      document.attachEvent("onclick", function() {shikshaUserRegistrationForm['PUAXA2'].hideAllLayers();});
+    }
+    else if(document.addEventListener) { //Firefox & company
+      document.addEventListener('click', function() {shikshaUserRegistrationForm['PUAXA2'].hideAllLayers();}, false); 
+    }
+
+var STUDY_ABROAD_NEW_REGISTRATION = '1';
+
+
