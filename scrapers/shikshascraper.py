@@ -53,12 +53,69 @@ def extract_links(url):
     else:
         print("WHERE IS THE SOUP")
         return None
-            
-    #         list_of_schools.append(data)
-    # return list_of_schools
+
+
+def extract_links2(url):
+    req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+    webpage = urlopen(req).read()
+    soup = bs(webpage, "html.parser")
+    if soup:
+        list_of_schools = []
+        divs = soup.find_all("div",{"class":"course-touple clearwidth"})
+        for d in divs:
+            foo = d.find("p")
+            if foo:
+                school = {}
+                title = foo.find("a")
+                if title:
+                    school["URL"] = title.get("href").strip()
+                    school["CourseName"] = title.get_text().strip()
+                loda = foo.findNext("div",{"class":"clearwidth"})
+                if loda:
+                    innerdiv = loda.find("div",{"class":"uni-course-details flLt"})
+                    if innerdiv:
+                        inners = innerdiv.find_all("div",{"class":"detail-col flLt"})
+                        for i in inners:
+                            if "Eligibility" in i.get_text().strip():
+                                pees = i.find_all("p")
+                                for p in pees:
+                                    if "GRE: " in p.get_text().strip():
+                                        school["GRE"] = p.get_text().strip().split(": ")[1]
+                                    if "IELTS: " in p.get_text().strip():
+                                        school["IELTS"] = p.get_text().strip().split(": ")[1]
+                                    if "TOEFL: " in p.get_text().strip():
+                                        school["TOEFL"] = p.get_text().strip().split(": ")[1]
+                                    if "PTE: " in p.get_text().strip():
+                                        school["PTE"] = p.get_text().strip().split(": ")[1]
+                            if "1st Year Total Fees" in i.get_text().strip():
+                                p = i.find("p")
+                                if p:
+                                    school["1st Year Total Fee"] = p.get_text().strip()
+                            if "Public university" in i.get_text().strip():
+                                pees = i.find_all("p")
+                                if len(pees)>2:
+                                    if pees[0].find("span").get_text().strip() == "✔":
+                                        school["Private/Public"] = "Public"
+                                    else:
+                                        school["Private/Public"] = "Private"
+                                    if pees[1].find("span").get_text().strip() == "✔":
+                                        school["Scholarship Offered"] = "Yes"
+                                    else:
+                                        school["Scholarship Offered"] = "No"
+                                    if pees[2].find("span").get_text().strip() == "✔":
+                                        school["Accomodation Offered"] = "Yes"
+                                    else:
+                                        school["Accomodation Offered"] = "No"
+
+                if bool(school):
+                    list_of_schools.append(school)
+    return list_of_schools
+
+
+
 
 def get_more_data(course):
-    url = course['ShikshaCourseURL']
+    url = course['URL']
     print(url)
     req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
     webpage = urlopen(req).read()
@@ -73,13 +130,15 @@ def get_more_data(course):
                     course["Duration"]=t.split("|")[0].split(":")[1].strip()
                     course["Level"]=t.split("|")[1].split(":")[1].strip()
         cunt = soup.find("div",{"id":"abroadCourseFee"})
+        # FEE PORTION
+        
         if cunt:
             tables = cunt.find_all("table")
             if tables[0]:
                 r = tables[0].find("tr",{"class":"last"})
                 td = r.find_all("td")
                 if td:
-                    course["1st Year Fee in Pounds"] = td[1].get_text().strip()
+                    course["1st Year Fee in Euro"] = td[1].get_text().strip()
                     course["1st year Fee in INR"] = td[2].get_text().strip()
             if len(tables)==2:
                 row = tables[1].find_all("tr")
@@ -87,12 +146,15 @@ def get_more_data(course):
                     td = r.find_all("td")
                     if td:
                         key = td[0].get_text().strip()
-                        course[key+" Pound "] = td[1].get_text().strip()
+                        course[key+" Euro "] = td[1].get_text().strip()
                         course[key+" INR "] = td[2].get_text().strip()
             else:
                 print("table_not_found")
         else:
             print("no cunt")
+
+
+        #ENTRY REQUIREMENT PORTION
         cunt = soup.find("div",{"class":"overview dyanamic-content entry-req-list"})
         if cunt:
             pees = cunt.find_all("p",{"class":"course-require-hd"})
@@ -132,17 +194,42 @@ def get_more_data(course):
                             course["Schol Link"] = x.find("a").get("href")
     pprint.pprint(course)
     return course
-#boobs = extract_links("https://studyabroad.shiksha.com/top-mba-colleges-in-uk-abroadranking29")
-import json
-# with open("../Output/Shiksha.json","w") as fout:
-#    json.dump(boobs,fout)
+# # boobs = extract_links("https://studyabroad.shiksha.com/top-mba-colleges-in-uk-abroadranking29")
+# shit = ["https://studyabroad.shiksha.com/usa/ms-in-mechanical-engineering-colleges-ds",
+#         "https://studyabroad.shiksha.com/usa/ms-in-mechanical-engineering-colleges-ds-2",
+#         "https://studyabroad.shiksha.com/usa/ms-in-mechanical-engineering-colleges-ds-3",
+#         "https://studyabroad.shiksha.com/usa/ms-in-mechanical-engineering-colleges-ds-4",
+#         "https://studyabroad.shiksha.com/usa/ms-in-mechanical-engineering-colleges-ds-5"
+# ]
+# canadianshit = ["https://studyabroad.shiksha.com/canada/ms-in-mechanical-engineering-colleges-ds",
+# "https://studyabroad.shiksha.com/canada/ms-in-mechanical-engineering-colleges-ds-2"
+# ]
+# ukshit = ["https://studyabroad.shiksha.com/uk/ms-in-mechanical-engineering-colleges-ds",
+# "https://studyabroad.shiksha.com/uk/ms-in-mechanical-engineering-colleges-ds-2"
+# ]
+# aus = ["https://studyabroad.shiksha.com/australia/ms-in-mechanical-engineering-colleges-ds"]
+# nz = ["https://studyabroad.shiksha.com/new-zealand/ms-in-mechanical-engineering-colleges-ds"]
+# sg = ["https://studyabroad.shiksha.com/singapore/ms-in-mechanical-engineering-colleges-ds"]
+# ger = ["https://studyabroad.shiksha.com/germany/ms-in-mechanical-engineering-colleges-ds"]
+# boobs = list(map(extract_links2,ger))
+# out = [item for sublist in boobs for item in sublist]
 
-#get_more_data(boobs[0])
-with open('../Output/Shiksha.json') as data_file:
-    data = json.load(data_file)
-out = list(map(get_more_data,data))
-df = pd.DataFrame(out)
-df.to_csv("../Output/Shiksha.csv",index = None)
+# #pprint.pprint(out[0])
+# import json
+# # with open("../Output/ShikshaUSAMSAE.json","w") as fout:
+# #    json.dump(out,fout)
+
+# # # #get_more_data(boobs[0])
+# # with open('../Output/ShikshaUSAMSAE.json') as data_file:
+# #     data = json.load(data_file)
+# data = list(map(get_more_data,out))
+# df = pd.DataFrame(data)
+# df.to_csv("../Output/Dirty Shiksha/GERMS.csv",index = None)
+# with open("../Output/Dirty Shiksha/GERMS.json","w") as fout:
+#    json.dump(out,fout)
+
+
+files = [f for f in listdir("../shikshaecocourses/") if isfile(join("../shikshaecocourses/", f))]
 
 #pprint.pprint(data[0])
 
