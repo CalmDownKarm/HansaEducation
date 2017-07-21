@@ -1,10 +1,10 @@
 from bs4 import BeautifulSoup as bs
 import pandas as pd
 import pprint
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
-from selenium import webdriver
+# from selenium.webdriver.support.ui import WebDriverWait
+# from selenium.webdriver.support import expected_conditions as EC
+# from selenium.webdriver.common.by import By
+# from selenium import webdriver
 from urllib.request import Request, urlopen
 
 
@@ -123,6 +123,10 @@ def extract_table(url):
         webpage = urlopen(req).read()
         data = dict()
         htmlsoup = bs(webpage, "html.parser")
+        country_span = htmlsoup.find("span",{"class":"country"})
+        if country_span:
+            data["Country"] = country_span.get_text().strip()
+            print(country_span.get_text().strip())
         major = htmlsoup.find(
             "div", {"class": "faculty-main wrapper col-md-4"})
         inner = major.find_all("div", {"class": "total faculty"})
@@ -179,11 +183,10 @@ def doshit(thing):
         print(e)
         print("Merging " + url)
 
-result = extract_data("QS World University Rankings by Subject 2016 - Economics & Econometrics _ Top Universities.html")
+result = extract_data("../QS/Communication & Media Studies _ Top Universities1.html")
 bullshit = list(map(doshit, result))
 df = pd.DataFrame(bullshit)
-df.to_csv("Output/QS Economics")
-print("CHEM E DONE")
+df.to_csv("../Output/QS Communication and Media.csv")
 
 # result = extract_data(
 #     "Computer Science & Information Systems _ Top Universities.html")

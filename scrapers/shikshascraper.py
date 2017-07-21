@@ -146,8 +146,8 @@ def get_more_data(course):
                     td = r.find_all("td")
                     if td:
                         key = td[0].get_text().strip()
-                        course[key+" Euro "] = td[1].get_text().strip()
-                        course[key+" INR "] = td[2].get_text().strip()
+                        course[key.strip().lower()+" Euro "] = td[1].get_text().strip()
+                        course[key.strip().lower()+" INR "] = td[2].get_text().strip()
             else:
                 print("table_not_found")
         else:
@@ -174,7 +174,7 @@ def get_more_data(course):
                     rec = coverbar.findNext("div",{"class":"clearwidth exam-requiremnt-list"})
                     if rec:
                         val = rec.get_text().strip()
-                        course[key] = val
+                        course[key.strip().lower()] = val
         cunt = soup.find("div",{"id":"recruiting-companies-layer"})
         if cunt:
             images = cunt.find_all("img",{"class":"recruitmentLogoImg"})
@@ -215,7 +215,7 @@ def get_more_data(course):
 # out = [item for sublist in boobs for item in sublist]
 
 # #pprint.pprint(out[0])
-# import json
+import json
 # # with open("../Output/ShikshaUSAMSAE.json","w") as fout:
 # #    json.dump(out,fout)
 
@@ -228,9 +228,88 @@ def get_more_data(course):
 # with open("../Output/Dirty Shiksha/GERMS.json","w") as fout:
 #    json.dump(out,fout)
 
-
-files = [f for f in listdir("../shikshaecocourses/") if isfile(join("../shikshaecocourses/", f))]
-
+from os import listdir
+from os.path import isfile, join
+# files = [f for f in listdir("../shikshaecocourses/") if isfile(join("../shikshaecocourses/", f))]
+def extract_schools_links(files):
+    listofschools = []
+    for file in files:
+        with open("../shikshaecocourses/"+file) as f:
+            soup = bs(f.read(), "html.parser")
+            if soup:
+                outers = soup.find_all("div",{"class":"tuple-box"})
+                for outer in outers:
+                    titlediv = outer.find("div",{"class":"tuple-title"})
+                    if titlediv:
+                        link = titlediv.find("a")
+                        if link:
+                            college_name = link.get_text().strip()
+                            span = link.findNext("span")
+                            college_city = span.get_text().strip().split(',')
+                            college_country = college_city[-1]
+                            
+                    deets = outer.find("div",{"class":"course-touple clearwidth"})
+                    if deets:
+                        if (("masters" in deets.get_text().lower()) or ("ma" in deets.get_text().lower())):
+                            school = {}
+                            school["CollegeName"] = college_name
+                            school["College Country"] = college_country
+                            foo = deets.find("p")
+                            if foo:
+                                title = foo.find("a")
+                                if title:
+                                    school["URL"] = title.get("href").strip()
+                                    school["CourseName"] = title.get_text().strip()
+                                loda = foo.findNext("div",{"class":"clearwidth"})
+                                if loda:
+                                    innerdiv = loda.find("div",{"class":"uni-course-details flLt"})
+                                    if innerdiv:
+                                        inners = innerdiv.find_all("div",{"class":"detail-col flLt"})
+                                        for i in inners:
+                                            if "Eligibility" in i.get_text().strip():
+                                                pees = i.find_all("p")
+                                                for p in pees:
+                                                    if "GRE: " in p.get_text().strip():
+                                                        school["GRE"] = p.get_text().strip().split(": ")[1]
+                                                    if "IELTS: " in p.get_text().strip():
+                                                        school["IELTS"] = p.get_text().strip().split(": ")[1]
+                                                    if "TOEFL: " in p.get_text().strip():
+                                                        school["TOEFL"] = p.get_text().strip().split(": ")[1]
+                                                    if "PTE: " in p.get_text().strip():
+                                                        school["PTE"] = p.get_text().strip().split(": ")[1]
+                                            if "1st Year Total Fees" in i.get_text().strip():
+                                                p = i.find("p")
+                                                if p:
+                                                    school["1st Year Total Fee"] = p.get_text().strip()
+                                            if "Public university" in i.get_text().strip():
+                                                pees = i.find_all("p")
+                                                if len(pees)>2:
+                                                    if pees[0].find("span").get_text().strip() == "✔":
+                                                        school["Private/Public"] = "Public"
+                                                    else:
+                                                        school["Private/Public"] = "Private"
+                                                    if pees[1].find("span").get_text().strip() == "✔":
+                                                        school["Scholarship Offered"] = "Yes"
+                                                    else:
+                                                        school["Scholarship Offered"] = "No"
+                                                    if pees[2].find("span").get_text().strip() == "✔":
+                                                        school["Accomodation Offered"] = "Yes"
+                                                    else:
+                                                        school["Accomodation Offered"] = "No"
+                            pprint.pprint(school)
+                            listofschools.append(school)
+                        #print(deets.get_text().strip())
+    return listofschools
 #pprint.pprint(data[0])
 
+# boobs = extract_schools_links(files)
+# data = list(map(get_more_data,boobs))
+# df = pd.DataFrame(data)
+# df.to_csv("../Output/Dirty Shiksha/eco.csv",index = None)
+# with open("../Output/Dirty Shiksha/eco.json","w") as fout:
+#    json.dump(out,fout)
 
+boobs = extract_links2("https://studyabroad.shiksha.com/usa/masters-in-journalism-courses-sl")
+data = list(map(get_more_data,boobs))
+df = pd.DataFrame(data)
+df.to_csv("../Output/ShikshaMAJournalismCommunication.csv")
