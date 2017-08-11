@@ -107,9 +107,9 @@ def extract_data(path):
                 temp['URL'] = elements[1].find("a").get("href")
                 temp['Overall Score'] = elements[2].get_text()
                 temp['Academic Reputation'] = elements[3].get_text()
-                temp['Citations Per Paper'] = elements[4].get_text()
-                temp['Employer Reputation'] = elements[5].get_text()
-                temp['H-Index Citations'] = elements[6].get_text()
+                # temp['Citations Per Paper'] = elements[4].get_text()
+                temp['Employer Reputation'] = elements[4].get_text()
+                # temp['H-Index Citations'] = elements[6].get_text()
                 everything.append(temp)
                 count += 1
                 print(count)
@@ -183,10 +183,10 @@ def doshit(thing):
         print(e)
         print("Merging " + url)
 
-result = extract_data("../QS/Communication & Media Studies _ Top Universities1.html")
+result = extract_data("../QS/Art & Design _ Top Universities1.html")
 bullshit = list(map(doshit, result))
 df = pd.DataFrame(bullshit)
-df.to_csv("../Output/QS Communication and Media.csv")
+df.to_csv("../Output/QS Art & Design.csv")
 
 # result = extract_data(
 #     "Computer Science & Information Systems _ Top Universities.html")

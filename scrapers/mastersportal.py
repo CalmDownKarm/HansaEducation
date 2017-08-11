@@ -37,9 +37,13 @@ def extract_links(files):
 									course["Duration"] = durali.get_text().strip()
 								languageli = titlediv.find("li",{"class":"Language"})
 								if languageli:
-									course["Language"] = languageli.get_text().strip()
+									lang = languageli.get_text().strip()
+									if "(Take IELTS Test)" in lang:
+										lang = lang.split(" ")[0]
+									course["Language"] = lang
+
 							courses.append(course)
-							pprint.pprint(course)
+							# pprint.pprint(course)
 					else:
 						print("can't find div")
 				else:
@@ -68,25 +72,24 @@ def get_more_data(course):
 						# pprint.pprint(course)
 				else:
 					print("can't find container")
-				container = soup.find("section",{"class":"StudyRequirement"})
+				container = soup.find("section",{"id":"StudyRequirement"})
 				if container:
-					lst = container.find("ul")
-					if lst:
-						lis = lst.find_all("li")
-						course["Academic Req"] = [l.get_text().strip() for l in lis]
-					else:
-						pees = container.find_all("p")
-						for p in pees:
-							if "Standardized Test Scores" in p.get_text().strip():
-								course["Standardized Test Scores"] = p.get_text().strip()
+					course["Academic Requirements"] = container.get_text().strip()
+				else:
+					print("container not found")
 			else:
 				print("NO SOUP FOR YOU")
 		except Exception as e:
 			print(e)
+	pprint.pprint(course)
 	return course
 
 files = [f for f in listdir("../mp/") if isfile(join("../mp/", f))]
 print(len(files))
 course_list = extract_links(files)
-print(get_more_data(course_list[0]))
+data = list(map(get_more_data,course_list))
+df = pd.DataFrame(data)
+df.to_csv("../Output/MastersPortalNutrition.csv")
+
+# print(get_more_data(course_list[0]))
 
