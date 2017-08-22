@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'droid-sans-bold';
+    src: url('DroidSans-Bold-webfont.eot');
+    src: url('DroidSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('DroidSans-Bold-webfont.woff') format('woff'),
+         url('DroidSans-Bold-webfont.ttf') format('truetype'),
+         url('DroidSans-Bold-webfont.svg#droid-sans-bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'droid-sans-regular';
+    src: url('DroidSans-webfont.eot');
+    src: url('DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('DroidSans-webfont.woff') format('woff'),
+         url('DroidSans-webfont.ttf') format('truetype'),
+         url('DroidSans-webfont.svg#droid-sans-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'roboto-regular';
+    src: url('Roboto-Regular-webfont.eot');
+    src: url('Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-Regular-webfont.woff') format('woff'),
+         url('Roboto-Regular-webfont.ttf') format('truetype'),
+         url('Roboto-Regular-webfont.svg#roboto-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'roboto-medium';
+    src: url('Roboto-Medium-webfont.eot');
+    src: url('Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-Medium-webfont.woff') format('woff'),
+         url('Roboto-Medium-webfont.ttf') format('truetype'),
+         url('Roboto-Medium-webfont.svg#roboto-medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'roboto-bold';
+    src: url('Roboto-Bold-webfont.eot');
+    src: url('Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-Bold-webfont.woff') format('woff'),
+         url('Roboto-Bold-webfont.ttf') format('truetype'),
+         url('Roboto-Bold-webfont.svg#roboto-bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rubik-regular';
+    src: url('rubik-regular-webfont.eot');
+    src: url('rubik-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('rubik-regular-webfont.woff2') format('woff2'),
+         url('rubik-regular-webfont.woff') format('woff'),
+         url('rubik-regular-webfont.ttf') format('truetype'),
+         url('rubik-regular-webfont.svg#rubik-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

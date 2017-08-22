@@ -1,0 +1,52 @@
+#cc-notification {
+  background-color: transparent !important;
+  border-bottom: 0 !important;
+}
+
+#cc-notification .container {
+  margin: auto;
+  padding: auto;
+  background-color: rgba(253, 213, 19, 0.9);
+}
+
+#cc-notification h2 {
+  margin-right: 40px !important;
+}
+
+#cc-notification h2 span,
+#cc-notification h2 {
+  font-family: 'roboto-regular' !important;
+  font-weight: 'normal' !important;
+  font-size: 13px;
+  margin-bottom: 30px !important;
+  color: #000000 !important;
+}
+
+#cc-notification #cc-notification-wrapper {
+  padding: 30px 15px 0 15px !important;
+  position: relative;
+}
+
+#cc-notification ul.cc-notification-buttons {
+  top: 50% !important;
+  right: 10px !important;
+  width: auto !important;
+}
+
+#cc-notification ul.cc-notification-buttons li a,
+#cc-notification ul.cc-notification-buttons li a:visited {
+  font-size: 13px !important;
+  padding: 10px 10px !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+  background-color: #fdd513 !important;
+}
+
+#cc-notification ul.cc-notification-buttons li a:hover,
+#cc-notification ul.cc-notification-buttons li a:active,
+#cc-notification ul.cc-notification-buttons li #cc-approve-button-allsites:hover,
+#cc-notification ul.cc-notification-buttons li #cc-approve-button-allsites:active {
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}

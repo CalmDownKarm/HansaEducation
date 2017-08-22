@@ -309,7 +309,7 @@ def extract_schools_links(files):
 # with open("../Output/Dirty Shiksha/eco.json","w") as fout:
 #    json.dump(out,fout)
 
-boobs = extract_links2("https://studyabroad.shiksha.com/usa/masters-in-journalism-courses-sl")
+boobs = extract_links2("https://studyabroad.shiksha.com/masters-of-humanities-in-abroad-cl1244")
 data = list(map(get_more_data,boobs))
 df = pd.DataFrame(data)
-df.to_csv("../Output/ShikshaMAJournalismCommunication.csv")
+df.to_csv("../Output/ShikshaPublicPolicy.csv")

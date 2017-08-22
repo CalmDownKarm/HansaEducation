@@ -6,6 +6,9 @@ from os import listdir,rename
 from os.path import isfile, join
 from random import randint
 
+def usereqtogetlinks(url):
+    	http://www.mastersportal.eu/search/#q=de-fulltime|di-101|lv-master,preparation|mh-face2face&start=0&length=10&order=relevance&direction=desc
+
 def extract_links(files):
 	courses = []
 	for file in files:
@@ -84,8 +87,10 @@ def get_more_data(course):
 	pprint.pprint(course)
 	return course
 
-files = [f for f in listdir("../mp/") if isfile(join("../mp/", f))]
-print(len(files))
+# files = [f for f in listdir("../mp/") if isfile(join("../mp/", f))]
+# print(len(files))
+
+
 course_list = extract_links(files)
 data = list(map(get_more_data,course_list))
 df = pd.DataFrame(data)
