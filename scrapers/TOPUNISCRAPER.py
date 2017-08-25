@@ -1,3 +1,4 @@
+"""Meant to scrape Ranked Lists of TU rankings of colleges/courses. Easiest to download the table and work from there"""
 from bs4 import BeautifulSoup as bs
 import pandas as pd
 import pprint
@@ -7,21 +8,20 @@ import pprint
 # from selenium import webdriver
 from urllib.request import Request, urlopen
 
-
 pp = pprint.PrettyPrinter(indent=4)
 
 
-def get_source(url):
-    wd = webdriver.Chrome("/var/chromedriver/chromedriver")
-    try:
-        wd.get(url)
-        WebDriverWait(wd, 0.5)
-        html_page = wd.page_source
-        wd.quit()
-        return html_page
-    except Exception as e:
-        wd.quit()
-        print(e)
+# def get_source(url):
+#     wd = webdriver.Chrome("/var/chromedriver/chromedriver")
+#     try:
+#         wd.get(url)
+#         WebDriverWait(wd, 0.5)
+#         html_page = wd.page_source
+#         wd.quit()
+#         return html_page
+#     except Exception as e:
+#         wd.quit()
+#         print(e)
 
 
 def extract_everything(html_page):
