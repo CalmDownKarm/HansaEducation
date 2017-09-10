@@ -183,10 +183,10 @@ def doshit(thing):
         print(e)
         print("Merging " + url)
 
-result = extract_data("../QS/Art & Design _ Top Universities1.html")
+result = extract_data("../TUOldFormat/Computer Science & Information Systems _ Top Universities.html")
 bullshit = list(map(doshit, result))
 df = pd.DataFrame(bullshit)
-df.to_csv("../Output/QS Art & Design.csv")
+df.to_csv("../Output/TUAICS.csv")
 
 # result = extract_data(
 #     "Computer Science & Information Systems _ Top Universities.html")

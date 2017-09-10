@@ -11,31 +11,39 @@ pp = pprint.PrettyPrinter(indent=4)
 
 
 def extract_schools_and_links(files):
-	list_of_schools = []
-	for file in files:
-		with open("USNEWSECONPAGES/"+file) as f:
-			soup = bs(f.read(), "html.parser")
-		if soup:
-			main = soup.find("div",{"class":"maincontent"})
-			if main:
-				divs = main.find_all("div",{"class":"sep"})
-				for div in divs:
-					school = {}
-					subject_score = div.find("div",{"class":"thumb-right"}).find("div",{"class":"t-large t-strong t-constricted"}).get_text().strip()
-					rank = div.find("div",{"class":"thumb-left"}).get_text().strip()
-					name = div.find("div",{"class":"block unwrap"}).find("a").get_text().strip()
-					URL = div.find("div",{"class":"block unwrap"}).find("a").get("href")
-					school["Subject Score"] = subject_score
-					school["Name"] = name
-					school["Rank"] = rank
-					school["URL"] = URL
-					list_of_schools.append(school)
-	return list_of_schools
+    list_of_schools = []
+    for file in files:
+        with open("../USNEWS/"+file) as f:
+            soup = bs(f.read(), "html.parser")
+            if soup:
+                print("FOUND SOUP")
+                main = soup.find("table",{"class":"ranking-data"})
+                if main:
+                    print("FOUND MAIN")
+                    rows = main.find_all("tr")
+                    for row in rows:
+                        print("FOUND A SCHOOL")
+                        school = {}
+                        tds = row.find_all("td")
+                        try:
+                            innderdiv = tds[0].find("div").find("span",{"class":"rankscore-bronze"})
+                            if innderdiv:
+                                school["Rank"] = innderdiv.get_text().strip()
+                            innderdiv = tds[1].find("a")
+                            if innderdiv:
+                                school["URL"] = innderdiv.get("href").strip()
+                                school["Name"] = innderdiv.get_text().strip()
+                            innderdiv = row.find("p",{"class":"location"})
+                            if innderdiv:
+                                school["Location"] = innderdiv.get_text().strip()
+                            list_of_schools.append(school)
+                        except IndexError:
+                            print("Skip")
+    return list_of_schools
 
 
-files = [f for f in listdir("USNEWSECONPAGES/") if isfile(join("USNEWSECONPAGES/", f))]
+files = [f for f in listdir("../USNEWS/") if isfile(join("../USNEWS/", f))]
 foo = extract_schools_and_links(files)
-print(len(foo))
-import json
-with open('boobs.json', 'w') as fout:
-	json.dump(foo, fout)
+df = pd.DataFrame(foo)
+df.to_csv("../Output/USNEWSAI.csv",index=False)
+

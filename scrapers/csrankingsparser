@@ -1,0 +1,8 @@
+"""
+from bs4 import BeautifulSoup as bs
+import pandas as pd
+import pprint
+from urllib.request import Request, urlopen
+from os import listdir
+from os.path import isfile, join
+import requests
