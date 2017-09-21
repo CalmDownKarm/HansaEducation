@@ -1,4 +1,17 @@
-url = "https://reflector.prtl.co/?order=relevance&direction=desc&start=0&include_order=true&token=3f6bd81fce0cd3db9972bc764a3f48c077fc8ecb&q=di-101%7Cen-1952%7Clv-master%2Cpreparation%7C!dg-prebachelor%2Clanguage%7Cuc-108&path=data%2Fstudies-cs%2Fpublic%2Fresults%2F&hh=en-GB%2Cde-DE%2Cfr-FR%2Ces-ES-master%2Cdefault" 
-for x in range(0,500,10):
-	print(url.replace("start=0","start="+repr(x)))
+"""This script is used for pages similar to view-source:http://www.best-masters.com/ranking-master-international-management.html """
 
+import pprint
+import pandas as pd
+from urllib.request import Request, urlopen
+from bs4 import BeautifulSoup as bs
+
+def get_links(url):
+    """Function takes in a url and extracts all ranking table list links"""
+    req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+    webpage = urlopen(req).read()
+    soup = bs(webpage, "html.parser")
+    outerdivs = soup.find_all("div",{"class":"col-sm-4 zone-block"})
+    links = [div.find("a").get("href") for div in outerdivs]    
+    return links
+
+pprint.pprint(get_links("http://www.best-masters.com/ranking-master-international-management.html"))
