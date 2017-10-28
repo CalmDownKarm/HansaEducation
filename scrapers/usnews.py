@@ -1,3 +1,6 @@
+'''Works for pages like https://www.usnews.com/best-graduate-schools/top-science-schools/physics-rankings,
+have to download the pages manually for now, though the link is static so in the future could make edits'''
+
 from bs4 import BeautifulSoup as bs
 import pandas as pd
 import pprint
@@ -39,6 +42,10 @@ def extract_schools_and_links(files):
                             list_of_schools.append(school)
                         except IndexError:
                             print("Skip")
+                        except TypeError:
+                            print("Skip")
+                        except AttributeError:
+                            print("Skip"+repr(file))
     return list_of_schools
 
 
