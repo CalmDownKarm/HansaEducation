@@ -1,3 +1,4 @@
+''' Works for links like https://www.masterstudies.com/Masters-Degree/Physics/, download the pages manually and put into named folder'''
 from bs4 import BeautifulSoup as bs
 import pandas as pd
 import pprint
