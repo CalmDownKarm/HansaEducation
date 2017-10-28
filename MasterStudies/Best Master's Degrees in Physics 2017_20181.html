@@ -1,0 +1,2810 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8"><script src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/nr-1044.js"></script><script async="" src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/analytics.js"></script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="https://www.masterstudies.com/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://www.masterstudies.com/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://www.masterstudies.com/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://www.masterstudies.com/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://www.masterstudies.com/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://www.masterstudies.com/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://www.masterstudies.com/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://www.masterstudies.com/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.masterstudies.com/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://www.masterstudies.com/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.masterstudies.com/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="https://www.masterstudies.com/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.masterstudies.com/favicon/favicon-16x16.png">
+<link rel="manifest" href="https://www.masterstudies.com/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#F4792C">
+<meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#F4792C">
+  <title>Best Master's Degrees in Physics 2017/2018</title>
+    <meta name="description" content="Contact Schools Directly - Compare 42 Masters Degrees in Physics 2017/2018">
+    <link rel="stylesheet" href="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/ks_bootstrap.css">
+
+  
+  
+  <link rel="stylesheet" href="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/main.css">
+  <link rel="stylesheet" href="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/frontpage.css">   <link rel="stylesheet" href="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/sprites.css">
+  <link rel="stylesheet" href="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/sprite_combined.css">
+
+  
+    <script async="async" src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/gpt.js"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+
+    <script>
+        googletag.cmd.push(function() {
+                        googletag.defineSlot('/5803363/gmat', [[120, 240], [120, 600], [160, 600]], 'gmat')
+                .addService(googletag.pubads());
+
+                        googletag.defineSlot('/5803363/toefl_subject_specific_pages', [[120, 240], [120, 600], [160, 600]], 'toefl_subject_specific_pages')
+                .addService(googletag.pubads());
+
+                        googletag.defineSlot('/5803363/gre_subject_specific_pages', [[120, 240], [120, 600], [160, 600]], 'gre_subject_specific_pages')
+                .addService(googletag.pubads());
+
+                        googletag.defineSlot('/5803363/listing_physics', [[120, 240], [120, 600], [160, 600]], 'listing_physics')
+                .addService(googletag.pubads()).setTargeting("Degree", "Masterstudies | Master");
+
+                        googletag.defineSlot('/5803363/listing_physics', [[120, 240], [120, 600], [160, 600]], 'listing_physics_2')
+                .addService(googletag.pubads()).setTargeting("Degree", "Masterstudies | Master");
+
+                        googletag.defineSlot('/5803363/listing_physics', [[120, 240], [120, 600], [160, 600]], 'listing_physics_3')
+                .addService(googletag.pubads()).setTargeting("Degree", "Masterstudies | Master");
+
+                                    googletag.defineSlot('/5803363/listing_physics', [300, 250], 'mobile_listing_physics').addService(googletag.pubads()).setTargeting("DegreeMobile", "Masterstudies | Master");
+                            googletag.pubads().enableSingleRequest();
+            googletag.pubads().collapseEmptyDivs();
+            googletag.enableServices();
+        });
+    </script>
+  
+  <script type="text/javascript">
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    
+      
+      ga('create', 'UA-3779280-55', {
+        'cookieDomain': 'none'         , allowLinker: true
+                });
+
+      
+      ga('send', 'pageview');
+
+                   // Tracking
+          
+      
+      ga('create', 'UA-3779280-1', {
+        'cookieDomain': 'auto'         , allowLinker: true
+                , name: 't2'
+                });
+
+      
+      ga('t2.send', 'pageview');
+
+                   // Tracking
+                </script>
+
+    <link rel="canonical" href="https://www.masterstudies.com/Masters-Degree/Physics/">
+              <link rel="alternate" hreflang="en" href="https://www.masterstudies.com/Masters-Degree/Physics/">
+          <link rel="alternate" hreflang="en-CA" href="https://www.masterstudies.ca/Masters-Degree/Physics/">
+          <link rel="alternate" hreflang="en-GB" href="https://www.masterstudies.co.uk/Masters-Degree/Physics/">
+      
+      <link rel="amphtml" href="https://www.masterstudies.com/Masters-Degree/Physics/amp/">
+  
+        <link rel="next" href="https://www.masterstudies.com/Masters-Degree/Physics/?page=2">
+  
+
+    <script src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/LogRocket.js"></script><script src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/logger.js" async=""></script>
+<script type="text/javascript" charset="UTF-8" src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/common.js"></script><script type="text/javascript" charset="UTF-8" src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/util.js"></script><script type="text/javascript" charset="UTF-8" src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/stats.js"></script><script type="text/javascript" charset="UTF-8" src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/AuthenticationService.Authenticate"></script></head>
+<body class="">
+
+
+<!--header-->
+<!--first navbav-->
+
+
+   <nav class="navbar navbar-default topnav hidden-xs" role="navigation">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm-12">
+        <div class="first-nav ">
+          
+          <div class="navbar-header">
+
+            <span><ul class="partner-sites nav navbar-nav navbar-left"><li><a class="navbar-brand active" href="https://www.masterstudies.com/">Master</a></li><li><a class="navbar-brand " href="https://www.phdstudies.com/">PhD</a></li><li><a class="navbar-brand " href="https://www.lawstudies.com/">Law</a></li><li><a class="navbar-brand " href="https://www.bachelorstudies.com/">Bachelor</a></li><li><a class="navbar-brand " href="https://www.mbastudies.com/">MBA</a></li><li><a class="navbar-brand " href="https://www.healthcarestudies.com/">Healthcare</a></li><li><a class="navbar-brand " href="https://www.academiccourses.com/">Courses</a></li><li><a class="navbar-brand " href="https://www.onlinestudies.com/">Online</a></li></ul></span>
+            <!-- landing -->
+          </div>
+
+          <div id="navbar" class="navbar-collapse collapse">
+
+            <ul class="nav navbar-nav pull-right buttons-navbar flip">
+
+              <li class="dropdown">
+                                <button class="dropdown-toggle btn btn-default navbar-btn btn-sm navbar-languages" data-uri-id="{&quot;mode&quot;:&quot;all&quot;,&quot;idType&quot;:1,&quot;idSector&quot;:&quot;426&quot;,&quot;section&quot;:&quot;listing&quot;}" data-loaded="false" data-toggle="dropdown" type="button">
+                  <div class="flag-icon-16 us site-language-flag pull-left"></div>
+
+                  English
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu pull-right">
+                                      <li class="language-loader">
+                      <div class="text-center text-muted padding-10">
+                        <i class="fa fa-spinner fa-pulse fa-2x"></i>
+                      </div>
+                    </li>
+                                  </ul>
+              </li>
+
+                                              <li class="dropdown">
+
+                                    <button class="dropdown-toggle  btn btn-default navbar-btn btn-sm" data-toggle="dropdown" type="button">Student sign in <span class="caret"></span></button>
+
+                                    <ul class="dropdown-menu sign-in-form pull-right">
+                    <li>
+                      <form class="form-horizontal" action="/account/" method="post">
+                        <div class="form-group">
+                          <input class="form-control" id="inputEmail" placeholder="E-mail" name="mail" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAkCAYAAADo6zjiAAAAAXNSR0IArs4c6QAAAbNJREFUWAntV8FqwkAQnaymUkpChB7tKSfxWCie/Yb+gbdeCqGf0YsQ+hU95QNyDoWCF/HkqdeiIaEUqyZ1ArvodrOHxanQOiCzO28y781skKwFW3scPV1/febP69XqarNeNTB2KGs07U3Ttt/Ozp3bh/u7V7muheQf6ftLUWyYDB5yz1ijuPAub2QRDDunJsdGkAO55KYYjl0OUu1VXOzQZ64Tr+IiPXedGI79bQHdbheCIAD0dUY6gV6vB67rAvo6IxVgWVbFy71KBKkAFaEc2xPQarXA931ot9tyHphiPwpJgSbfe54Hw+EQHMfZ/msVEEURjMfjCjbFeG2dFxPo9/sVOSYzxmAwGIjnTDFRQLMQAjQ5pJAQkCQJ5HlekeERxHEsiE0xUUCzEO9AmqYQhiF0Oh2Yz+ewWCzEY6aYKKBZCAGYs1wuYTabKdNNMWWxnaA4gp3Yry5JBZRlWTXDvaozUgGTyQSyLAP0dbb3DtQlmcan0yngT2ekE9ARc+z4AvC7nauh9iouhpcGamJeX8XF8MaClwaeROWRA7nk+tUnyzGvZrKg0/40gdME/t8EvgG0/NOS6v9NHQAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;" autocomplete="off" type="text">
+                        </div>
+                        <div class="form-group">
+                          <input class="form-control" id="inputPassword" placeholder="Password" name="password" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAkCAYAAADo6zjiAAAAAXNSR0IArs4c6QAAAbNJREFUWAntV8FqwkAQnaymUkpChB7tKSfxWCie/Yb+gbdeCqGf0YsQ+hU95QNyDoWCF/HkqdeiIaEUqyZ1ArvodrOHxanQOiCzO28y781skKwFW3scPV1/febP69XqarNeNTB2KGs07U3Ttt/Ozp3bh/u7V7muheQf6ftLUWyYDB5yz1ijuPAub2QRDDunJsdGkAO55KYYjl0OUu1VXOzQZ64Tr+IiPXedGI79bQHdbheCIAD0dUY6gV6vB67rAvo6IxVgWVbFy71KBKkAFaEc2xPQarXA931ot9tyHphiPwpJgSbfe54Hw+EQHMfZ/msVEEURjMfjCjbFeG2dFxPo9/sVOSYzxmAwGIjnTDFRQLMQAjQ5pJAQkCQJ5HlekeERxHEsiE0xUUCzEO9AmqYQhiF0Oh2Yz+ewWCzEY6aYKKBZCAGYs1wuYTabKdNNMWWxnaA4gp3Yry5JBZRlWTXDvaozUgGTyQSyLAP0dbb3DtQlmcan0yngT2ekE9ARc+z4AvC7nauh9iouhpcGamJeX8XF8MaClwaeROWRA7nk+tUnyzGvZrKg0/40gdME/t8EvgG0/NOS6v9NHQAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;" autocomplete="off" type="password">
+                        </div>
+                        <div class="form-group">
+                          <button type="submit" class="btn btn-primary-master" name="submit_lp" value="1">Sign in</button>
+                        </div>
+                        <div class="form-group">
+                          <a href="https://www.masterstudies.com/account/forgotpassword/">
+                            <small>Forgot your password?</small>
+                          </a>
+                          <a href="https://www.masterstudies.com/account/create-new/" class="visible-sm">
+                            <small>Join for free</small>
+                          </a>
+                        </div>
+                      </form>
+                    </li>
+                  </ul>
+                                  </li>
+                                <li class="hidden-sm">
+                  <p class="navbar-btn ">
+                                        <a href="https://www.masterstudies.com/account/create-new/" class="btn btn-contrast btn-sm ">
+                      Join for free <span class="caret-right"></span>
+                    </a>
+                  </p>
+                </li>
+                          </ul>
+          </div>
+          <!--/.navbar-collapse -->
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+ 
+<!-- for image, search and second navbar-->
+  <div class="container second_nav">
+    <div class="row header-logo">
+      <div class="col-sm-8">
+        <a href="https://www.masterstudies.com/">
+          <img src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/Masters-Degree-ms-en.png" alt="Search Best Masters Degrees 2017/2018 - {number:programs} Masters Programs available" height="50">
+        </a>
+      </div>
+                    <div class="col-sm-4 hidden-xs no-padding">
+          <form method="GET" action="/search/" role="search">
+            <div class="input-group">
+              <input class="form-control" placeholder="Search" name="q" type="text">
+              <div class="input-group-btn">
+                <button class="btn btn-contrast" type="submit"><i class="fa fa-search"></i></button>
+              </div>
+            </div>
+          </form>
+        </div>
+            
+    </div>
+
+    <div class="pull-right" id="tagline">
+              <h1>Masters Programs in Physics</h1>
+          </div>
+
+
+          <nav class="navbar navbar-default navbar-inverse" role="navigation">
+        <div class="container">
+          <div class="navbar-header visible-xs visible-sm">
+            <button type="button" class="expand-nav pull-right collapsed" data-toggle="collapse" data-target="#degree-nav" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <i class="fa fa-bars fa-2x"></i>
+            </button>
+                        <button type="button" class="expand-nav pull-right collapsed visible-xs" data-toggle="collapse" data-target="#search-nav" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle search</span>
+              <i class="fa fa-search fa-2x"></i>
+            </button>
+            
+
+            <div class="xs-nav-entries visible-xs">
+                              <a class="pull-left" href="https://www.masterstudies.com/Masters-Degree/">Master Degrees</a>
+              
+            </div>
+            <div class="xs-nav-entries visible-sm pipe">
+                              <a class="pull-left" href="https://www.masterstudies.com/Masters-Degree/">Master Degrees</a>
+                              <a class="pull-left" href="https://www.masterstudies.com/MSc/">Masters of Science</a>
+              
+            </div>
+
+          </div>
+
+                    <div class="navbar-collapse collapse search-nav visible-xs visible-sm" id="search-nav">
+            <ul class="nav navbar-nav">
+              <li class="search-xs">
+                <form method="GET" action="/search/" role="search">
+                  <div class="input-group">
+                    <input class="form-control" placeholder="Search" name="q" type="text">
+                    <div class="input-group-btn">
+                      <button class="btn btn-contrast" type="submit"><i class="fa fa-search"></i></button>
+                    </div>
+                  </div>
+                </form>
+              </li>
+            </ul>
+          </div>
+          
+          <div class="navbar-collapse collapse" id="degree-nav">
+
+            <ul class="nav navbar-nav pipe">
+                                                <li class="hidden-xs hidden-sm">
+                    <a href="https://www.masterstudies.com/Masters-Degree/">Master Degrees</a>
+                  </li>
+                                                                <li class=" hidden-sm">
+                    <a href="https://www.masterstudies.com/MSc/">Masters of Science</a>
+                  </li>
+                                                                <li class=" ">
+                    <a href="https://www.masterstudies.com/MA/">Masters of Arts</a>
+                  </li>
+                                                                <li class=" ">
+                    <a href="https://www.academiccourses.com/Courses/">Courses</a>
+                  </li>
+                                                                <li class=" ">
+                    <a href="https://www.onlinestudies.com/Masters/">Online Degrees</a>
+                  </li>
+                                                                <li class=" ">
+                    <a href="https://www.masterstudies.com/universities/">Universities by Country</a>
+                  </li>
+                                          </ul>
+
+            <ul class="nav navbar-nav visible-xs">
+
+              <li>
+                <a href="https://www.masterstudies.com/account/login"> Student sign in</a>
+              </li>
+              <li>
+                <a href="https://www.masterstudies.com/account/create-new/">Join for free</a>
+              </li>
+              <li class="dropdown">
+                <a href="" class="dropdown-toggle navbar-languages" data-uri-id="{&quot;mode&quot;:&quot;all&quot;,&quot;idType&quot;:1,&quot;idSector&quot;:&quot;426&quot;,&quot;section&quot;:&quot;listing&quot;}" data-loaded="false" data-toggle="dropdown">
+                  Languages <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                                      <li class="language-loader">
+                      <div class="text-center text-muted padding-10">
+                        <i class="fa fa-spinner fa-pulse fa-2x"></i>
+                      </div>
+                    </li>
+                                  </ul>
+              </li>
+              <li class="dropdown">
+                <a href="" class="dropdown-toggle" data-toggle="dropdown">Degrees <span class="caret"></span></a>
+                <ul class="dropdown-menu partner-sites-mobile"><li><a href="https://www.masterstudies.com/">Master</a></li><li><a href="https://www.phdstudies.com/">PhD</a></li><li><a href="https://www.lawstudies.com/">Law</a></li><li><a href="https://www.bachelorstudies.com/">Bachelor</a></li><li><a href="https://www.mbastudies.com/">MBA</a></li><li><a href="https://www.healthcarestudies.com/">Healthcare</a></li><li><a href="https://www.academiccourses.com/">Courses</a></li><li><a href="https://www.onlinestudies.com/">Online</a></li></ul>
+              </li>
+            </ul>
+
+
+          </div>
+          <!--/.navbar-collapse -->
+        </div>
+      </nav>
+    
+  </div>
+
+  <!-- end image, search and second navbar-->
+
+  
+  <script type="application/ld+json">
+
+    [{"@context":"http:\/\/schema.org\/","@type":"EducationEvent","name":"Associate of Science in Physical Sciences and Pre-Engineering","location":{"@type":"Place","name":"Associate of Science in Physical Sciences and Pre-Engineering-USA-Wayne","address":{"@type":"PostalAddress","addressCountry":"USA","addressLocality":"Wayne"}},"inLanguage":[{"@type":"Language","name":"English"}],"url":"https:\/\/www.masterstudies.com\/Associate-of-Science-in-Physical-Sciences-and-Pre-Engineering\/USA\/Valley-Forge-Military-College\/","offers":{"@type":"Offer","url":"https:\/\/www.masterstudies.com\/Associate-of-Science-in-Physical-Sciences-and-Pre-Engineering\/USA\/Valley-Forge-Military-College\/"},"organizer":{"@type":"CollegeOrUniversity","name":"Valley Forge Military College","telephone":"(610) 989-1200","address":[{"@type":"PostalAddress","streetAddress":"1001 Eagle Road ","addressLocality":"Wayne","postalCode":"PA 19087","addressCountry":"USA"}],"mainEntityOfPage":"https:\/\/www.masterstudies.com\/universities\/USA\/Valley-Forge-Military-College\/"},"startDate":"2018-08"},{"@context":"http:\/\/schema.org\/","@type":"EducationEvent","name":"Associate of Science in Physical Sciences and Pre-Engineering","location":{"@type":"Place","name":"Associate of Science in Physical Sciences and Pre-Engineering-USA-Wayne","address":{"@type":"PostalAddress","addressCountry":"USA","addressLocality":"Wayne"}},"inLanguage":[{"@type":"Language","name":"English"}],"url":"https:\/\/www.masterstudies.com\/Associate-of-Science-in-Physical-Sciences-and-Pre-Engineering\/USA\/Valley-Forge-Military-College\/","offers":{"@type":"Offer","url":"https:\/\/www.masterstudies.com\/Associate-of-Science-in-Physical-Sciences-and-Pre-Engineering\/USA\/Valley-Forge-Military-College\/"},"organizer":{"@type":"CollegeOrUniversity","name":"Valley Forge Military College","telephone":"(610) 989-1200","address":[{"@type":"PostalAddress","streetAddress":"1001 Eagle Road ","addressLocality":"Wayne","postalCode":"PA 19087","addressCountry":"USA"}],"mainEntityOfPage":"https:\/\/www.masterstudies.com\/universities\/USA\/Valley-Forge-Military-College\/"},"startDate":"2018-01"},{"@context":"http:\/\/schema.org\/","@type":"EducationEvent","name":"Postgraduate Education Science: Teaching Mathematics And Natural Sciences","duration":"P1Y6M0DT0H0M0S","location":{"@type":"Place","name":"Postgraduate Education Science: Teaching Mathematics And Natural Sciences-Cyprus-Nicosia","address":{"@type":"PostalAddress","addressCountry":"Cyprus","addressLocality":"Nicosia"}},"inLanguage":[{"@type":"Language","name":"Greek"}],"url":"https:\/\/www.masterstudies.com\/Postgraduate-Education-Science-Teaching-Mathematics-And-Natural-Sciences\/Greece\/UNIC\/","offers":{"@type":"Offer","url":"https:\/\/www.masterstudies.com\/Postgraduate-Education-Science-Teaching-Mathematics-And-Natural-Sciences\/Greece\/UNIC\/","price":"13590","priceCurrency":"EUR"},"organizer":{"@type":"CollegeOrUniversity","name":"University of Nicosia","telephone":"+357 22 841528","address":{"@type":"PostalAddress","name":"University of Nicosia","url":"http:\/\/www.unic.ac.cy","telephone":"+357 22 841500                ","postalCode":"Nicosia","addressCountry":"Kypros","streetAddress":"\u039c\u03b1\u03ba\u03b5\u03b4\u03bf\u03bd\u03af\u03c4\u03b9\u03c3\u03c3\u03b7\u03c2 "},"mainEntityOfPage":"https:\/\/www.masterstudies.com\/universities\/Cyprus\/UNIC\/","url":"http:\/\/www.unic.ac.cy","logo":"http:\/\/cdn03.masterstudies.com\/gfx\/logo\/X-small\/UNIC.png"},"startDate":"2018-09"},{"@context":"http:\/\/schema.org\/","@type":"EducationEvent","name":"Master in Physics and Technology of Advanced Materials","duration":"P2Y0M0DT0H0M0S","location":{"@type":"Place","name":"Master in Physics and Technology of Advanced Materials-Romania-Timisoara","address":{"@type":"PostalAddress","addressCountry":"Romania","addressLocality":"Timisoara"}},"inLanguage":[{"@type":"Language","name":"English"}],"url":"https:\/\/www.masterstudies.com\/Master-in-Physics-and-Technology-of-Advanced-Materials\/Romania\/UVT\/","offers":{"@type":"Offer","url":"https:\/\/www.masterstudies.com\/Master-in-Physics-and-Technology-of-Advanced-Materials\/Romania\/UVT\/"},"organizer":{"@type":"CollegeOrUniversity","name":"Universitatea De Vest Din Timisoara","address":[{"@type":"PostalAddress","streetAddress":"Blvd. V. Parvan 4","addressLocality":"Timisoara","postalCode":"300223","addressCountry":"Romania"}],"mainEntityOfPage":"https:\/\/www.masterstudies.com\/universities\/Romania\/UVT\/"},"startDate":"2018-09"},{"@context":"http:\/\/schema.org\/","@type":"EducationEvent","name":"Master's Degree in Advanced Physics and Applied Mathematics (MFMA)","duration":"P1Y0M0DT0H0M0S","location":{"@type":"Place","name":"Master's Degree in Advanced Physics and Applied Mathematics (MFMA)-Spain-Palma de Mallorca","address":{"@type":"PostalAddress","addressCountry":"Spain","addressLocality":"Palma de Mallorca"}},"inLanguage":[{"@type":"Language","name":"English"},{"@type":"Language","name":"Spanish"},{"@type":"Language","name":"Catalan"}],"url":"https:\/\/www.masterstudies.com\/Masters-Degree-in-Advanced-Physics-and-Applied-Mathematics-(MFMA)\/Spain\/Universidad-de-las-Islas-Baleares-UIB\/","offers":{"@type":"Offer","url":"https:\/\/www.masterstudies.com\/Masters-Degree-in-Advanced-Physics-and-Applied-Mathematics-(MFMA)\/Spain\/Universidad-de-las-Islas-Baleares-UIB\/","price":"1957","priceCurrency":"EUR"},"organizer":{"@type":"CollegeOrUniversity","name":"Universidad de las Islas Baleares - UIB","telephone":"+34 - 971 17 30 00","address":[{"@type":"PostalAddress","streetAddress":"Carretera de Valldemossa, km 7,5\r\n","addressLocality":"Palma de Mallorca","addressCountry":"Spain"}],"mainEntityOfPage":"https:\/\/www.masterstudies.com\/universities\/Spain\/Universidad-de-las-Islas-Baleares-UIB\/"},"startDate":"2017-10"},{"@context":"http:\/\/schema.org\/","@type":"EducationEvent","name":"MPhys in Mathematics and Physics","duration":"P4Y0M0DT0H0M0S","location":{"@type":"Place","name":"MPhys in Mathematics and Physics-United Kingdom-Coventry","address":{"@type":"PostalAddress","addressCountry":"United Kingdom","addressLocality":"Coventry"}},"inLanguage":[{"@type":"Language","name":"English"}],"url":"https:\/\/www.masterstudies.com\/MPhys-in-Mathematics-and-Physics\/United-Kingdom\/The-University-of-Warwick-Department-of-Physics\/","offers":{"@type":"Offer","url":"https:\/\/www.masterstudies.com\/MPhys-in-Mathematics-and-Physics\/United-Kingdom\/The-University-of-Warwick-Department-of-Physics\/"},"organizer":{"@type":"CollegeOrUniversity","name":"The University of Warwick, Department of Physics","address":{"@type":"PostalAddress","name":"University of Warwick","url":"http:\/\/www2.warwick.ac.uk\/","telephone":"+44 24 7652 3523   ","addressLocality":"CV4 7AL","addressCountry":"United Kingdom"},"mainEntityOfPage":"https:\/\/www.masterstudies.com\/universities\/United-Kingdom\/The-University-of-Warwick-Department-of-Physics\/","url":"http:\/\/www2.warwick.ac.uk\/","logo":"http:\/\/cdn02.masterstudies.com\/gfx\/logo\/The-University-of-Warwick-Department-of-Physics.png"},"startDate":"2018-08"},{"@context":"http:\/\/schema.org\/","@type":"EducationEvent","name":"MPhys in Physics","duration":"P4Y0M0DT0H0M0S","location":{"@type":"Place","name":"MPhys in Physics-United Kingdom-Coventry","address":{"@type":"PostalAddress","addressCountry":"United Kingdom","addressLocality":"Coventry"}},"inLanguage":[{"@type":"Language","name":"English"}],"url":"https:\/\/www.masterstudies.com\/MPhys-in-Physics\/United-Kingdom\/The-University-of-Warwick-Department-of-Physics\/","offers":{"@type":"Offer","url":"https:\/\/www.masterstudies.com\/MPhys-in-Physics\/United-Kingdom\/The-University-of-Warwick-Department-of-Physics\/"},"organizer":{"@type":"CollegeOrUniversity","name":"The University of Warwick, Department of Physics","address":{"@type":"PostalAddress","name":"University of Warwick","url":"http:\/\/www2.warwick.ac.uk\/","telephone":"+44 24 7652 3523   ","addressLocality":"CV4 7AL","addressCountry":"United Kingdom"},"mainEntityOfPage":"https:\/\/www.masterstudies.com\/universities\/United-Kingdom\/The-University-of-Warwick-Department-of-Physics\/","url":"http:\/\/www2.warwick.ac.uk\/","logo":"http:\/\/cdn02.masterstudies.com\/gfx\/logo\/The-University-of-Warwick-Department-of-Physics.png"},"startDate":"2018-08"},{"@context":"http:\/\/schema.org\/","@type":"EducationEvent","name":"Master in Laser Technologies","duration":"P2Y0M0DT0H0M0S","location":{"@type":"Place","name":"Master in Laser Technologies-Latvia-R\u0113zekne","address":{"@type":"PostalAddress","addressCountry":"Latvia","addressLocality":"R\u0113zekne"}},"inLanguage":[{"@type":"Language","name":"English"}],"url":"https:\/\/www.masterstudies.com\/Master-in-Laser-Technologies\/Latvia\/RTA-Rezekne\/","offers":{"@type":"Offer","url":"https:\/\/www.masterstudies.com\/Master-in-Laser-Technologies\/Latvia\/RTA-Rezekne\/","price":"2900","priceCurrency":"EUR"},"organizer":{"@type":"CollegeOrUniversity","name":"Rezekne University of Applied Sciences","address":[{"@type":"PostalAddress","streetAddress":" Rezekne Academy of Technologies\r\nAtbr\u012bvo\u0161anas aleja 115","addressLocality":"R\u0113zekne","postalCode":"LV4601","addressCountry":"Latvia"}],"mainEntityOfPage":"https:\/\/www.masterstudies.com\/universities\/Latvia\/RTA-Rezekne\/"},"startDate":"2018-09"},{"@context":"http:\/\/schema.org\/","@type":"EducationEvent","name":"Master In Physics","duration":"P2Y0M0DT0H0M0S","location":{"@type":"Place","name":"Master In Physics-Italy-Cagliari","address":{"@type":"PostalAddress","addressCountry":"Italy","addressLocality":"Cagliari"}},"inLanguage":[{"@type":"Language","name":"Italian"}],"url":"https:\/\/www.masterstudies.com\/Master-In-Physics\/Italy\/UniCagliari\/","offers":{"@type":"Offer","url":"https:\/\/www.masterstudies.com\/Master-In-Physics\/Italy\/UniCagliari\/"},"organizer":{"@type":"CollegeOrUniversity","name":"University of Cagliari","telephone":"+39 070 6751","address":{"@type":"PostalAddress","name":"University of Cagliari","url":"http:\/\/www.unica.it\/","telephone":"+39 070 6751        ","postalCode":"09124","addressLocality":"Cagliari","addressCountry":"Italy","streetAddress":"Via Universit\u00e0 40"},"mainEntityOfPage":"https:\/\/www.masterstudies.com\/universities\/Italy\/UniCagliari\/","url":"http:\/\/www.unica.it\/","logo":"http:\/\/cdn04.masterstudies.com\/gfx\/logo\/X-small\/UniCagliari.png"},"startDate":"2017-10"},{"@context":"http:\/\/schema.org\/","@type":"EducationEvent","name":"Master of Orthoptics","duration":"P2Y0M0DT0H0M0S","location":{"@type":"Place","name":"Master of Orthoptics-Australia-Sydney","address":{"@type":"PostalAddress","addressCountry":"Australia","addressLocality":"Sydney"}},"url":"https:\/\/www.masterstudies.com\/Master-of-Orthoptics\/Australia\/UTS\/","offers":{"@type":"Offer","url":"https:\/\/www.masterstudies.com\/Master-of-Orthoptics\/Australia\/UTS\/","price":"17415","priceCurrency":"AUD"},"organizer":{"@type":"CollegeOrUniversity","name":"University of Technology Sydney","address":{"@type":"PostalAddress","name":"University of Technology, Sydney","url":"http:\/\/www.uts.edu.au\/international","telephone":"+61 3 9627 4816       ","postalCode":"15 Broadway, Ultimo NSW 2007","addressCountry":"Australia","streetAddress":"Level 3A, UTS Tower Building "},"mainEntityOfPage":"https:\/\/www.masterstudies.com\/universities\/Australia\/UTS\/","url":"http:\/\/www.uts.edu.au\/international","logo":"http:\/\/cdn04.masterstudies.com\/gfx\/logo\/Large\/UTS.png"},"startDate":"2018-01"},{"@context":"http:\/\/schema.org\/","@type":"EducationEvent","name":"Master in Theoretical Physics","duration":"P2Y0M0DT0H0M0S","location":{"@type":"Place","name":"Master in Theoretical Physics-Poland-Wroc\u0142aw","address":{"@type":"PostalAddress","addressCountry":"Poland","addressLocality":"Wroc\u0142aw"}},"inLanguage":[{"@type":"Language","name":"English"}],"url":"https:\/\/www.masterstudies.com\/Master-in-Theoretical-Physics\/Poland\/UWr\/","offers":{"@type":"Offer","url":"https:\/\/www.masterstudies.com\/Master-in-Theoretical-Physics\/Poland\/UWr\/","price":"1000","priceCurrency":"EUR"},"organizer":{"@type":"CollegeOrUniversity","name":"University of Wroclaw","address":{"@type":"PostalAddress","name":"University of Wroc\u0142aw","telephone":"+48 71 375 22 15      ","postalCode":"Wroclaw","addressLocality":"50-137","addressCountry":"Polen","streetAddress":"Plac Uniwersytecki 1"},"mainEntityOfPage":"https:\/\/www.masterstudies.com\/universities\/Poland\/UWr\/","url":"http:\/\/www.uni.wroc.pl\/","logo":"http:\/\/cdn02.masterstudies.com\/gfx\/logo\/Small\/UWr.png"},"startDate":"2017-10"},{"@context":"http:\/\/schema.org\/","@type":"EducationEvent","name":"Master in Electromagnetics, Fusion and Space Engineering","duration":"P2Y0M0DT0H0M0S","location":{"@type":"Place","name":"Master in Electromagnetics, Fusion and Space Engineering-Sweden-Stockholm","address":{"@type":"PostalAddress","addressCountry":"Sweden","addressLocality":"Stockholm"}},"inLanguage":[{"@type":"Language","name":"English"}],"url":"https:\/\/www.masterstudies.com\/Master-in-Electromagnetics-Fusion-and-Space-Engineering\/Sweden\/KTH\/","offers":{"@type":"Offer","url":"https:\/\/www.masterstudies.com\/Master-in-Electromagnetics-Fusion-and-Space-Engineering\/Sweden\/KTH\/","price":"310000","priceCurrency":"SEK"},"organizer":{"@type":"CollegeOrUniversity","name":"KTH Royal Institute of Technology","telephone":"+46 8 790 60 00","address":[],"mainEntityOfPage":"https:\/\/www.masterstudies.com\/universities\/Sweden\/KTH\/"},"startDate":"2018-08"},{"@context":"http:\/\/schema.org\/","@type":"EducationEvent","name":"Master in Technical Physics","duration":"P2Y0M0DT0H0M0S","location":{"@type":"Place","name":"Master in Technical Physics-Austria-Graz","address":{"@type":"PostalAddress","addressCountry":"Austria","addressLocality":"Graz"}},"inLanguage":[{"@type":"Language","name":"English"}],"url":"https:\/\/www.masterstudies.com\/Master-in-Technical-Physics\/Austria\/TU-Graz\/","offers":{"@type":"Offer","url":"https:\/\/www.masterstudies.com\/Master-in-Technical-Physics\/Austria\/TU-Graz\/"},"organizer":{"@type":"CollegeOrUniversity","name":"Graz University of Technology (TU Graz)","telephone":"+43 (0)316 873\/6419","address":{"@type":"PostalAddress","name":"Graz University of Technology","url":"www.tugraz.at\/en","telephone":"+43 316 873 6419","postalCode":"Graz","addressLocality":"8010","addressCountry":"AT","streetAddress":"Rechbauerstra\u00dfe 12"},"mainEntityOfPage":"https:\/\/www.masterstudies.com\/universities\/Austria\/TU-Graz\/","url":"https:\/\/www.tugraz.at\/en","logo":"http:\/\/cdn02.masterstudies.com\/gfx\/logo\/Small\/TU-Graz.png"},"startDate":"2017-10"},{"@context":"http:\/\/schema.org\/","@type":"EducationEvent","name":"Master's Degree Programme in Photonics","duration":"P2Y0M0DT0H0M0S","location":{"@type":"Place","name":"Master's Degree Programme in Photonics-Finland-Joensuu ","address":{"@type":"PostalAddress","addressCountry":"Finland","addressLocality":"Joensuu "}},"inLanguage":[{"@type":"Language","name":"English"}],"url":"https:\/\/www.masterstudies.com\/Masters-Degree-Programme-in-Photonics\/Finland\/University-of-Eastern-Finland-Institute-of-Photonics\/","offers":{"@type":"Offer","url":"https:\/\/www.masterstudies.com\/Masters-Degree-Programme-in-Photonics\/Finland\/University-of-Eastern-Finland-Institute-of-Photonics\/"},"organizer":{"@type":"CollegeOrUniversity","name":"University of Eastern Finland - Institute of Photonics","telephone":"02 94 45 1111","address":[{"@type":"PostalAddress","streetAddress":" Yliopistokatu 2, 80100 Joensuu, Finlande","addressLocality":"Joensuu ","addressCountry":"Finland"}],"mainEntityOfPage":"https:\/\/www.masterstudies.com\/universities\/Finland\/University-of-Eastern-Finland-Institute-of-Photonics\/"},"startDate":"2018-09"},{"@context":"http:\/\/schema.org\/","@type":"EducationEvent","name":"M\u00e1ster Universitario En F\u00edsica Aplicada","duration":"P1Y0M0DT0H0M0S","location":{"@type":"Place","name":"M\u00e1ster Universitario En F\u00edsica Aplicada-Spain-Castell\u00f3n","address":{"@type":"PostalAddress","addressCountry":"Spain","addressLocality":"Castell\u00f3n"}},"url":"https:\/\/www.masterstudies.com\/M\u00e1ster-Universitario-En-F\u00edsica-Aplicada\/Spain\/Jaume-I-University-(Universitat-Jaume-I)\/","offers":{"@type":"Offer","url":"https:\/\/www.masterstudies.com\/M\u00e1ster-Universitario-En-F\u00edsica-Aplicada\/Spain\/Jaume-I-University-(Universitat-Jaume-I)\/","price":"46","priceCurrency":"EUR"},"organizer":{"@type":"CollegeOrUniversity","name":"Jaume I University (Universitat Jaume I)","telephone":"+34 964 72 80 00","address":[{"@type":"PostalAddress","addressLocality":"Castell\u00f3n","addressCountry":"Spain"},{"@type":"PostalAddress","addressLocality":"Castell\u00f3 de la Plana","addressCountry":"Spain","streetAddress":"Universitat Jaume I\r\nAv. de Vicent Sos Baynat, s\/n. ","postalCode":"12071"}],"mainEntityOfPage":"https:\/\/www.masterstudies.com\/universities\/Spain\/Jaume-I-University-(Universitat-Jaume-I)\/"},"startDate":"2017-10"},{"@context":"http:\/\/schema.org\/","@type":"EducationEvent","name":"MPhil in Physics","duration":"P2Y0M0DT0H0M0S","location":{"@type":"Place","name":"MPhil in Physics-Hong Kong-Hong Kong","address":{"@type":"PostalAddress","addressCountry":"Hong Kong","addressLocality":"Hong Kong"}},"inLanguage":[{"@type":"Language","name":"English"}],"url":"https:\/\/www.masterstudies.com\/MPhil-in-Physics\/Hong-Kong\/HKUST\/","offers":{"@type":"Offer","url":"https:\/\/www.masterstudies.com\/MPhil-in-Physics\/Hong-Kong\/HKUST\/","price":"42100","priceCurrency":"HKD"},"organizer":{"@type":"CollegeOrUniversity","name":"The Hong Kong University of Science and Technology","telephone":"+852 2358 8888","address":{"@type":"PostalAddress","name":"The Hong Kong University of Science and Technology","url":"http:\/\/pg.ust.hk","addressCountry":"Kowloon Hong Kong","streetAddress":"Office of Postgraduate Studies (PGSO), Room 6418 (Lifts 25\/26), The Hong Kong University of Science and Technology, Clear Water Bay "},"mainEntityOfPage":"https:\/\/www.masterstudies.com\/universities\/Hong-Kong\/HKUST\/","url":"http:\/\/pg.ust.hk","logo":"http:\/\/cdn03.masterstudies.com\/gfx\/logo\/Large\/HKUST.png"},"startDate":"2018-09"}]
+
+  </script>
+
+
+  <div class="container listing-page">
+    <div class="row margin-top-5 main-breadcrumb">
+  <div class="col-sm-12">
+
+          <div class="pull-right flip">
+          <div class="hidden-xs addthis-container blue">
+  <div class="pull-right">
+    <a data-toggle="modal" class="addthis-modal-link" href="#linkToUsModal">
+     Link to this page
+    </a>
+  </div>
+
+  <div class="addthis_toolbox" goo5tvk="" hidden="">
+    <i class="fa fa-spinner fa-pulse loading-add-this"></i>
+    <div class="custom_images">
+      <!--<a class="addthis_button_facebook addthis-button"><img src="//cdn01.masterstudies.com/img_new/addthis_facebook_blue.png" width="18" height="18" border="0" alt="Share to Facebook" /></a>
+      <a class="addthis_button_twitter addthis-button"><img src="//cdn02.masterstudies.com/img_new/addthis_twitter_blue.png" width="18" height="18" border="0" alt="Share to Twitter" /></a>-->
+        <a class="addthis_button_facebook addthis-button"><img src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/FB-f-Logo__blue_144_official.png" alt="Share to Facebook" border="0" width="18" height="18"></a>
+        <a class="addthis_button_twitter addthis-button"><img src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/Twitter_Logo_Blue_official.png" alt="Share to Twitter" border="0" width="32" height="32"></a>
+        <a class="addthis_button_more addthis-button"><img src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/addthis_more_blue.png" alt="More..." border="0" width="18" height="18"></a>
+      <a class="addthis_counter addthis_bubble_style"></a>
+    </div>
+  </div>
+</div>
+
+      </div>
+    
+    
+    <div class="hidden-xs">
+              <ul class="breadcrumb">
+
+                      <li>
+                              <a href="https://www.masterstudies.com/Masters-Degree/">Master</a>
+                                          </li>
+                      <li>
+                              Physics
+                                          </li>
+                  </ul>
+          </div>
+  </div>
+</div>
+
+
+
+
+<script type="application/ld+json">
+   {"@context":"http:\/\/schema.org\/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"\/Masters-Degree\/","name":"Master"}},{"@type":"ListItem","position":2,"item":{"name":"Physics"}}]}
+</script>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="row">
+          <header class="margin-bottom-10 col-sm-12">
+            <h1 class="main-heading">Compare 42 Masters Programs in Physics</h1>
+          </header>
+
+
+        </div>
+
+        <div class="row introduction">
+                      <div class="col-sm-12 visible-xs margin-bottom-10">
+              <img class="img-responsive" src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/Physics.jpg" alt="Physics">
+            </div>
+          
+          <div class="col-sm-8 col-lg-9 listingText">
+            <p>Physics is one of the most applicable sciences in 
+existence and can lead to careers in technology, sports and games, space
+ science, sound engineering in music and television, and a lot more. A 
+Master in Physics is an excellent choice for students seeking exciting 
+and promising careers in a variety of settings. </p><p>Although Physics 
+is defined as the study of matter as well as energy and interaction 
+between the two, physicists also answer large questions like: how did 
+the world come to being? How is the universe changing as we speak? These
+ are deep, philosophical questions which physicists attempt to answer 
+through scientific knowledge. With a Master in Physics, students will 
+explore these questions and more. </p><p>If you want to be a part of 
+this groundbreaking science, then perhaps a Master in Physics is the 
+path for you. On this site you will find an array of programs from many 
+countries that offer Master in Physics degrees. Not only are these 
+programs in just Physics, but also Electronics and Communications, Laser
+ Science and Nanomaterial. So if you're interested in a Master in 
+Physics, this is the place to be. </p>
+          </div>
+
+
+          <div class="col-sm-4 col-lg-3 image hidden-xs">
+                          <img class="img-responsive" src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/Physics.jpg" alt="Physics">
+                      </div>
+        </div>
+        <div class="row read_more hide usedColor">
+          <div class="col-sm-12">
+            <i class="fa fa-fa fa-chevron-down"></i> Read More
+          </div>
+        </div>
+
+
+                                        
+        <div class="row">
+          <h4 class="col-sm-12 hidden-xs"><b><span>42</span> Results in Physics</b></h4>
+        </div>
+
+        <div class="row">
+          <div class="hidden-xs col-sm-3 col-lg-2">
+                          <div class="nav-accordion" id="accordion" role="tablist" aria-multiselectable="true">
+
+            <a class="nav-accordion-heading" role="tab" id="heading-nav-degrees" data-toggle="collapse" data-parent="#accordion" href="#collapse-nav-degrees" aria-expanded="true" aria-controls="collapse-nav-degrees">
+            Degrees
+            <span class="pull-right">
+        <i class="fa fa-chevron-up"></i>
+                <i class="fa fa-chevron-down"></i>
+      </span>
+        </a>
+        <div id="collapse-nav-degrees" class="nav-accordion-content collapse in" role="tabpanel" aria-labelledby="heading-nav-degrees">
+            <div class="padding-10">
+                                    <a data-cookie="search_cross_degree" data-value="all" class="js-filter-setting label label-nav-default label-block" data-idtype="all" data-reload="true">
+                        All (101)
+                    </a>
+                                    <a data-cookie="search_cross_degree" data-value="1" class="js-filter-setting label label-nav-active label-block" data-idtype="1">
+                        Master Degrees (42)
+                    </a>
+                                    <a data-cookie="search_cross_degree" data-value="26" class="js-filter-setting label label-nav-default label-block" data-idtype="26" href="https://www.masterstudies.com/MSc/Physics/">
+                        Masters of Science (59)
+                    </a>
+                            </div>
+        </div>
+    
+
+
+
+    <a class="nav-accordion-heading" role="tab" id="heading-nav-location" data-toggle="collapse" data-parent="#accordion" href="#collapse-nav-location" aria-expanded="true" aria-controls="collapse-nav-location">
+        Location
+        <span class="pull-right">
+      <i class="fa fa-chevron-up"></i>
+            <i class="fa fa-chevron-down"></i>
+    </span>
+    </a>
+    <div id="collapse-nav-location" class="nav-accordion-content collapse in" role="tabpanel" aria-labelledby="heading-nav-location">
+        <div class="padding-10">
+            
+                            <div class="btn-group margin-bottom-5">
+                    <button type="button" class="btn btn-default btn-block btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                        Select Country <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu max-height-300 dropdown-searchable" role="menu">
+                                                                                    <li>
+                                    <a href="https://www.masterstudies.com/Masters-Degree/Physics/Asia/">Asia</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.masterstudies.com/Masters-Degree/Physics/Europe/">Europe</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.masterstudies.com/Masters-Degree/Physics/Middle-East/">Middle East</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.masterstudies.com/Masters-Degree/Physics/North-America/">North America</a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.masterstudies.com/Masters-Degree/Physics/Oceania/">Oceania</a>
+                                </li>
+                                                        <li class="divider"></li>
+                        
+                                                    <li>
+                                <a href="https://www.masterstudies.com/Masters-Degree/Physics/Australia/">Australia</a>
+                            </li>
+                                                    <li>
+                                <a href="https://www.masterstudies.com/Masters-Degree/Physics/Austria/">Austria</a>
+                            </li>
+                                                    <li>
+                                <a href="https://www.masterstudies.com/Masters-Degree/Physics/Belgium/">Belgium</a>
+                            </li>
+                                                    <li>
+                                <a href="https://www.masterstudies.com/Masters-Degree/Physics/China/">China</a>
+                            </li>
+                                                    <li>
+                                <a href="https://www.masterstudies.com/Masters-Degree/Physics/Cyprus/">Cyprus</a>
+                            </li>
+                                                    <li>
+                                <a href="https://www.masterstudies.com/Masters-Degree/Physics/Czech-Republic/">Czech Republic</a>
+                            </li>
+                                                    <li>
+                                <a href="https://www.masterstudies.com/Masters-Degree/Physics/Finland/">Finland</a>
+                            </li>
+                                                    <li>
+                                <a href="https://www.masterstudies.com/Masters-Degree/Physics/France/">France</a>
+                            </li>
+                                                    <li>
+                                <a href="https://www.masterstudies.com/Masters-Degree/Physics/Germany/">Germany</a>
+                            </li>
+                                                    <li>
+                                <a href="https://www.masterstudies.com/Masters-Degree/Physics/Hong-Kong/">Hong Kong</a>
+                            </li>
+                                                    <li>
+                                <a href="https://www.masterstudies.com/Masters-Degree/Physics/Italy/">Italy</a>
+                            </li>
+                                                    <li>
+                                <a href="https://www.masterstudies.com/Masters-Degree/Physics/Latvia/">Latvia</a>
+                            </li>
+                                                    <li>
+                                <a href="https://www.masterstudies.com/Masters-Degree/Physics/Pakistan/">Pakistan</a>
+                            </li>
+                                                    <li>
+                                <a href="https://www.masterstudies.com/Masters-Degree/Physics/Poland/">Poland</a>
+                            </li>
+                                                    <li>
+                                <a href="https://www.masterstudies.com/Masters-Degree/Physics/Romania/">Romania</a>
+                            </li>
+                                                    <li>
+                                <a href="https://www.masterstudies.com/Masters-Degree/Physics/Russia/">Russia</a>
+                            </li>
+                                                    <li>
+                                <a href="https://www.masterstudies.com/Masters-Degree/Physics/Spain/">Spain</a>
+                            </li>
+                                                    <li>
+                                <a href="https://www.masterstudies.com/Masters-Degree/Physics/Sweden/">Sweden</a>
+                            </li>
+                                                    <li>
+                                <a href="https://www.masterstudies.com/Masters-Degree/Physics/Switzerland/">Switzerland</a>
+                            </li>
+                                                    <li>
+                                <a href="https://www.masterstudies.com/Masters-Degree/Physics/Taiwan/">Taiwan</a>
+                            </li>
+                                                    <li>
+                                <a href="https://www.masterstudies.com/Masters-Degree/Physics/USA/">USA</a>
+                            </li>
+                                                    <li>
+                                <a href="https://www.masterstudies.com/Masters-Degree/Physics/United-Kingdom/">United Kingdom</a>
+                            </li>
+                                            </ul>
+                </div>
+            
+                            
+                
+                                    </div>
+    </div>
+
+            <a class="nav-accordion-heading" role="tab" id="heading-nav-type" data-toggle="collapse" data-parent="#accordion" href="#collapse-nav-type" aria-expanded="true" aria-controls="collapse-nav-type">
+            Study type
+            <span class="pull-right">
+      <i class="fa fa-chevron-up"></i>
+                <i class="fa fa-chevron-down"></i>
+    </span>
+        </a>
+        <div id="collapse-nav-type" class="nav-accordion-content collapse in " role="tabpanel" aria-labelledby="heading-nav-type">
+            <div class="padding-10">
+                                                            <a data-cookie="search_mode" data-value="all" class="js-filter-setting checkboxes" href="https://www.masterstudies.com/Masters-Degree/Physics/">
+            <span class="checkbox-holder">
+              <i class="fa fa-check check-mark "></i>
+            </span>
+                            All
+                        </a>
+                                            <a data-cookie="search_mode" data-value="campus" class="js-filter-setting checkboxes" href="https://www.masterstudies.com/Masters-Degree/Physics/">
+            <span class="checkbox-holder">
+              <i class="fa fa-check check-mark active"></i>
+            </span>
+                            Campus
+                        </a>
+                                            <a data-cookie="search_mode" data-value="online" class="js-filter-setting checkboxes" href="https://www.masterstudies.com/Masters-Degree/Physics/">
+            <span class="checkbox-holder">
+              <i class="fa fa-check check-mark "></i>
+            </span>
+                            Online
+                        </a>
+                                            <a data-cookie="search_mode" data-value="distance" class="js-filter-setting checkboxes" href="https://www.masterstudies.com/Masters-Degree/Physics/Distance-learning/">
+            <span class="checkbox-holder">
+              <i class="fa fa-check check-mark "></i>
+            </span>
+                            Distance learning
+                        </a>
+                                                </div>
+        </div>
+    
+    <a class="nav-accordion-heading" role="tab" id="heading-nav-pace" data-toggle="collapse" data-parent="#accordion" href="#collapse-nav-pace" aria-expanded="true" aria-controls="collapse-nav-pace">
+        Pace
+        <span class="pull-right">
+      <i class="fa fa-chevron-up"></i>
+            <i class="fa fa-chevron-down"></i>
+    </span>
+    </a>
+    <div id="collapse-nav-pace" class="nav-accordion-content collapse in" role="tabpanel" aria-labelledby="heading-nav-pace">
+        <div class="padding-10">
+                            <a data-cookie="search_intensity" data-value="all" class="js-filter-setting checkboxes" href="https://www.masterstudies.com/Masters-Degree/Physics/">
+          <span class="checkbox-holder">
+            <i class="fa fa-check check-mark "></i>
+          </span>
+                    All
+                </a>
+                            <a data-cookie="search_intensity" data-value="full_time" class="js-filter-setting checkboxes" href="https://www.masterstudies.com/Masters-Degree/Physics/">
+          <span class="checkbox-holder">
+            <i class="fa fa-check check-mark active"></i>
+          </span>
+                    Full time
+                </a>
+                            <a data-cookie="search_intensity" data-value="part_time" class="js-filter-setting checkboxes" href="https://www.masterstudies.com/Masters-Degree/Physics/Part-time/">
+          <span class="checkbox-holder">
+            <i class="fa fa-check check-mark "></i>
+          </span>
+                    Part time
+                </a>
+                    </div>
+    </div>
+
+</div>            
+            <div class="text-left">
+              <div class="dfp_ads hidden-xs">
+                        <div id="gmat" style="padding-bottom:25px; text-align: center;">
+          <script>
+              googletag.cmd.push(
+                  function() {
+                      googletag.display('gmat');
+                  });
+          </script>
+      </div>
+                  <div id="toefl_subject_specific_pages" style="padding-bottom:25px; text-align: center;">
+          <script>
+              googletag.cmd.push(
+                  function() {
+                      googletag.display('toefl_subject_specific_pages');
+                  });
+          </script>
+      </div>
+                  <div id="gre_subject_specific_pages" style="padding-bottom:25px; text-align: center;">
+          <script>
+              googletag.cmd.push(
+                  function() {
+                      googletag.display('gre_subject_specific_pages');
+                  });
+          </script>
+      </div>
+                  <div id="listing_physics" style="padding-bottom:25px; text-align: center;">
+          <script>
+              googletag.cmd.push(
+                  function() {
+                      googletag.display('listing_physics');
+                  });
+          </script>
+      </div>
+                  <div id="listing_physics_2" style="padding-bottom:25px; text-align: center;">
+          <script>
+              googletag.cmd.push(
+                  function() {
+                      googletag.display('listing_physics_2');
+                  });
+          </script>
+      </div>
+                  <div id="listing_physics_3" style="padding-bottom:25px; text-align: center;">
+          <script>
+              googletag.cmd.push(
+                  function() {
+                      googletag.display('listing_physics_3');
+                  });
+          </script>
+      </div>
+      </div>
+              </div>
+
+          </div>
+          <div class="col-sm-9 col-lg-10">
+
+
+
+                          <div class="row navigation-box-container">
+                <div class="col-sm-12">
+                  <h4 class="visible-xs is-filter-toggle clearfix"><b><span>42</span> Results in Physics</b>
+                    <small class="pull-right usedColor"><i class="fa fa-filter"></i> Filter <i class="fa fa-chevron-up filter-opened"></i><i class="fa fa-chevron-down filter-closed"></i></small>
+                  </h4>
+                </div>
+                <div class="col-sm-12" style="position:relative;">
+
+                <div style="position:absolute;right:15px;top:-20px;line-height:2em;color:#777;" class="hidden-xs text-right">
+              Other options within this field of study
+              <div>
+                                                              <a class="usedColor" style="font-weight: bold;font-size:0.95em;" href="https://www.onlinestudies.com/PhD/Physics/">Online <i style="font-size:0.8em;" class="fa fa-external-link" aria-hidden="true"></i></a>
+                                                                  |
+                                            <a class="usedColor" style="font-weight: bold;font-size:0.95em;" href="https://www.phdstudies.com/PhD/Physics/">PhD <i style="font-size:0.8em;" class="fa fa-external-link" aria-hidden="true"></i></a>
+                                                                  |
+                                            <a class="usedColor" style="font-weight: bold;font-size:0.95em;" href="https://www.academiccourses.com/Courses/Physics/">Courses <i style="font-size:0.8em;" class="fa fa-external-link" aria-hidden="true"></i></a>
+                                                                  |
+                                            <a class="usedColor" style="font-weight: bold;font-size:0.95em;" href="https://www.bachelorstudies.com/Bachelor/Physics/">Bachelor <i style="font-size:0.8em;" class="fa fa-external-link" aria-hidden="true"></i></a>
+                                </div>
+          </div>
+      
+    <ul class="nav nav-tabs tab-shadow hidden-xs">
+      <li class="active">
+        <a>Programs</a>
+      </li>
+                  <li>
+             <a class="usedColor" style="color: #f4792c;" href="https://www.onlinestudies.com/PhD/Physics/">
+                 Online
+             </a>
+         </li>
+                      </ul>
+
+    <div class="navigation-box">
+
+      
+
+
+      <div class="is-filter-setting-container">
+                  <h2 class="is-sub-filter-toggle">
+            <i class="fa fa-chevron-up filter-opened"></i>
+            <i class="fa fa-chevron-down filter-closed"></i>
+            Physics
+          </h2>
+
+          <div class="filter-setting">
+            <ol class="breadcrumb">
+                                                <li><a href="https://www.masterstudies.com/Masters-Degree/">Master</a></li>
+                                                                <li><a href="">Physics</a></li>
+                                          </ol>
+          </div>
+        
+                  <div class="filter-setting">
+            <ul class="multicolumn list-unstyled">
+                              <li><a href="https://www.masterstudies.com/Masters-Degree/Applied-Physics/">Applied Physics</a></li>
+                              <li><a href="https://www.masterstudies.com/Masters-Degree/Nuclear-Physics/">Nuclear Physics</a></li>
+                              <li><a href="https://www.masterstudies.com/Masters-Degree/Optics/">Optics</a></li>
+                              <li><a href="https://www.masterstudies.com/Masters-Degree/Particle-Physics/">Particle Physics</a></li>
+                              <li><a href="https://www.masterstudies.com/Masters-Degree/Theoretical-Physics/">Theoretical Physics</a></li>
+                          </ul>
+          </div>
+        
+              </div>
+
+
+
+      <div class="row visible-xs">
+        <div class="col-sm-8 search-options-left ">
+          <div class="is-filter-setting-container">
+                          <h2 class="is-sub-filter-toggle">
+                <i class="fa fa-chevron-up filter-opened"></i>
+                <i class="fa fa-chevron-down filter-closed"></i>
+                                                                                                              Master Degrees
+                                                            
+                            </h2>
+
+              <div class="filter-setting">
+                <h3 class="hidden-xs">Masterstudies</h3>
+                                  <a data-cookie="search_cross_degree" data-value="all" class="js-filter-setting label label-default" data-idtype="all" data-reload="true">
+                    All (101)
+                  </a>
+                                  <a data-cookie="search_cross_degree" data-value="1" class="js-filter-setting label label-primary" data-idtype="1">
+                    Master Degrees (42)
+                  </a>
+                                  <a data-cookie="search_cross_degree" data-value="26" class="js-filter-setting label label-default" data-idtype="26" href="https://www.masterstudies.com/MSc/Physics/">
+                    Masters of Science (59)
+                  </a>
+                              </div>
+                      </div>
+        </div>
+
+        <div class="col-sm-4 search-options-right">
+          <div class="is-filter-setting-container">
+            <h2 class="is-sub-filter-toggle">
+              <i class="fa fa-chevron-up filter-opened"></i>
+              <i class="fa fa-chevron-down filter-closed"></i>
+                              Location
+                          </h2>
+
+
+            <div class="filter-setting">
+              <h3 class="hidden-xs">Location</h3>
+
+              
+                              <div class="btn-group">
+                  <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                    Select Country <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu max-height-300 dropdown-searchable" role="menu">
+                                                                  <li>
+                          <a href="https://www.masterstudies.com/Masters-Degree/Physics/Asia/">
+                            Asia
+                          </a>
+                        </li>
+                                              <li>
+                          <a href="https://www.masterstudies.com/Masters-Degree/Physics/Europe/">
+                            Europe
+                          </a>
+                        </li>
+                                              <li>
+                          <a href="https://www.masterstudies.com/Masters-Degree/Physics/Middle-East/">
+                            Middle East
+                          </a>
+                        </li>
+                                              <li>
+                          <a href="https://www.masterstudies.com/Masters-Degree/Physics/North-America/">
+                            North America
+                          </a>
+                        </li>
+                                              <li>
+                          <a href="https://www.masterstudies.com/Masters-Degree/Physics/Oceania/">
+                            Oceania
+                          </a>
+                        </li>
+                                            <li class="divider"></li>
+                    
+                                          <li>
+                        <a href="https://www.masterstudies.com/Masters-Degree/Physics/Australia/">
+                          Australia
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="https://www.masterstudies.com/Masters-Degree/Physics/Austria/">
+                          Austria
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="https://www.masterstudies.com/Masters-Degree/Physics/Belgium/">
+                          Belgium
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="https://www.masterstudies.com/Masters-Degree/Physics/China/">
+                          China
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="https://www.masterstudies.com/Masters-Degree/Physics/Cyprus/">
+                          Cyprus
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="https://www.masterstudies.com/Masters-Degree/Physics/Czech-Republic/">
+                          Czech Republic
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="https://www.masterstudies.com/Masters-Degree/Physics/Finland/">
+                          Finland
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="https://www.masterstudies.com/Masters-Degree/Physics/France/">
+                          France
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="https://www.masterstudies.com/Masters-Degree/Physics/Germany/">
+                          Germany
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="https://www.masterstudies.com/Masters-Degree/Physics/Hong-Kong/">
+                          Hong Kong
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="https://www.masterstudies.com/Masters-Degree/Physics/Italy/">
+                          Italy
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="https://www.masterstudies.com/Masters-Degree/Physics/Latvia/">
+                          Latvia
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="https://www.masterstudies.com/Masters-Degree/Physics/Pakistan/">
+                          Pakistan
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="https://www.masterstudies.com/Masters-Degree/Physics/Poland/">
+                          Poland
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="https://www.masterstudies.com/Masters-Degree/Physics/Romania/">
+                          Romania
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="https://www.masterstudies.com/Masters-Degree/Physics/Russia/">
+                          Russia
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="https://www.masterstudies.com/Masters-Degree/Physics/Spain/">
+                          Spain
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="https://www.masterstudies.com/Masters-Degree/Physics/Sweden/">
+                          Sweden
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="https://www.masterstudies.com/Masters-Degree/Physics/Switzerland/">
+                          Switzerland
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="https://www.masterstudies.com/Masters-Degree/Physics/Taiwan/">
+                          Taiwan
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="https://www.masterstudies.com/Masters-Degree/Physics/USA/">
+                          USA
+                        </a>
+                      </li>
+                                          <li>
+                        <a href="https://www.masterstudies.com/Masters-Degree/Physics/United-Kingdom/">
+                          United Kingdom
+                        </a>
+                      </li>
+                                      </ul>
+                </div>
+                            
+                            
+              
+                                        </div>
+          </div>
+        </div>
+      
+                      <div class="col-sm-8 search-options-left">
+          <div class="is-filter-setting-container">
+            <h2 class="is-sub-filter-toggle">
+              <i class="fa fa-chevron-up filter-opened"></i>
+              <i class="fa fa-chevron-down filter-closed"></i>
+                                                                        
+                                                                Campus
+                                                                        
+                                            
+              
+            </h2>
+
+            <div class="filter-setting">
+              <h3 class="hidden-xs">Study type</h3>
+                              
+                  <a data-cookie="search_mode" data-value="all" class="js-filter-setting label label-default" href="https://www.masterstudies.com/Masters-Degree/Physics/">
+                    All
+                  </a>
+                
+                  <a data-cookie="search_mode" data-value="campus" class="js-filter-setting label label-primary" href="https://www.masterstudies.com/Masters-Degree/Physics/">
+                    Campus
+                  </a>
+                
+                  <a data-cookie="search_mode" data-value="online" class="js-filter-setting label label-default" href="https://www.masterstudies.com/Masters-Degree/Physics/">
+                    Online
+                  </a>
+                
+                  <a data-cookie="search_mode" data-value="distance" class="js-filter-setting label label-default" href="https://www.masterstudies.com/Masters-Degree/Physics/Distance-learning/">
+                    Distance learning
+                  </a>
+                                          </div>
+          </div>
+        </div>
+                <div class="col-sm-4 search-options-right">
+          <div class="is-filter-setting-container">
+            <h2 class="is-sub-filter-toggle">
+              <i class="fa fa-chevron-up filter-opened"></i>
+              <i class="fa fa-chevron-down filter-closed"></i>
+                                                                                                              Full time
+                                                            
+                          </h2>
+
+            <div class="filter-setting">
+              <h3 class="hidden-xs">Pace</h3>
+              
+                <a data-cookie="search_intensity" data-value="all" class="js-filter-setting label label-default" href="https://www.masterstudies.com/Masters-Degree/Physics/">All</a>
+              
+                <a data-cookie="search_intensity" data-value="full_time" class="js-filter-setting label label-primary" href="https://www.masterstudies.com/Masters-Degree/Physics/">Full time</a>
+              
+                <a data-cookie="search_intensity" data-value="part_time" class="js-filter-setting label label-default" href="https://www.masterstudies.com/Masters-Degree/Physics/Part-time/">Part time</a>
+                          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+              </div>
+            
+
+            
+              
+                <div class="row">
+                                                          <div class="col-sm-12 list-item" data-idmode="9">
+    
+    <div class="listing-row row">
+
+                                    <div class="col-sm-2 school-logo-listing hidden-xs">
+                                        <img class="img-responsive" title="Valley Forge Military College" alt="Valley Forge Military College" src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/Valley-Forge-Military-College.png">
+                </div>
+                    
+        <div class="col-sm-10 school-info">
+            <header>
+                <h4 class="listing-title">
+                    <a href="https://www.masterstudies.com/Associate-of-Science-in-Physical-Sciences-and-Pre-Engineering/USA/Valley-Forge-Military-College/">
+                        <span>Associate of Science in Physical Sciences and Pre-Engineering</span>
+                                            </a>
+                </h4>
+                
+                                                        <h5 class="listing_provider"><span>Valley Forge Military College</span></h5>
+                            </header>
+
+            <div class="is-item-description">
+
+                                <div class="labels-container">
+                         <span class="label label-default-master ">Campus</span>
+        
+                        <span class="label label-default-master ">Full time</span>
+                      <span class="label label-default-master ">January 2018</span>
+                      <span class="label label-default-master ">USA</span>
+                      <span class="label label-default-master ">Wayne</span>
+        
+  
+  
+</div>                                <span>
+                                      <p class="short_desc dotdotdot-text">The
+ Associate of Science in Physical Sciences and Pre-Engineering program 
+provides students with a solid foundation in the scientific method and 
+knowledge of the principles that govern the workings of the physical 
+world.
+                                                            <span class="toogle_moretext">[+]</span>
+                                          </p>
+                    
+                                            <div class="moretext hide_text">
+
+                Masters in Physics. The Associate of Science in Physical
+ Sciences and Pre- Engineering program provides students with a solid 
+foundation in the scientific method and knowledge of the principles that
+ govern the workings of the physical world. Students in this program can
+ choose one of two tracks based on their interest: research in Physics, 
+Bio-Physics, Geophysics, Industrial Tech, or Pre-Engineering.
+
+The pre-engineering track is structured for those students planning to 
+transfer into an engineering program and requires students to take 
+specific courses in calculus and engineering statics.
+
+
+
+Programs of Study
+
+Our military tradition benefits all students: those who go on to officer
+ training and those who choose to pursue other paths. A study by 
+Korn/Ferry International shows that the leadership skills learned in 
+military training enhance success in corporate life – which may be why 
+many of our graduates go on to captain their own businesses. Whatever 
+your goal, VFMC has academic programs that will help you get there.
+
+The Academic Program at VFMC leads to an Associate of Arts, an Associate
+ of Science, or an Associate in Business Administration degree. The 
+strong core curriculum, developed on the basis of careful analysis of 
+the general education requirements of competitive colleges and 
+universities, is the heart of the degree programs. Together with the 
+courses require in the academic fields of study, the core programs 
+provide the foundation for successful transfer to a four-year college 
+and long-term academic success.
+                            <span class="toogle_lesstext"><i>[-]</i></span>
+              </div>
+                                </span>
+
+                                    <div class=" hidden-xs">
+                        <a href="https://www.masterstudies.com/Associate-of-Science-in-Physical-Sciences-and-Pre-Engineering/USA/Valley-Forge-Military-College/" class="btn btn-primary-master ">Read More</a>
+
+                        
+                    </div>
+                            </div>
+
+            <div class="visible-xs toggle-description text-muted">
+                <i class="fa fa-chevron-down open-description js-toggle-description"></i>
+                <i class="fa fa-chevron-up close-description js-toggle-description"></i>
+            </div>
+        </div>
+    </div>
+    <hr class="col-sm-12 list-item-divider">
+    
+</div>
+
+                                                          <div class="col-sm-12 list-item" data-idmode="9">
+    
+    <div class="listing-row row">
+
+                                    <div class="col-sm-2 school-logo-listing hidden-xs">
+                                        <img class="img-responsive" title="University of Nicosia" alt="University of Nicosia" src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/UNIC.png">
+                </div>
+                    
+        <div class="col-sm-10 school-info">
+            <header>
+                <h4 class="listing-title">
+                    <a href="https://www.masterstudies.gr/%CE%9C%CE%B5%CF%84%CE%B1%CF%80%CF%84%CF%85%CF%87%CE%B9%CE%B1%CE%BA%CF%8C-%CE%95%CF%80%CE%B9%CF%83%CF%84%CE%B7%CE%BC%CF%8E%CE%BD-%CE%91%CE%B3%CF%89%CE%B3%CE%AE%CF%82-%CE%94%CE%B9%CE%B4%CE%B1%CE%BA%CF%84%CE%B9%CE%BA%CE%AE-%CF%84%CF%89%CE%BD-%CE%9C%CE%B1%CE%B8%CE%B7%CE%BC%CE%B1%CF%84%CE%B9%CE%BA%CF%8E%CE%BD-%CE%BA%CE%B1%CE%B9-%CE%A6%CF%85%CF%83%CE%B9%CE%BA%CF%8E%CE%BD-%CE%95%CF%80%CE%B9%CF%83%CF%84%CE%B7%CE%BC%CF%8E%CE%BD/%CE%95%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/UNIC/">
+                        <span>Postgraduate Education Science: Teaching Mathematics And Natural Sciences</span>
+                                            </a>
+                </h4>
+                
+                                                        <h5 class="listing_provider"><span>University of Nicosia</span></h5>
+                            </header>
+
+            <div class="is-item-description">
+
+                                <div class="labels-container">
+                         <span class="label label-default-master ">Campus</span>
+        
+                        <span class="label label-default-master ">Full time</span>
+                      <span class="label label-default-master ">Part time</span>
+                      <span class="label label-default-master ">3&nbsp;semesters</span>
+                      <span class="label label-default-master ">September 2018</span>
+                      <span class="label label-default-master ">Cyprus</span>
+                      <span class="label label-default-master hide ">Nicosia</span>
+        
+  
+      <span class="labels-more" data-lesslabel="Less" id="+ 1 more">
+      + 1 more
+    </span>
+  
+</div>                                <span>
+                                      <p class="short_desc dotdotdot-text">The
+ purpose of the program is twofold. On the one hand, help the student to
+ acquire deep knowledge in the field of specialization through (a) the 
+monitoring of educational courses in an advanced level, (b) study the 
+relevant literature, and (c) interaction with Faculty and other 
+students. 
+                                                            <span class="toogle_moretext">[+]</span>
+                                          </p>
+                    
+                                            <div class="moretext hide_text">
+
+                
+    Duration of study (years): 1.5 year
+    Studies: Mathematics and Science (MEd, 1.5 years or 3 semesters)
+    Level of Title of Study: Postgraduate (2nd Cycle of Studies)
+    Language of instruction: Greek
+    Study Mode: Full-time / Part-time
+    Minimum Credits: 30
+    Minimum European Credit Units (ECTS): 90
+
+
+Program Description
+
+Purpose
+
+The purpose of the program is twofold. On the one hand, help the student
+ to acquire deep knowledge in the field of specialization through (a) 
+the monitoring of educational courses in an advanced level, (b) study 
+the relevant literature, and (c) interaction with Faculty and other 
+students. On the other, the program aims at fostering research skills 
+through (a) the monitoring of specific quantitative and qualitative 
+research courses, (b) small scale investigations in the various courses 
+and / or drafting Master Thesis, and (c) participation in seminars / 
+conferences research content. In general, the overall aim of the program
+ is to help the student to become an independent thinker and scientist 
+educator.
+
+Goals
+
+
+    To monitor the progress of modern research in their area and 
+collaborate with colleagues to explore issues and problems facing the 
+educational community. 
+    Identify and / or produce and test relevant teaching materials and 
+to disperse the teachers of their specialty. 
+    To undertake action research and communicate their findings to the 
+school site and in the wider community, eg lectures seminars or 
+otherwise. 
+    To serve as reference people, as to the specific items to colleagues
+ both at school level and in the education system level.
+
+
+Career Prospects 
+
+Graduates of the...
+                            <span class="toogle_lesstext"><i>[-]</i></span>
+              </div>
+                                </span>
+
+                                    <div class=" hidden-xs">
+                        <a href="https://www.masterstudies.gr/%CE%9C%CE%B5%CF%84%CE%B1%CF%80%CF%84%CF%85%CF%87%CE%B9%CE%B1%CE%BA%CF%8C-%CE%95%CF%80%CE%B9%CF%83%CF%84%CE%B7%CE%BC%CF%8E%CE%BD-%CE%91%CE%B3%CF%89%CE%B3%CE%AE%CF%82-%CE%94%CE%B9%CE%B4%CE%B1%CE%BA%CF%84%CE%B9%CE%BA%CE%AE-%CF%84%CF%89%CE%BD-%CE%9C%CE%B1%CE%B8%CE%B7%CE%BC%CE%B1%CF%84%CE%B9%CE%BA%CF%8E%CE%BD-%CE%BA%CE%B1%CE%B9-%CE%A6%CF%85%CF%83%CE%B9%CE%BA%CF%8E%CE%BD-%CE%95%CF%80%CE%B9%CF%83%CF%84%CE%B7%CE%BC%CF%8E%CE%BD/%CE%95%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/UNIC/" class="btn btn-primary-master ">Read More</a>
+
+                        
+                    </div>
+                            </div>
+
+            <div class="visible-xs toggle-description text-muted">
+                <i class="fa fa-chevron-down open-description js-toggle-description"></i>
+                <i class="fa fa-chevron-up close-description js-toggle-description"></i>
+            </div>
+        </div>
+    </div>
+    <hr class="col-sm-12 list-item-divider">
+    
+</div>
+
+                                                          <div class="col-sm-12 list-item" data-idmode="9">
+    
+    <div class="listing-row row">
+
+                                    <div class="col-sm-2 school-logo-listing hidden-xs">
+                                        <img class="img-responsive" title="Universitatea De Vest Din Timisoara" alt="Universitatea De Vest Din Timisoara" src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/UVT.png">
+                </div>
+                    
+        <div class="col-sm-10 school-info">
+            <header>
+                <h4 class="listing-title">
+                    <a href="https://www.masterstudies.com/Master-in-Physics-and-Technology-of-Advanced-Materials/Romania/UVT/">
+                        <span>Master in Physics and Technology of Advanced Materials</span>
+                                            </a>
+                </h4>
+                
+                                                        <h5 class="listing_provider"><span>Universitatea De Vest Din Timisoara</span></h5>
+                            </header>
+
+            <div class="is-item-description">
+
+                                <div class="labels-container">
+                         <span class="label label-default-master ">Campus</span>
+        
+                        <span class="label label-default-master ">Full time</span>
+                      <span class="label label-default-master ">2&nbsp;years</span>
+                      <span class="label label-default-master ">September 2018</span>
+                      <span class="label label-default-master ">Romania</span>
+                      <span class="label label-default-master ">Timisoara</span>
+        
+  
+  
+</div>                                <span>
+                                      <p class="short_desc dotdotdot-text">The
+ Image morphology and visual art experiment Masters Programme, taught în
+ English, offers the frame for researching and developing contemporary 
+art conceptions and to experiment inter-medium forms of visual 
+expression and comunication through creativity, theoretical and 
+technical skills, inbetween instalation, graphic arts, sculpture and 
+painting areas.
+                                                            <span class="toogle_moretext">[+]</span>
+                                          </p>
+                    
+                                            <div class="moretext hide_text">
+
+                Masters in Physics. The Faculty of Physics offers a 
+Bachelor's programme (with three specializations:  physics, medical 
+physics and informatics-physics) and three Master's programmes tightly 
+connected to the research performed by the faculty members. Two of the 
+masters programms are given completely in english. These programms are 
+designed to prepare students not only for advanced studies in physics, 
+but also for employment upon graduation in physics and other disciplines
+ related to science and technology. Talented students can continue the 
+Master's program with a doctoral project in the Doctoral school of the 
+faculty which is focused on three main topics: materials physics, 
+theoretical and computational physics and medical physics.
+
+The Masters in Physics and Technology of Advanced Materials, taught în 
+English, focuses on understanding and manipulating the physical 
+properties of materials to discover new features with application 
+relevance.
+
+Main course titles
+
+    Complements of theoretical physics
+    Complements of molecular and atomic physics
+    Magnetism of nanosystems  
+    Physics of crystallization processes
+    Plastic sign and object
+    Complements of the material physics
+
+
+What Core Skills are Developed?
+
+General Skills: 
+
+    Creative application of research methods and problem solving;
+    Elaborating studies and reports for application for publication;
+    Capacity to take creative and independent action in solving 
+problems, critical evaluation and demonstrative communications;
+    Leadership skills and clear orientation skills to further develop 
+professional growth.
+ 
+
+Professional Skills: 
+
+    Capacity to obtain materials with defined properties;
+    Capacity to characterize specific materials properties in relation 
+with their applications;
+    Skills in using laboratory equipment for obtaining crystals and 
+nano-microsystems; 
+    Capacity to use experimental techniques to...
+                            <span class="toogle_lesstext"><i>[-]</i></span>
+              </div>
+                                </span>
+
+                                    <div class=" hidden-xs">
+                        <a href="https://www.masterstudies.com/Master-in-Physics-and-Technology-of-Advanced-Materials/Romania/UVT/" class="btn btn-primary-master ">Read More</a>
+
+                        
+                    </div>
+                            </div>
+
+            <div class="visible-xs toggle-description text-muted">
+                <i class="fa fa-chevron-down open-description js-toggle-description"></i>
+                <i class="fa fa-chevron-up close-description js-toggle-description"></i>
+            </div>
+        </div>
+    </div>
+    <hr class="col-sm-12 list-item-divider">
+    
+</div>
+
+                                       <div class="dfp_ads visible-xs">
+                  <div id="mobile_listing_physics">
+          <script>
+              googletag.cmd.push(function() { googletag.display('mobile_listing_physics'); });
+          </script>
+      </div>
+      </div>
+                       <div class="col-sm-12 list-item" data-idmode="9">
+    
+    <div class="listing-row row">
+
+                                    <div class="col-sm-2 school-logo-listing hidden-xs">
+                                        <img class="img-responsive" title="Universidad de las Islas Baleares - UIB" alt="Universidad de las Islas Baleares - UIB" src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/Universidad-de-las-Islas-Baleares-UIB.png">
+                </div>
+                    
+        <div class="col-sm-10 school-info">
+            <header>
+                <h4 class="listing-title">
+                    <a href="https://www.masterstudies.com/Masters-Degree-in-Advanced-Physics-and-Applied-Mathematics-(MFMA)/Spain/Universidad-de-las-Islas-Baleares-UIB/">
+                        <span>Master's Degree in Advanced Physics and Applied Mathematics (MFMA)</span>
+                                            </a>
+                </h4>
+                
+                                                        <h5 class="listing_provider"><span>Universidad de las Islas Baleares - UIB</span></h5>
+                            </header>
+
+            <div class="is-item-description">
+
+                                <div class="labels-container">
+                         <span class="label label-default-master ">Campus</span>
+        
+                        <span class="label label-default-master ">Full time</span>
+                      <span class="label label-default-master ">1&nbsp;year</span>
+                      <span class="label label-default-master ">October 2017</span>
+                      <span class="label label-default-master ">Spain</span>
+                      <span class="label label-default-master ">Palma de Mallorca</span>
+        
+  
+  
+</div>                                <span>
+                                      <p class="short_desc dotdotdot-text">The
+ objective of the University Master in Advanced Physics and Applied 
+Mathematics (FAMA) is to provide an advanced training, specially 
+oriented to graduate students aiming to enter later in a Doctorate 
+program.
+
+                                                            <span class="toogle_moretext">[+]</span>
+                                          </p>
+                    
+                                            <div class="moretext hide_text">
+
+                
+
+What is it?  
+
+The objective of the University Master in Advanced Physics and Applied 
+Mathematics (FAMA) is to provide an advanced training, specially 
+oriented to graduate students aiming to enter later in a Doctorate 
+program.
+
+It is then a Master basically oriented towards research. This requires a
+ structure making possible the specialization in some research areas 
+with a premium quality. The UIB is awarded with the mention of 
+International Excellence Campus, including the line of Physics, 
+Computing and Applications. In this line, there are some research groups
+ that have been developing an internationallevel first rank task during 
+years. This is why five specialties are offered, directly related with 
+those groups: Relativity and Astrophysics, Geophysical Fluids, Materials
+ Physics, Quantum Systems , and Applied Mathematics.
+
+Most of the socially relevant problems have many faces, and addressing 
+them requires both general vision and the ability to connect ideas. In 
+this context, the Master is not offering specialties as watertight 
+compartments. The student can rather choose a reasonable number of 
+complementary credits coming from other specialties, different from the 
+selected one.
+
+What will you learn  
+
+During the past century, scientific research has reached a high degree 
+of specialization, with a refined division of the subjects of study. On 
+the other side, most of the problems which are socially relevant are 
+polifacetic. The scientist with a multidisciplinary background is in 
+good position for developping his research tasks beyond the borders of 
+his own domain, being able to collaborate with researchers from other 
+disciplines and providing...
+                            <span class="toogle_lesstext"><i>[-]</i></span>
+              </div>
+                                </span>
+
+                                    <div class=" hidden-xs">
+                        <a href="https://www.masterstudies.com/Masters-Degree-in-Advanced-Physics-and-Applied-Mathematics-(MFMA)/Spain/Universidad-de-las-Islas-Baleares-UIB/" class="btn btn-primary-master ">Read More</a>
+
+                        
+                    </div>
+                            </div>
+
+            <div class="visible-xs toggle-description text-muted">
+                <i class="fa fa-chevron-down open-description js-toggle-description"></i>
+                <i class="fa fa-chevron-up close-description js-toggle-description"></i>
+            </div>
+        </div>
+    </div>
+    <hr class="col-sm-12 list-item-divider">
+    
+</div>
+
+                                                          <div class="col-sm-12 list-item" data-idmode="9">
+    
+    <div class="listing-row row">
+
+                                    <div class="col-sm-2 school-logo-listing hidden-xs">
+                                        <img class="img-responsive" title="The University of Warwick, Department of Physics" alt="The University of Warwick, Department of Physics" src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/The-University-of-Warwick-Department-of-Physics.png">
+                </div>
+                    
+        <div class="col-sm-10 school-info">
+            <header>
+                <h4 class="listing-title">
+                    <a href="https://www.masterstudies.com/MPhys-in-Mathematics-and-Physics/United-Kingdom/The-University-of-Warwick-Department-of-Physics/">
+                        <span>MPhys in Mathematics and Physics</span>
+                                            </a>
+                </h4>
+                
+                                                        <h5 class="listing_provider"><span>The University of Warwick, Department of Physics</span></h5>
+                            </header>
+
+            <div class="is-item-description">
+
+                                <div class="labels-container">
+                         <span class="label label-default-master ">Campus</span>
+        
+                        <span class="label label-default-master ">Full time</span>
+                      <span class="label label-default-master ">4&nbsp;years</span>
+                      <span class="label label-default-master ">August 2018</span>
+                      <span class="label label-default-master ">United Kingdom</span>
+                      <span class="label label-default-master ">Coventry</span>
+        
+  
+  
+</div>                                <span>
+                                      <p class="short_desc dotdotdot-text">Mathematics
+ and physics are complementary subjects and make a sensible combination 
+to study at university. There are many examples of unexpected 
+discoveries resulting from interaction between the two disciplines. 
+Ideas developed in particle physics have led to advances in topology - 
+one of the purest branches of mathematics. Advances in the understanding
+ of chaos provide another example. Ideas from the theory are being 
+applied increasingly in the modelling of complex physical systems such 
+as the atmosphere and lasers.
+
+                                                            <span class="toogle_moretext">[+]</span>
+                                          </p>
+                    
+                                            <div class="moretext hide_text">
+
+                Masters in Physics. Mathematics and physics are 
+complementary subjects and make a sensible combination to study at 
+university. There are many examples of unexpected discoveries resulting 
+from interaction between the two disciplines. Ideas developed in 
+particle physics have led to advances in topology - one of the purest 
+branches of mathematics. Advances in the understanding of chaos provide 
+another example. Ideas from the theory are being applied increasingly in
+ the modelling of complex physical systems such as the atmosphere and 
+lasers.
+
+The Warwick joint courses (BSc and MMathPhys) are now among the 
+best-established in the country with around 50 students starting each 
+year. The courses include a significant proportion of modules from both 
+contributing departments designed primarily for joint degree students. 
+It is possible at the end of the First Year to transfer to either of the
+ single subject degrees. Years one and two are common to the two 
+courses.
+
+Warwick is strong in research in a number of branches of mathematics and
+ physics, and is well-placed to offer accounts of those developments 
+likely to be of most interest to joint degree students. These include 
+non-linear systems (there are modules on the weather, modelling of 
+biological systems, and complexity theory) and theoretical physics.
+
+Please download the course booklet for more information. The modules are
+ listed below and more detailed desriptors of their content is given in 
+the links above.
+
+THE FOUR YEAR DEGREE (MMathPhys)
+The four-year version of the degree should appeal most to those who are 
+thinking of a...
+                            <span class="toogle_lesstext"><i>[-]</i></span>
+              </div>
+                                </span>
+
+                                    <div class=" hidden-xs">
+                        <a href="https://www.masterstudies.com/MPhys-in-Mathematics-and-Physics/United-Kingdom/The-University-of-Warwick-Department-of-Physics/" class="btn btn-primary-master ">Read More</a>
+
+                        
+                    </div>
+                            </div>
+
+            <div class="visible-xs toggle-description text-muted">
+                <i class="fa fa-chevron-down open-description js-toggle-description"></i>
+                <i class="fa fa-chevron-up close-description js-toggle-description"></i>
+            </div>
+        </div>
+    </div>
+    <hr class="col-sm-12 list-item-divider">
+    
+</div>
+
+                                                          <div class="col-sm-12 list-item" data-idmode="9">
+    
+    <div class="listing-row row">
+
+                                    <div class="col-sm-2 school-logo-listing hidden-xs">
+                                        <img class="img-responsive" title="The University of Warwick, Department of Physics" alt="The University of Warwick, Department of Physics" src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/The-University-of-Warwick-Department-of-Physics.png">
+                </div>
+                    
+        <div class="col-sm-10 school-info">
+            <header>
+                <h4 class="listing-title">
+                    <a href="https://www.masterstudies.com/MPhys-in-Physics/United-Kingdom/The-University-of-Warwick-Department-of-Physics/">
+                        <span>MPhys in Physics</span>
+                                            </a>
+                </h4>
+                
+                                                        <h5 class="listing_provider"><span>The University of Warwick, Department of Physics</span></h5>
+                            </header>
+
+            <div class="is-item-description">
+
+                                <div class="labels-container">
+                         <span class="label label-default-master ">Campus</span>
+        
+                        <span class="label label-default-master ">Full time</span>
+                      <span class="label label-default-master ">4&nbsp;years</span>
+                      <span class="label label-default-master ">August 2018</span>
+                      <span class="label label-default-master ">United Kingdom</span>
+                      <span class="label label-default-master ">Coventry</span>
+        
+  
+  
+</div>                                <span>
+                                      <p class="short_desc dotdotdot-text">Physics
+ aims to observe and explain the behaviour of the physical universe. In 
+particular, physics looks for basic laws, which account for and predict 
+what can be observed. Part of the appeal of the subject is that the 
+physical world is governed by remarkably few such laws and that these 
+apply everywhere and to everything.
+
+                                                            <span class="toogle_moretext">[+]</span>
+                                          </p>
+                    
+                                            <div class="moretext hide_text">
+
+                Physics aims to observe and explain the behaviour of the
+ physical universe. In particular, physics looks for basic laws, which 
+account for and predict what can be observed. Part of the appeal of the 
+subject is that the physical world is governed by remarkably few such 
+laws and that these apply everywhere and to everything.
+
+The structure of the courses reflects the structure of the subject. All 
+students take the core modules and choose further modules from the lists
+ of options. The core modules introduce the fundamental principles, 
+while the optional modules explore their applications in the different 
+areas of physics including: astrophysics, the properties of matter, 
+particle physics and atmospheric physics. The option scheme also allows a
+ proportion of modules to be taken from outside of physics. We encourage
+ students not only to consider modules related to physics, for example 
+in computing, but also modules in philosophy and modern languages.
+
+Please download the course booklet for more information. Below is a list
+ of the individual modules in each year and more detail on their content
+ can be found by following the links above.
+
+THE FOUR-YEAR DEGREE COURSE (MPhys)
+
+Students can opt for the four-year version of the degree. This has been 
+designed primarily for students who are thinking of a career which makes
+ substantial use of their knowledge of Physics. The first two years are 
+the same as for the BSc.
+
+YEAR THREE MPhys
+
+Core: Quantum Physics of Atoms, Electrodynamics, Mathematical Methods 
+for Physicists III, Physics Group Project, Physics...
+                            <span class="toogle_lesstext"><i>[-]</i></span>
+              </div>
+                                </span>
+
+                                    <div class=" hidden-xs">
+                        <a href="https://www.masterstudies.com/MPhys-in-Physics/United-Kingdom/The-University-of-Warwick-Department-of-Physics/" class="btn btn-primary-master ">Read More</a>
+
+                        
+                    </div>
+                            </div>
+
+            <div class="visible-xs toggle-description text-muted">
+                <i class="fa fa-chevron-down open-description js-toggle-description"></i>
+                <i class="fa fa-chevron-up close-description js-toggle-description"></i>
+            </div>
+        </div>
+    </div>
+    <hr class="col-sm-12 list-item-divider">
+    
+</div>
+
+                                                          <div class="col-sm-12 list-item" data-idmode="9">
+    
+    <div class="listing-row row">
+
+                                    <div class="col-sm-2 school-logo-listing hidden-xs">
+                                        <img class="img-responsive" title="Rezekne University of Applied Sciences" alt="Rezekne University of Applied Sciences" src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/RTA-Rezekne.png">
+                </div>
+                    
+        <div class="col-sm-10 school-info">
+            <header>
+                <h4 class="listing-title">
+                    <a href="https://www.masterstudies.com/Master-in-Laser-Technologies/Latvia/RTA-Rezekne/">
+                        <span>Master in Laser Technologies</span>
+                                            </a>
+                </h4>
+                
+                                                        <h5 class="listing_provider"><span>Rezekne University of Applied Sciences</span></h5>
+                            </header>
+
+            <div class="is-item-description">
+
+                                <div class="labels-container">
+                         <span class="label label-default-master ">Campus</span>
+        
+                        <span class="label label-default-master ">Full time</span>
+                      <span class="label label-default-master ">2&nbsp;years</span>
+                      <span class="label label-default-master ">September 2018</span>
+                      <span class="label label-default-master ">Latvia</span>
+                      <span class="label label-default-master ">Rēzekne</span>
+        
+  
+  
+</div>                                <span>
+                                      <p class="short_desc dotdotdot-text">Completing
+ of the programme will enable you to apply theoretical knowledge and 
+practical skills in the industry and scientific research, successfully 
+realize yourselve in the field of optics, physics, modern material 
+handling, welding, measuring technology, and communications. 
+                                                            <span class="toogle_moretext">[+]</span>
+                                          </p>
+                    
+                                            <div class="moretext hide_text">
+
+                Masters in Physics. Completing of the programme will 
+enable you to apply theoretical knowledge and practical skills in the 
+industry and scientific research, successfully realize yourselves in the
+ field of optics, physics, modern material handling, welding, measuring 
+technology, and communications. 
+
+Basic subjects of studies: Solid state physics, Physical technologies, 
+Quantum mechanics and statistical physics, Modeling and simulation of 
+physical processes, and others. Special disciplines: Micro and 
+nanotechnology, Laser measuring equipment, Optical design, Components of
+ the laser technology, Modern development of laser technology, and 
+others. 
+
+Visiting professors from partner universities will be involved as 
+teachers and advisors in the programme. Students have an opportunity to 
+participate in Erasmus mobility for studies and traineeship. The 
+language of instruction is English or German. 
+
+Qualification awarded: Academic Master in Laser Technology.
+
+Admission requirements: Professional or academic bachelor's degree 
+(study duration of at least 3 years (180 ECTS) or second level (or 
+equivalent) higher education in engineering, physics, chemistry, 
+biology, environmental science, medicine, computer science, information 
+technology, mathematics, or economics.
+
+Duration of studies: 2 years of full time studies.
+
+Study programme consists of 2 parts:
+
+
+    Part A – compulsory courses (general)
+    Part B – elective courses (specialization).
+
+
+To complete study programme student has to earn 80 CP (120 ECTS).
+
+Access to further studies: Doctoral Studies.
+
+Final test, if any: Master`s thesis.
+
+Study fee: 2900 EUR per year.
+
+If you are interested in the studies at Rezekne University of Applied 
+Sciences fill application form at this address: 
+http://www.rta.lv/online_application_procedure.
+                            <span class="toogle_lesstext"><i>[-]</i></span>
+              </div>
+                                </span>
+
+                                    <div class=" hidden-xs">
+                        <a href="https://www.masterstudies.com/Master-in-Laser-Technologies/Latvia/RTA-Rezekne/" class="btn btn-primary-master ">Read More</a>
+
+                        
+                    </div>
+                            </div>
+
+            <div class="visible-xs toggle-description text-muted">
+                <i class="fa fa-chevron-down open-description js-toggle-description"></i>
+                <i class="fa fa-chevron-up close-description js-toggle-description"></i>
+            </div>
+        </div>
+    </div>
+    <hr class="col-sm-12 list-item-divider">
+    
+</div>
+
+                                                          <div class="col-sm-12 list-item" data-idmode="9">
+    
+    <div class="listing-row row">
+
+                                    <div class="col-sm-2 school-logo-listing hidden-xs">
+                                        <img class="img-responsive" title="University of Cagliari" alt="University of Cagliari" src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/UniCagliari.png">
+                </div>
+                    
+        <div class="col-sm-10 school-info">
+            <header>
+                <h4 class="listing-title">
+                    <a href="https://www.master-abroad.it/Laurea-Magistrale-in-Fisica/Italia/UniCagliari/">
+                        <span>Master In Physics</span>
+                                            </a>
+                </h4>
+                
+                                                        <h5 class="listing_provider"><span>University of Cagliari</span></h5>
+                            </header>
+
+            <div class="is-item-description">
+
+                                <div class="labels-container">
+                         <span class="label label-default-master ">Campus</span>
+        
+                        <span class="label label-default-master ">Full time</span>
+                      <span class="label label-default-master ">2&nbsp;years</span>
+                      <span class="label label-default-master ">October 2017</span>
+                      <span class="label label-default-master ">Italy</span>
+                      <span class="label label-default-master ">Cagliari</span>
+        
+  
+  
+</div>                                <span>
+                                      <p class="short_desc dotdotdot-text">The
+ course of studies in order to achieve the Master's Degree in Physics 
+has two years of attendance, including the time needed for the 
+preparation of the final examination. For the achievement of this 
+Master's Degree it is necessary to acquire 120 CFU (university credits) 
+by passing 10 exams in specific subjects and related characterizing the 
+Study Programme ...
+                                                            <span class="toogle_moretext">[+]</span>
+                                          </p>
+                    
+                                            <div class="moretext hide_text">
+
+                The course of studies in order to achieve the Master's 
+Degree in Physics has two years of attendance, including the time needed
+ for the preparation of the final examination. For the achievement of 
+this Master's Degree it is necessary to acquire 120 CFU (university 
+credits) by passing 10 exams in specific subjects and related 
+characterizing the Study Programme. The degree gives access to doctoral 
+courses in physics or other scientific-technological areas or 
+second-level master.
+
+In the study program is strengthened and refined the basic training in 
+physics, awarded the three-year degree, while also providing the 
+frontier physics. In the study program will also reflect the research 
+activities carried out in the Department of Physics from both university
+ teachers and researchers of the sections of the bodies of the National 
+Research present locally (INFN, INAF, CNR).
+
+The course provides:
+
+    depth knowledge of the key topics of contemporary physics: 
+relativity, analytical mechanics, quantum mechanics, statistical 
+mechanics, atomic and molecular physics, solid state physics, nuclear 
+physics and elementary particles, astrophysics and radio astronomy
+     sound knowledge of mathematical methods for physics and numerical 
+and computational methods
+     learning the most advanced laboratory techniques and computer 
+calculation techniques
+    a deepening of elements of related subjects: mathematics, chemistry,
+ biology, materials science, electronics, medical physics
+
+Graduates of the master's degree in physics have a conceptual and 
+experimental preparation recognized and appreciated at national and 
+international level in research, teaching, and in many areas of 
+production activities. Apart from the specific preparation on the 
+physical materials, in fact, they...
+                            <span class="toogle_lesstext"><i>[-]</i></span>
+              </div>
+                                </span>
+
+                                    <div class=" hidden-xs">
+                        <a href="https://www.master-abroad.it/Laurea-Magistrale-in-Fisica/Italia/UniCagliari/" class="btn btn-primary-master ">Read More</a>
+
+                        
+                    </div>
+                            </div>
+
+            <div class="visible-xs toggle-description text-muted">
+                <i class="fa fa-chevron-down open-description js-toggle-description"></i>
+                <i class="fa fa-chevron-up close-description js-toggle-description"></i>
+            </div>
+        </div>
+    </div>
+    <hr class="col-sm-12 list-item-divider">
+    
+</div>
+
+                                                          <div class="col-sm-12 list-item" data-idmode="9">
+    
+    <div class="listing-row row">
+
+                                    <div class="col-sm-2 school-logo-listing hidden-xs">
+                                        <img class="img-responsive" title="University of Technology Sydney" alt="University of Technology Sydney" src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/UTS.png">
+                </div>
+                    
+        <div class="col-sm-10 school-info">
+            <header>
+                <h4 class="listing-title">
+                    <a href="https://www.masterstudies.com/Master-of-Orthoptics/Australia/UTS/">
+                        <span>Master of Orthoptics</span>
+                                            </a>
+                </h4>
+                
+                                                        <h5 class="listing_provider"><span>University of Technology Sydney</span></h5>
+                            </header>
+
+            <div class="is-item-description">
+
+                                <div class="labels-container">
+                         <span class="label label-default-master ">Campus</span>
+        
+                        <span class="label label-default-master ">Full time</span>
+                      <span class="label label-default-master ">2&nbsp;years</span>
+                      <span class="label label-default-master ">January 2018</span>
+                      <span class="label label-default-master ">Australia</span>
+                      <span class="label label-default-master ">Sydney</span>
+        
+  
+  
+</div>                                <span>
+                                      <p class="short_desc dotdotdot-text">The
+ Master of Orthoptics provides the requisite in-depth knowledge, skills 
+and experience to work as an orthoptist in the multidisciplinary eye 
+healthcare sector. Innovative and practice-based in approach, it enables
+ the development of specialist knowledge and skills while preparing 
+students for changing practices in response to new evidence and rapidly 
+emerging medical technologies. The Master of Orthoptics is the only 
+course of its type in NSW and one of only two in Australia.
+                                                            <span class="toogle_moretext">[+]</span>
+                                          </p>
+                    
+                                            <div class="moretext hide_text">
+
+                <p>This course is delivered in a student-focused manner 
+that integrates theoretical knowledge with professional practice, 
+building on strong links with the orthoptic profession as well as other 
+professional groups involved in eye and vision care and with industry. 
+During the course, students undertake clinical placements at a variety 
+of sites, including hospitals, private practices and rehabilitation 
+settings. Students are encouraged to take clinical placements in rural 
+and regional areas of Australia including Indigenous populations, while 
+there is also opportunity to undertake approved international 
+placements. On-campus learning takes place in the Graduate School of 
+Health's state-of-the-art facilities, which opened in 2015. Students 
+have the opportunity to enhance their leadership skills while learning 
+from internationally recognised teachers and researchers, and from 
+practitioners who are at the forefront of implementing new knowledge and
+ technologies in clinical practice....
+                            <span class="toogle_lesstext"><i>[-]</i></span>
+              </p></div>
+                                </span>
+
+                                    <div class=" hidden-xs">
+                        <a href="https://www.masterstudies.com/Master-of-Orthoptics/Australia/UTS/" class="btn btn-primary-master ">Read More</a>
+
+                        
+                    </div>
+                            </div>
+
+            <div class="visible-xs toggle-description text-muted">
+                <i class="fa fa-chevron-down open-description js-toggle-description"></i>
+                <i class="fa fa-chevron-up close-description js-toggle-description"></i>
+            </div>
+        </div>
+    </div>
+    <hr class="col-sm-12 list-item-divider">
+    
+</div>
+
+                                                          <div class="col-sm-12 list-item" data-idmode="9">
+    
+    <div class="listing-row row">
+
+                                    <div class="col-sm-2 school-logo-listing hidden-xs">
+                                        <img class="img-responsive" title="University of Wroclaw" alt="University of Wroclaw" src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/UWr.png">
+                </div>
+                    
+        <div class="col-sm-10 school-info">
+            <header>
+                <h4 class="listing-title">
+                    <a href="https://www.masterstudies.com/Master-in-Theoretical-Physics/Poland/UWr/">
+                        <span>Master in Theoretical Physics</span>
+                                            </a>
+                </h4>
+                
+                                                        <h5 class="listing_provider"><span>University of Wroclaw</span></h5>
+                            </header>
+
+            <div class="is-item-description">
+
+                                <div class="labels-container">
+                         <span class="label label-default-master ">Campus</span>
+        
+                        <span class="label label-default-master ">Full time</span>
+                      <span class="label label-default-master ">2&nbsp;years</span>
+                      <span class="label label-default-master ">October 2017</span>
+                      <span class="label label-default-master ">Poland</span>
+                      <span class="label label-default-master ">Wrocław</span>
+        
+  
+  
+</div>                                <span>
+                                      <p class="short_desc dotdotdot-text">The
+ two year master studies in theoretical physics provide a high-level, 
+internationally competitive training in theoretical physics, guiding to 
+frontiers of modern research in the following main areas...
+                                                            <span class="toogle_moretext">[+]</span>
+                                          </p>
+                    
+                                            <div class="moretext hide_text">
+
+                The two year master studies in theoretical physics 
+provide a high-level, internationally competitive training in 
+theoretical physics, guiding to frontiers of modern research in the 
+following main areas:
+
+1.    Quantum field theory and  QCD, quark gluon plasma
+
+2.    Classical and quantum gravity
+
+3.    Conformal field theory and bosonic string
+
+4.    Neutrino physics
+
+5.    Deformed Field Theory, kappa-Poincare formalism, double special 
+relativity
+
+6.    Supersymmetric quantum mechanics, integrable models
+
+7.    Modern quantum mechanics, entanglement, nonlinear dynamics
+
+8.    Many body physics and statistical mechanics
+
+9.    Compact stars
+
+Comprehensive and up to date introduction to modern theoretical physics 
+is  provided in connection  to the current research conducted at the 
+Institute of Theoretical Physics.  Students can join one of  the active 
+groups and take part in special projects.
+
+The studies offer considerable flexibility and choice; you will be able 
+to choose a path reflecting your intellectual tastes or career choices. 
+You may prefer a broad theoretical education across subject areas or if 
+you have already decided about your profile, you may follow a more 
+selective path.
+
+Currently at the Institute we have international students from the 
+Belarus, Germany, Portugal, Ukraine, USA.
+
+ 
+
+We will  assess your performance by one or several of the following 
+means: 
+
+
+    written exams
+    course work marked on a pass/fail basis
+    take-home papers
+    mini-projects.
+
+The modes of assessment for a given course are decided by the course 
+lecturer and will be published at the beginning of each academic year.
+
+Graduate destinations
+
+Research in mathematical and theoretical physics, industry.
+
+Structure of the course
+
+Students...
+                            <span class="toogle_lesstext"><i>[-]</i></span>
+              </div>
+                                </span>
+
+                                    <div class=" hidden-xs">
+                        <a href="https://www.masterstudies.com/Master-in-Theoretical-Physics/Poland/UWr/" class="btn btn-primary-master ">Read More</a>
+
+                        
+                    </div>
+                            </div>
+
+            <div class="visible-xs toggle-description text-muted">
+                <i class="fa fa-chevron-down open-description js-toggle-description"></i>
+                <i class="fa fa-chevron-up close-description js-toggle-description"></i>
+            </div>
+        </div>
+    </div>
+    <hr class="col-sm-12 list-item-divider">
+    
+</div>
+
+                                                          <div class="col-sm-12 list-item" data-idmode="9">
+    
+    <div class="listing-row row">
+
+                                    <div class="col-sm-2 school-logo-listing hidden-xs">
+                                        <img class="img-responsive" title="KTH Royal Institute of Technology" alt="KTH Royal Institute of Technology" src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/KTH.png">
+                </div>
+                    
+        <div class="col-sm-10 school-info">
+            <header>
+                <h4 class="listing-title">
+                    <a href="https://www.masterstudies.com/Master-in-Electromagnetics-Fusion-and-Space-Engineering/Sweden/KTH/">
+                        <span>Master in Electromagnetics, Fusion and Space Engineering</span>
+                                            </a>
+                </h4>
+                
+                                                        <h5 class="listing_provider"><span>KTH Royal Institute of Technology</span></h5>
+                            </header>
+
+            <div class="is-item-description">
+
+                                <div class="labels-container">
+                         <span class="label label-default-master ">Campus</span>
+        
+                        <span class="label label-default-master ">Full time</span>
+                      <span class="label label-default-master ">2&nbsp;years</span>
+                      <span class="label label-default-master ">August 2018</span>
+                      <span class="label label-default-master ">Sweden</span>
+                      <span class="label label-default-master ">Stockholm</span>
+        
+  
+  
+</div>                                <span>
+                                      <p class="short_desc dotdotdot-text">The
+ two-year master’s programme in Electromagnetics, Fusion and Space 
+Engineering incorporates a strong foundation in electrical engineering 
+with an understanding of electromagnetic fields and how they interact 
+with matter.
+                                                            <span class="toogle_moretext">[+]</span>
+                                          </p>
+                    
+                                            <div class="moretext hide_text">
+
+                <p>The two-year master’s programme in Electromagnetics, 
+Fusion and Space Engineering incorporates a strong foundation in 
+electrical engineering with an understanding of electromagnetic fields 
+and how they interact with matter.</p>
+Electromagnetics, Fusion and Space Engineering at KTH
+<p>Electromagnetic fields are the basis of telecommunications. They are 
+employed, for example, to transmit high-speed data through optic fibres 
+or mobile wireless systems. Additionally, electromagnetic fields are 
+transmitted from objects in the universe, such as stars, and they 
+provide key information to help us understand the universe. Furthermore,
+ a fundamental understanding of plasma is needed for controlling and 
+generating fusion energy, the same source that powers the Sun, and which
+ promises to power the Earth in the near future....
+                            <span class="toogle_lesstext"><i>[-]</i></span>
+              </p></div>
+                                </span>
+
+                                    <div class=" hidden-xs">
+                        <a href="https://www.masterstudies.com/Master-in-Electromagnetics-Fusion-and-Space-Engineering/Sweden/KTH/" class="btn btn-primary-master ">Read More</a>
+
+                        
+                    </div>
+                            </div>
+
+            <div class="visible-xs toggle-description text-muted">
+                <i class="fa fa-chevron-down open-description js-toggle-description"></i>
+                <i class="fa fa-chevron-up close-description js-toggle-description"></i>
+            </div>
+        </div>
+    </div>
+    <hr class="col-sm-12 list-item-divider">
+    
+</div>
+
+                                                          <div class="col-sm-12 list-item" data-idmode="9">
+    
+    <div class="listing-row row">
+
+                                    <div class="col-sm-2 school-logo-listing hidden-xs">
+                                        <img class="img-responsive" title="Graz University of Technology (TU Graz)" alt="Graz University of Technology (TU Graz)" src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/TU-Graz.png">
+                </div>
+                    
+        <div class="col-sm-10 school-info">
+            <header>
+                <h4 class="listing-title">
+                    <a href="https://www.masterstudies.com/Master-in-Technical-Physics/Austria/TU-Graz/">
+                        <span>Master in Technical Physics</span>
+                                            </a>
+                </h4>
+                
+                                                        <h5 class="listing_provider"><span>Graz University of Technology (TU Graz)</span></h5>
+                            </header>
+
+            <div class="is-item-description">
+
+                                <div class="labels-container">
+                         <span class="label label-default-master ">Campus</span>
+        
+                        <span class="label label-default-master ">Full time</span>
+                      <span class="label label-default-master ">4&nbsp;semesters</span>
+                      <span class="label label-default-master ">October 2017</span>
+                      <span class="label label-default-master ">Austria</span>
+                      <span class="label label-default-master ">Graz</span>
+        
+  
+  
+</div>                                <span>
+                                      <p class="short_desc dotdotdot-text">Physics
+ forms the basis of many other sciences as well as of innovative 
+technical and industrial developments. In the NAWI Graz master's degree 
+programme Technical Physics, students build on the knowledge acquired in
+ the bachelor's degree programme and extend their skills in solving 
+physics problems and mathematical problems so that they can work on 
+research related and application oriented questions.
+                                                            <span class="toogle_moretext">[+]</span>
+                                          </p>
+                    
+                                            <div class="moretext hide_text">
+
+                
+
+Physics forms the basis of many other sciences as well as of innovative 
+technical and industrial developments. In the NAWI Graz master's degree 
+programme Technical Physics, students build on the knowledge acquired in
+ the bachelor's degree programme and extend their skills in solving 
+physics problems and mathematical problems so that they can work on 
+research related and application oriented questions. Numerous career 
+options are open to students after graduation, both in Austria and 
+abroad. They can choose to continue researching fundamental aspects of 
+physics or work developing new materials, technologies and processes for
+ industry.
+
+Content
+
+
+    You increase your knowledge of physics and maths.
+    You acquire specialist knowledge in the following areas:
+    Statistical and Computational Physics
+    Advanced Quantum Mechanics and Atom Physics
+    Advanced Solid State Physics and Radiation Physics
+    You acquire knowledge in Business and Entrepreneurship.
+    You apply physics methods in experiments, in theory and using 
+computers.
+    You analyse complex procedures using modern computer simulation 
+processes.
+    You learn to think logically and systematically and to acquaint 
+yourself with new physical and technical problem areas.
+    You work on interdisciplinary problems, e.g. in mathemathics, 
+chemistry, medicine and environmental systems sciences.
+    You improve your specialist English vocabulary.
+
+
+Specialisation Areas
+
+You can specialise in three of the following areas:
+
+
+    Applied Materials Physics
+    Computational Condensed Matter Physics
+    Laboratory Technology and Instrumentation
+    Microscopy and Nanoanalysis
+    Modelling of Materials
+    Nano and Laser Optics
+    Nanoscience
+    Quantum Many-Body Physics
+    Quantum Optics and Molecular Physics
+    Radiation and Plasma Physics
+    Semiconductor Devices
+    Surface Science
+    Theoretical Solid State Physics
+
+Further options for specialised...
+                            <span class="toogle_lesstext"><i>[-]</i></span>
+              </div>
+                                </span>
+
+                                    <div class=" hidden-xs">
+                        <a href="https://www.masterstudies.com/Master-in-Technical-Physics/Austria/TU-Graz/" class="btn btn-primary-master ">Read More</a>
+
+                        
+                    </div>
+                            </div>
+
+            <div class="visible-xs toggle-description text-muted">
+                <i class="fa fa-chevron-down open-description js-toggle-description"></i>
+                <i class="fa fa-chevron-up close-description js-toggle-description"></i>
+            </div>
+        </div>
+    </div>
+    <hr class="col-sm-12 list-item-divider">
+    
+</div>
+
+                                                          <div class="col-sm-12 list-item" data-idmode="9">
+    
+    <div class="listing-row row">
+
+                                    <div class="col-sm-2 school-logo-listing hidden-xs">
+                                        <img class="img-responsive" title="University of Eastern Finland - Institute of Photonics" alt="University of Eastern Finland - Institute of Photonics" src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/University-of-Eastern-Finland-Institute-of-Photonics.png">
+                </div>
+                    
+        <div class="col-sm-10 school-info">
+            <header>
+                <h4 class="listing-title">
+                    <a href="https://www.masterstudies.com/Masters-Degree-Programme-in-Photonics/Finland/University-of-Eastern-Finland-Institute-of-Photonics/">
+                        <span>Master's Degree Programme in Photonics</span>
+                                            </a>
+                </h4>
+                
+                                                        <h5 class="listing_provider"><span>University of Eastern Finland - Institute of Photonics</span></h5>
+                            </header>
+
+            <div class="is-item-description">
+
+                                <div class="labels-container">
+                         <span class="label label-default-master ">Campus</span>
+        
+                        <span class="label label-default-master ">Full time</span>
+                      <span class="label label-default-master ">2&nbsp;years</span>
+                      <span class="label label-default-master ">September 2018</span>
+                      <span class="label label-default-master ">Finland</span>
+                      <span class="label label-default-master ">Joensuu </span>
+        
+  
+  
+</div>                                <span>
+                                      <p class="short_desc dotdotdot-text">Master's
+ Degree Programme in Photonics is a two-year programme taught in English
+ at the Institute of Photonics, University of Eastern Finland, Joensuu, 
+Finland. Master's degree in photonics gives students good expertise to 
+modern optics and photonics at both theoretical and experimental level.
+                                                            <span class="toogle_moretext">[+]</span>
+                                          </p>
+                    
+                                            <div class="moretext hide_text">
+
+                Masters in Physics. Master's Degree Programme in 
+Photonics is a two-year programme taught in English at the Institute of 
+Photonics, University of Eastern Finland, Joensuu, Finland. Master's 
+degree in photonics gives students good expertise to modern optics and 
+photonics at both theoretical and experimental level. Our graduates find
+ work as technology specialists, researchers, and project managers in 
+the development organisations and R&amp;D departments of photonics 
+industry.
+
+The Master of Science (M.Sc.) in Photonics is a two year full time study
+ program. Master's degree consists of 120 ECTS credits of studies in one
+ main subject, photonics. One ECTS credit corresponds to 25-30 hours of 
+work.
+
+LEARNING OBJECTIVES
+
+The objective of Master's degree in photonics is to give students good 
+expertise to modern optics and photonics at both theoretical and 
+experimental level. This contains ability to understand optical 
+phenomena, design and analysis of optical systems, fabrication methods 
+of photonics structures, and ability to scientific and technical 
+communication in photonics. This all gives capability to work in 
+photonics related companies as an expert and developer, and to continue 
+to PhD studies in photonics. The education is based on high-quality 
+photonics research in the department.
+
+DEGREE STRUCTURE
+
+
+    Courses and laboratory practices 90 ECTS
+    MSc Thesis 30 ECTS
+    Total 120 ECTS
+
+
+STUDIES CONSIST OF THE FOLLOWING MODULES:
+
+
+    General studies provide basics for the further studies.
+    Core courses provide the fundamental basis for light and 
+light-matter interaction.
+    Laboratory practices contain a large amount of practical working in 
+photonics.
+    Waves and scattering consist of advanced topics on...
+                            <span class="toogle_lesstext"><i>[-]</i></span>
+              </div>
+                                </span>
+
+                                    <div class=" hidden-xs">
+                        <a href="https://www.masterstudies.com/Masters-Degree-Programme-in-Photonics/Finland/University-of-Eastern-Finland-Institute-of-Photonics/" class="btn btn-primary-master ">Read More</a>
+
+                        
+                    </div>
+                            </div>
+
+            <div class="visible-xs toggle-description text-muted">
+                <i class="fa fa-chevron-down open-description js-toggle-description"></i>
+                <i class="fa fa-chevron-up close-description js-toggle-description"></i>
+            </div>
+        </div>
+    </div>
+    <hr class="col-sm-12 list-item-divider">
+    
+</div>
+
+                                                          <div class="col-sm-12 list-item" data-idmode="9">
+    
+    <div class="listing-row row">
+
+                                    <div class="col-sm-2 school-logo-listing hidden-xs">
+                                        <img class="img-responsive" title="Jaume I University (Universitat Jaume I)" alt="Jaume I University (Universitat Jaume I)" src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/Jaume-I-University-Universitat-Jaume-I.png">
+                </div>
+                    
+        <div class="col-sm-10 school-info">
+            <header>
+                <h4 class="listing-title">
+                    <a href="https://www.master-maestrias.com/M%C3%A1ster-Universitario-en-F%C3%ADsica-Aplicada/Espana/Jaume-I-University-(Universitat-Jaume-I)/">
+                        <span>Máster Universitario En Física Aplicada</span>
+                                            </a>
+                </h4>
+                
+                                                        <h5 class="listing_provider"><span>Jaume I University (Universitat Jaume I)</span></h5>
+                            </header>
+
+            <div class="is-item-description">
+
+                                <div class="labels-container">
+                         <span class="label label-default-master ">Campus</span>
+        
+                        <span class="label label-default-master ">Full time</span>
+                      <span class="label label-default-master ">1&nbsp;year</span>
+                      <span class="label label-default-master ">October 2017</span>
+                      <span class="label label-default-master ">Spain</span>
+                      <span class="label label-default-master ">Castellón</span>
+        
+  
+  
+</div>                                <span>
+                                      <p class="short_desc dotdotdot-text">La
+ física aplicada es un ámbito interdisciplinar que cubre el hueco 
+existente entre los problemas más básicos propios de la física teórica y
+ los procesos de desarrollo 
+                                                            <span class="toogle_moretext">[+]</span>
+                                          </p>
+                    
+                                            <div class="moretext hide_text">
+
+                La física aplicada es un ámbito interdisciplinar que 
+cubre el hueco existente entre los problemas más básicos propios de la 
+física teórica y los procesos de desarrollo e innovación asociados 
+usualmente al ámbito de las diferentes ingenierías, lo que se ha venido 
+en llamar la «brecha tecnológica». La enorme repercusión social de 
+algunas de sus temáticas como, por ejemplo, aquellos aspectos 
+relacionados con las energías renovables o el desarrollo de herramientas
+ de diagnóstico de patologías clínicas que sean precisas, mínimamente 
+invasivas, eficaces, de bajo coste y más universales, justifican las 
+enormes expectativas que generan los resultados de la investigación en 
+este ámbito interdisciplinar. El currículo que se oferta al estudiantado
+ ofrece una gran flexibilidad aunque permite un mayor grado de 
+especialización en cuatro áreas: la biofísica, los dispositivos 
+optoelectrónicos y fotovoltaicos, la fotónica y la química cuántica.
+
+
+Tipo de enseñanza
+
+Enseñanza presencial.
+
+
+Duración y calendario
+
+Duración: un curso académico (octubre 2014 / septiembre 2015).
+
+Docencia presencial: octubre 2014 - mayo 2015.
+
+
+Créditos e importe
+
+60 créditos ECTS (European Credit Transfer System). Según tasas 
+oficiales pendientes de publicar. Precio en el curso 2013/14: 46,20 
+€/crédito.
+
+
+Requisitos de acceso obligatorios
+
+Graduados y graduadas en Física, Química, Ingeniería Industrial y otras 
+titulaciones afines que deseen iniciarse en la investigación en Física 
+Aplicada con objeto de realizar una tesis doctoral. Este máster también 
+proporciona una oferta de formación continua en el ámbito de la física 
+para los profesionales de diferentes sectores, tales como la docencia no
+ universitaria, el tecnológico (electrónico, energético, 
+instrumentación, etc.), hospitalario...
+                            <span class="toogle_lesstext"><i>[-]</i></span>
+              </div>
+                                </span>
+
+                                    <div class=" hidden-xs">
+                        <a href="https://www.master-maestrias.com/M%C3%A1ster-Universitario-en-F%C3%ADsica-Aplicada/Espana/Jaume-I-University-(Universitat-Jaume-I)/" class="btn btn-primary-master ">Read More</a>
+
+                        
+                    </div>
+                            </div>
+
+            <div class="visible-xs toggle-description text-muted">
+                <i class="fa fa-chevron-down open-description js-toggle-description"></i>
+                <i class="fa fa-chevron-up close-description js-toggle-description"></i>
+            </div>
+        </div>
+    </div>
+    <hr class="col-sm-12 list-item-divider">
+    
+</div>
+
+                                                          <div class="col-sm-12 list-item" data-idmode="9">
+    
+    <div class="listing-row row">
+
+                                    <div class="col-sm-2 school-logo-listing hidden-xs">
+                                        <img class="img-responsive" title="The Hong Kong University of Science and Technology" alt="The Hong Kong University of Science and Technology" src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/HKUST.png">
+                </div>
+                    
+        <div class="col-sm-10 school-info">
+            <header>
+                <h4 class="listing-title">
+                    <a href="https://www.masterstudies.com/MPhil-in-Physics/Hong-Kong/HKUST/">
+                        <span>MPhil in Physics</span>
+                                            </a>
+                </h4>
+                
+                                                        <h5 class="listing_provider"><span>The Hong Kong University of Science and Technology</span></h5>
+                            </header>
+
+            <div class="is-item-description">
+
+                                <div class="labels-container">
+                         <span class="label label-default-master ">Campus</span>
+        
+                        <span class="label label-default-master ">Full time</span>
+                      <span class="label label-default-master ">Part time</span>
+                      <span class="label label-default-master ">2&nbsp;years</span>
+                      <span class="label label-default-master ">September 2018</span>
+                      <span class="label label-default-master ">Hong Kong</span>
+        
+  
+  
+</div>                                <span>
+                                      <p class="short_desc dotdotdot-text">The
+ MPhil program is designed to prepare students for teaching, further 
+postgraduate studies, or advanced work in industry. Students are 
+expected to undertake coursework and successfully complete a thesis to 
+demonstrate competence in research.
+                                                            <span class="toogle_moretext">[+]</span>
+                                          </p>
+                    
+                                            <div class="moretext hide_text">
+
+                Masters in Physics. 
+
+Joining the Department of Physics as a postgraduate student is an 
+exciting prospect. The Department has received worldwide recognition for
+ its research breakthroughs. The strong research culture within the 
+Department, and in the University as a whole, has encouraged such 
+success, which has been characterized by frequent collaboration between 
+experimental and theoretical faculty members.
+
+By pursuing research at the frontier of knowledge and innovation at the 
+cutting edge of technology, our faculty seeks to preserve and nurture a 
+sense of wonder about the natural world and to impart it to students as a
+ lasting motivation for learning. Our postgraduate programs seek to 
+provide students with a solid grounding in broad physics principles and 
+techniques, an ambience conducive to creative and innovative activities,
+ and opportunities for cross- and inter-disciplinary research.
+
+The MPhil program is designed to prepare students for teaching, further 
+postgraduate studies, or advanced work in industry. Students are 
+expected to undertake coursework and successfully complete a thesis to 
+demonstrate competence in research.
+
+Research Foci
+ 
+The Department concentrates its resources on condensed matter physics 
+with potential relevance to the technological industry. Faculty and 
+postgraduate research focuses on optical, condensed matter and 
+statistical physics, and includes the physics of lasers, solid state, 
+mesoscopic systems, devices, nanomaterials, thin films, surfaces, 
+interfaces, liquid crystals, polymers and composites.
+
+Admission Requirements
+
+i. General Admission Requirements
+
+Applicants seeking admission to a master's degree should have:
+obtained a bachelor’s degree from a recognized institution, or an 
+approved equivalent qualification;
+ii. English Language Admission Requirements...
+                            <span class="toogle_lesstext"><i>[-]</i></span>
+              </div>
+                                </span>
+
+                                    <div class=" hidden-xs">
+                        <a href="https://www.masterstudies.com/MPhil-in-Physics/Hong-Kong/HKUST/" class="btn btn-primary-master ">Read More</a>
+
+                        
+                    </div>
+                            </div>
+
+            <div class="visible-xs toggle-description text-muted">
+                <i class="fa fa-chevron-down open-description js-toggle-description"></i>
+                <i class="fa fa-chevron-up close-description js-toggle-description"></i>
+            </div>
+        </div>
+    </div>
+    <hr class="col-sm-12 list-item-divider">
+    
+</div>
+
+                                  </div>
+              
+              <div class="row listing-pagination"><ul class="pagination"><li><a class="link" href="https://www.masterstudies.com/Masters-Degree/Physics/?page=2">Next »</a></li></ul></div><br>
+                      </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+  <div class="row">
+    <footer class="page-footer clearfix">
+      <div class="col-sm-12">
+        <div class="row">
+
+          <div class="brand col-sm-12">
+            <h2 class="usedColor">MASTERSTUDIES.COM</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="row">
+          <div class="col-sm-12">
+
+            <div class="footer-social pull-right">
+              <div class="hidden-xs addthis-container white">
+  <div class="pull-right">
+    <a data-toggle="modal" class="addthis-modal-link" href="#linkToUsModal">
+     Link to this page
+    </a>
+  </div>
+
+  <div class="addthis_toolbox" goo5tvk="" hidden="">
+    <i class="fa fa-spinner fa-pulse loading-add-this"></i>
+    <div class="custom_images">
+      <!--<a class="addthis_button_facebook addthis-button"><img src="//cdn02.masterstudies.com/img_new/addthis_facebook_white.png" width="18" height="18" border="0" alt="Share to Facebook" /></a>
+      <a class="addthis_button_twitter addthis-button"><img src="//cdn03.masterstudies.com/img_new/addthis_twitter_white.png" width="18" height="18" border="0" alt="Share to Twitter" /></a>-->
+        <a class="addthis_button_facebook addthis-button"><img src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/FB-f-Logo__blue_144_official.png" alt="Share to Facebook" border="0" width="18" height="18"></a>
+        <a class="addthis_button_twitter addthis-button"><img src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/Twitter_Logo_Blue_official.png" alt="Share to Twitter" border="0" width="32" height="32"></a>
+        <a class="addthis_button_more addthis-button"><img src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/addthis_more_white.png" alt="More..." border="0" width="18" height="18"></a>
+      <a class="addthis_counter addthis_bubble_style"></a>
+    </div>
+  </div>
+</div>
+
+            </div>
+            <div class="footer-links">
+                              <a href="https://www.masterstudies.com/Schools_and_Universities/Contact-us.html">Contact us</a>
+                              <a href="https://www.keystoneacademic.com/">Keystone Academic Solutions</a>
+                              <a href="https://www.masterstudies.com/Schools_and_Universities/Terms-and-Conditions.html">Terms and Conditions</a>
+                              <a href="https://www.masterstudies.com/Schools_and_Universities/Privacy-policy.html">Privacy</a>
+                              <a href="https://www.masterstudies.com/sitemap/">Sitemap</a>
+                              <a href="https://www.studenttests.com/">StudentTests</a>
+                          </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
+
+
+
+
+  <div class="modal fade" id="linkToUsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3>Link to and share "Best Master's Degrees in Physics 2017/2018"</h3>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="radio">
+              <label>
+                <input name="link_to_us_url" class="link_to_us_url" checked="checked" data-title="Masterstudies.com - Best Master's Degrees in Physics 2017/2018" data-url="https://www.masterstudies.com/Masters-Degree/Physics/" type="radio">
+                Link to this page
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input name="link_to_us_url" class="link_to_us_url" data-title="Masterstudies.com" data-url="https://www.masterstudies.com/" type="radio">
+                Link to Masterstudies.com start page
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="form-group">
+              <label for="link_to_us_url_input">Paste link in email or IM:</label>
+              <input id="link_to_us_url_input" class="form-control link_to_us_plain_link" value="https://www.masterstudies.com/Masters-Degree/Physics/" type="text">
+            </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <img src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/Masters-Degree-ms-en.png" class="link-to-us-image">
+
+            
+            <div class="pull-right">
+
+              <label class="radio">
+                <input name="link_to_us_image" class="link-to-us-image-radio" checked="checked" data-alt="Masterstudies.com" data-image="//cdn01.masterstudies.com/img/logo/Masters-Degree-ms-en.png" type="radio">
+                Masterstudies.com logo
+              </label>
+
+              
+              <label class="radio">
+                <input name="link_to_us_image" class="link-to-us-image-radio" data-image="" type="radio">
+                No image
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <label for="link_to_us_textarea">HTML-code:</label>
+            <textarea name="" id="link_to_us_textarea" class="form-control link-to-us-html" rows="4">&lt;a href="https://www.masterstudies.com/Masters-Degree/Physics/"&gt;
+&lt;img src="//cdn01.masterstudies.com/img/logo/Masters-Degree-ms-en.png" alt="Masterstudies.com"&gt;&lt;br&gt;
+Masterstudies.com - Best Master's Degrees in Physics 2017/2018
+&lt;/a&gt;</textarea>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <script src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/jquery.js"></script>
+  <script src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/jquery-ui.js"></script>
+
+  
+  
+  
+  <script src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/application.js"></script>
+  <script src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/randexp.js"></script>
+
+  <script src="Best%20Master's%20Degrees%20in%20Physics%202017_20181_files/js"></script>
+
+
+    <script type="text/javascript">
+      $(function ($) {
+
+          $('.is-filter-toggle').on('click', function () {
+              $(this).closest('.navigation-box-container').toggleClass('open');
+          });
+
+          $('.is-sub-filter-toggle').on('click', function () {
+              $(this).closest('.is-filter-setting-container').toggleClass('open');
+          });
+
+
+          if ($('.listingText').height() >= 270 && !$('.listingText').hasClass("toggleText")) {
+              $('.listingText').addClass('toggleText');
+              $('.read_more').removeClass('hide');
+          }
+
+          $(".read_more").click(function () {
+              if ($('.listingText').hasClass("toggleText")) {
+                  $('.listingText').removeClass('toggleText');
+                  $(".read_more").html('<i class="fa fa-chevron-up"></i> Read Less');
+
+              } else {
+                  $('.listingText').addClass('toggleText');
+                  $(".read_more").html('<i class="fa fa-chevron-down"></i> Read More');
+              }
+          });
+
+
+        
+        $('.form-search').appendTo($('#place-search-form-here'));
+          $('.form-search').removeClass('pull-right');
+          $('.form-search').removeClass('span7');
+          $('.form-search').addClass('span15');
+
+        
+        $('.toogle_lesstext_lead').appendTo($('.toogle_lesstext_lead').siblings('p').last());
+
+          jQuery('.grid').find('a').click(function (event) {
+
+              event.preventDefault();
+              //$(this).unbind('click');
+
+              params = {
+                  action: 'count_search_listing_click', json: $(this).parents('[data-track-click]').attr('data-track-click'), num: '', r: Math.ceil(100 * Math.random())
+              };
+
+              var link = $(this);
+
+              jQuery.ajax({
+                  url: '/ajax_handler.php',
+                  dataType: 'html',
+                  type: 'GET',
+                  data: params,
+                  success: function () {
+                      if (jQuery(link).attr('href')) window.location.href = jQuery(link).attr('href');
+                  },
+                  error: function () {
+                      if (jQuery(link).attr('href')) window.location.href = jQuery(link).attr('href');
+                  }
+              });
+
+              return false;
+          });
+
+
+      });
+  </script>
+
+
+
+
+  <script type="text/javascript">
+    $(function () {
+      var $partner_sites = [];
+      var $partner_sites_mobile = [];
+
+            $partner_sites.push($('<li><a class="navbar-brand active" href="https://www.masterstudies.com/">Master</a></li>'));
+      $partner_sites_mobile.push($('<li><a href="https://www.masterstudies.com/">Master</a></li>'));
+
+                                                                                    $partner_sites.push($('<li><a class="navbar-brand " href="https://www.phdstudies.com/">PhD</a></li>'));
+          $partner_sites_mobile.push($('<li><a href="https://www.phdstudies.com/">PhD</a></li>'));
+                                                                $partner_sites.push($('<li><a class="navbar-brand " href="https://www.lawstudies.com/">Law</a></li>'));
+          $partner_sites_mobile.push($('<li><a href="https://www.lawstudies.com/">Law</a></li>'));
+                                                                $partner_sites.push($('<li><a class="navbar-brand " href="https://www.bachelorstudies.com/">Bachelor</a></li>'));
+          $partner_sites_mobile.push($('<li><a href="https://www.bachelorstudies.com/">Bachelor</a></li>'));
+                                                                $partner_sites.push($('<li><a class="navbar-brand " href="https://www.mbastudies.com/">MBA</a></li>'));
+          $partner_sites_mobile.push($('<li><a href="https://www.mbastudies.com/">MBA</a></li>'));
+                                                                $partner_sites.push($('<li><a class="navbar-brand " href="https://www.healthcarestudies.com/">Healthcare</a></li>'));
+          $partner_sites_mobile.push($('<li><a href="https://www.healthcarestudies.com/">Healthcare</a></li>'));
+                                                                            $partner_sites.push($('<li><a class="navbar-brand " href="https://www.academiccourses.com/">Courses</a></li>'));
+          $partner_sites_mobile.push($('<li><a href="https://www.academiccourses.com/">Courses</a></li>'));
+                                                                $partner_sites.push($('<li><a class="navbar-brand " href="https://www.onlinestudies.com/">Online</a></li>'));
+          $partner_sites_mobile.push($('<li><a href="https://www.onlinestudies.com/">Online</a></li>'));
+                            $('.partner-sites').first().append($partner_sites);
+      $('.partner-sites-mobile').first().append($partner_sites_mobile);
+
+
+      
+      
+    });
+  </script>
+
+  
+
+
+  
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"bb510f4a41","applicationID":"7303044","transactionName":"YQdQbRRSCxZYBUdQV1hNZ0sPHAwLXQNLF0heEg==","queueTime":0,"applicationTime":328,"atts":"TUBTG1xIGBg=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+</body></html>

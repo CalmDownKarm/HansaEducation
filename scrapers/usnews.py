@@ -16,7 +16,7 @@ pp = pprint.PrettyPrinter(indent=4)
 def extract_schools_and_links(files):
     list_of_schools = []
     for file in files:
-        with open("../USNEWS/"+file) as f:
+        with open("../usnews/"+file) as f:
             soup = bs(f.read(), "html.parser")
             if soup:
                 print("FOUND SOUP")
@@ -49,8 +49,8 @@ def extract_schools_and_links(files):
     return list_of_schools
 
 
-files = [f for f in listdir("../USNEWS/") if isfile(join("../USNEWS/", f))]
+files = [f for f in listdir("../usnews/") if isfile(join("../usnews/", f))]
 foo = extract_schools_and_links(files)
 df = pd.DataFrame(foo)
-df.to_csv("../Output/USNEWSAI.csv",index=False)
+df.to_csv("../Output/USNEWSPhysics.csv",index=False)
 

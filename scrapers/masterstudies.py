@@ -75,5 +75,5 @@ def get_more_data(school):
 boobs = extract_links(files)
 data = list(map(get_more_data,boobs))
 df = pd.DataFrame(data)
-df.to_csv("../Output/MastersStudies Public Policy Europe.csv")
+df.to_csv("../Output/MastersStudies Physics.csv")
 #pprint.pprint(files)

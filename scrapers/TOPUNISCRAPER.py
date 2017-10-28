@@ -1,4 +1,5 @@
-"""Meant to scrape Ranked Lists of TU rankings of colleges/courses. Easiest to download the table and work from there"""
+"""Meant to scrape Ranked Lists of TU rankings of colleges/courses. Easiest to download the table and work from there
+Save files to TUOLDFORMAT folder file link looks like https://www.topuniversities.com/university-rankings/university-subject-rankings/2017/physics-astronomy"""
 from bs4 import BeautifulSoup as bs
 import pandas as pd
 import pprint
@@ -183,10 +184,10 @@ def doshit(thing):
         print(e)
         print("Merging " + url)
 
-result = extract_data("../TUOldFormat/Business & Management Studies _ Top Universities.html")
+result = extract_data("../TUOldFormat/Physics & Astronomy | Top Universities2.html")
 bullshit = list(map(doshit, result))
 df = pd.DataFrame(bullshit)
-df.to_csv("../Output/TUMIM.csv")
+df.to_csv("../Output/TUPhysics.csv")
 
 # result = extract_data(
 #     "Computer Science & Information Systems _ Top Universities.html")

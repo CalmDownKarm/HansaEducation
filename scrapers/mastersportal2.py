@@ -1,29 +1,39 @@
-# Pulls AJAX links so I don't have to manually download files
+''' Pulls AJAX links so I don't have to manually download files
+steps, navigate to a page like http://www.mastersportal.eu/search/#q=di-38|lv-master,preparation&start=0&length=10&order=relevance&direction=desc
+then look for a json with 200 response code
+'''
 import pandas
 import json
 import pprint
-import urllib.request
+import requests
 import collections
 from os import listdir,rename
 from os.path import isfile, join
-
+count = 0
 def download_jsons(url):
     global count
-    count+=1
+    count +=1
     try:
-        with urllib.request.urlopen(url) as link:
-            data = json.loads(link.read().decode())
-            print(data)
-            with open("../mp/response"+repr(count)+".json",'w') as out:
-                json.dump(data,out)
+        headers = {
+            'user-agent':'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:56.0) Gecko/20100101 Firefox/56.0',
+            'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'cookie':'studyportals-cookie=88292f83-d89c-4f56-9136-50c73679fa63; __cfduid=d30903963a9186cecb959ae6497eb156b1509191768',
+            'host':'reflector.prtl.co',
+            'connection':'keep-alive',
+            'upgrade-insecure-requests':'1'
+        }
+        r = requests.get(url,headers=headers)
+        print(r.status_code)
+        with open("../mp/response"+repr(count)+".json",'w') as out:
+                json.dump(r.json(),out)
     except Exception as e:
+        print("download JSON")
         print(e)
 
 
 def download_json_driver():
-    count = 0
-    url = "https://reflector.prtl.co/?order=relevance&direction=desc&start=0&include_order=true&token=ddd2a935ef77852e1a7b108eddeddc7b7f598a80&q=de-fulltime%7Cdi-101%7Cen-3605%7Clv-master%2Cpreparation%7Cmh-face2face%7C!dg-prebachelor%2Clanguage%7Cuc-108&path=data%2Fstudies-cs%2Fpublic%2Fresults%2F&hh=en-GB%2Cde-DE%2Cfr-FR%2Ces-ES-master%2Cdefault" 
-    [download_jsons(url.replace("start=0","start="+repr(x))) for x in range(0,500,10)]
+    url="https://reflector.prtl.co/?order=relevance&direction=desc&start=0&include_order=true&token=97e377ded5cd3041adb8309d5b4787715d1952bc&q=di-38|en-3397|lv-master,preparation|!dg-prebachelor,language|uc-108&path=data/studies-cs/public/results/&hh=en-GB,de-DE,fr-FR,es-ES-master,default"
+    [download_jsons(url.replace("start=0","start="+repr(x))) for x in range(0,1003,10)]
 
 def flatten(d, parent_key='', sep='_'):
     items = []
@@ -68,12 +78,11 @@ def handle_one_course(indict,id):
     except Exception as e:
         print(e)
         pprint.pprint(indict)
-    finally:
-        return course    
+    return course    
 
 
 
-
+download_json_driver()
 def decode_json(filename):
     with open(filename) as data_file:    
         data = json.load(data_file)
@@ -89,4 +98,4 @@ for file in files:
     all_my_courses += decode_json("../mp/"+file)
 
 df = pandas.DataFrame(all_my_courses)
-df.to_csv("../Output/MastersPortalPublicAdministration.csv")
+df.to_csv("../Output/MastersPortalPhysics.csv")

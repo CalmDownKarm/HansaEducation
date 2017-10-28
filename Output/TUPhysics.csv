@@ -1,0 +1,503 @@
+,Academic Reputation,Country,Employer Reputation,International Faculty,Name,Number of Internal Students,Overall Score,Percent International PostGrad,Percent International UnderGrad,Percent Post Grad Students,Percent Undergraduate Students,Rank,Total Academic Faculty,Total Number of Students,URL
+0,100,United States,94.7,"1,679",Massachusetts Institute of Technology (MIT) ,"3,717",98.9,83%,17%,60%,40%,1,"2,982","11,067",https://www.topuniversities.com/universities/massachusetts-institute-technology-mit
+1,97.6,United States,96.4,"1,311",Harvard University,"5,266",97.4,85%,15%,69%,31%,2,"4,350","22,429",https://www.topuniversities.com/universities/harvard-university
+2,95.3,United States,98,"2,042",Stanford University,"3,611",97,83%,17%,56%,44%,3,"4,285","15,878",https://www.topuniversities.com/universities/stanford-university
+3,98.2,United Kingdom,91.6,"2,278",University of Cambridge,"6,699",95.9,64%,36%,37%,63%,4,"5,490","18,770",https://www.topuniversities.com/universities/university-cambridge
+4,96.6,United States,95.6,"1,395","University of California, Berkeley (UCB)","6,086",95.4,39%,61%,27%,73%,5,"3,321","36,703",https://www.topuniversities.com/universities/university-california-berkeley-ucb
+5,95.8,United Kingdom,93.5,"2,964",University of Oxford,"7,353",95.2,74%,26%,44%,56%,6,"6,750","19,720",https://www.topuniversities.com/universities/university-oxford
+6,95.1,United States,92.5,350,California Institute of Technology (Caltech),647,93.2,87%,13%,56%,44%,7,953,"2,255",https://www.topuniversities.com/universities/california-institute-technology-caltech
+7,93.2,United States,93.6,246,Princeton University,"1,793",92.2,65%,35%,34%,66%,8,"1,007","8,069",https://www.topuniversities.com/universities/princeton-university
+8,92.1,Japan,87.3,254,The University of Tokyo,"2,639",91.6,89%,11%,49%,51%,9,"4,514","27,279",https://www.topuniversities.com/universities/university-tokyo
+9,91.4,Switzerland,90.7,"1,886",ETH Zurich - Swiss Federal Institute of Technology,"7,563",91.4,72%,28%,53%,47%,10,"2,477","19,815",https://www.topuniversities.com/universities/eth-zurich-swiss-federal-institute-technology
+10,90.7,United Kingdom,89.1,"2,071",Imperial College London,"8,746",89.8,53%,47%,43%,57%,11,"3,930","16,090",https://www.topuniversities.com/universities/imperial-college-london
+11,85.7,United States,93.4,662,"University of California, Los Angeles (UCLA)","6,887",88.4,44%,56%,29%,71%,12,"2,859","40,114",https://www.topuniversities.com/universities/university-california-los-angeles-ucla
+12,86.7,United States,98.1,635,University of Chicago,"3,379",87.3,76%,24%,57%,43%,13,"2,449","13,557",https://www.topuniversities.com/universities/university-chicago
+13,84.9,Switzerland,91.8,"1,300",Ecole Polytechnique Fédérale de Lausanne (EPFL),"5,896",86.9,56%,44%,48%,52%,=14,"1,695","10,343",https://www.topuniversities.com/universities/ecole-polytechnique-f%C3%A9d%C3%A9rale-de-lausanne-epfl
+14,83.1,United States,95.3,"1,708",Yale University,"2,469",86.9,76%,24%,56%,44%,=14,"4,940","12,402",https://www.topuniversities.com/universities/yale-university
+15,85.5,Japan,84.6,293,Kyoto University,"1,990",86.1,89%,11%,42%,58%,=16,"4,060","22,974",https://www.topuniversities.com/universities/kyoto-university
+16,87.4,Germany,93.8,674,Ludwig-Maximilians-Universität München,"5,084",86.1,44%,56%,36%,64%,=16,"3,274","35,055",https://www.topuniversities.com/universities/ludwig-maximilians-universit%C3%A4t-m%C3%BCnchen
+17,83.3,China,84.7,"1,038",Peking University,"7,090",85.6,48%,52%,61%,39%,18,"5,185","42,136",https://www.topuniversities.com/universities/peking-university
+18,79.6,United States,96.4,913,Columbia University,"8,105",85.5,85%,15%,69%,31%,=19,"6,189","25,045",https://www.topuniversities.com/universities/columbia-university
+19,84.5,Germany,89.7,"1,174",Technical University of Munich,"6,181",85.5,61%,39%,47%,53%,=19,"5,850","38,726",https://www.topuniversities.com/universities/technical-university-munich
+20,84.2,Russia,75.2,373,Lomonosov Moscow State University,"5,098",85.4,16%,84%,35%,65%,21,"6,709","30,233",https://www.topuniversities.com/universities/lomonosov-moscow-state-university
+21,88.2,United States,100,267,"University of California, Santa Barbara (UCSB)","2,128",85.3,32%,68%,12%,88%,22,"1,449","23,149",https://www.topuniversities.com/universities/university-california-santa-barbara-ucsb
+22,84,United States,92.8,970,Cornell University,"5,411",84.8,61%,39%,35%,65%,23,"2,718","21,904",https://www.topuniversities.com/universities/cornell-university
+23,82.4,China,83.1,932,Tsinghua University,"4,072",84.7,49%,51%,59%,41%,24,"5,506","36,300",https://www.topuniversities.com/universities/tsinghua-university
+24,82.3,Singapore,91.5,"3,086",National University of Singapore (NUS),"8,917",84.3,48%,52%,18%,82%,=25,"5,106","32,728",https://www.topuniversities.com/universities/national-university-singapore-nus
+25,83.9,United States,90.6,259,University of Illinois at Urbana-Champaign,"9,483",84.3,47%,53%,25%,75%,=25,"2,554","42,427",https://www.topuniversities.com/universities/university-illinois-urbana-champaign
+26,78.3,Canada,91.7,"3,905",University of Toronto,"21,910",84.3,21%,79%,22%,78%,=25,"9,581","72,207",https://www.topuniversities.com/universities/university-toronto
+27,79.9,France,92.5,259,Ecole Polytechnique,924,84.2,69%,31%,65%,35%,28,649,"3,126",https://www.topuniversities.com/universities/ecole-polytechnique
+28,85.9,Japan,82.1,191,Tokyo Institute of Technology,"1,071",84.1,80%,20%,51%,49%,29,"1,563","9,832",https://www.topuniversities.com/universities/tokyo-institute-technology
+29,81.5,South Korea,87.1,433,Seoul National University,"2,331",83.2,47%,53%,42%,58%,30,"3,930","28,064",https://www.topuniversities.com/universities/seoul-national-university
+30,78.3,Germany,87,410,"KIT, Karlsruhe Institute of Technology","4,809",82.9,56%,44%,46%,54%,=31,"1,827","26,081",https://www.topuniversities.com/universities/kit-karlsruhe-institute-technology
+31,84.7,Japan,82.3,264,Tohoku University,"1,604",82.9,84%,16%,38%,62%,=31,"3,411","17,827",https://www.topuniversities.com/universities/tohoku-university
+32,83,Japan,79.3,296,Osaka University,"2,106",82.5,71%,29%,34%,66%,33,"2,814","22,760",https://www.topuniversities.com/universities/osaka-university
+33,75.8,Canada,91.7,"1,635",University of British Columbia,"11,388",82.1,24%,76%,16%,84%,34,"4,648","50,350",https://www.topuniversities.com/universities/university-british-columbia
+34,79.9,Germany,90.5,756,Ruprecht-Karls-Universität Heidelberg,"5,298",81.9,48%,52%,27%,73%,35,"3,908","28,852",https://www.topuniversities.com/universities/ruprecht-karls-universit%C3%A4t-heidelberg
+35,75.4,Germany,89.6,449,RWTH Aachen University,"8,556",81.8,65%,35%,50%,50%,36,"3,176","44,517",https://www.topuniversities.com/universities/rwth-aachen-university
+36,79.5,Taiwan,82.8,220,National Taiwan University (NTU),"3,152",81.4,45%,55%,46%,54%,37,"2,807","32,195",https://www.topuniversities.com/universities/national-taiwan-university-ntu
+37,74.7,United States,89.3,"1,920",University of Michigan,"7,527",81.3,64%,36%,34%,66%,38,"6,809","43,147",https://www.topuniversities.com/universities/university-michigan
+38,75.6,Canada,87.7,"1,220",McGill University,"9,540",81.2,32%,68%,23%,77%,39,"3,646","28,837",https://www.topuniversities.com/universities/mcgill-university
+39,79.3,United Kingdom,87.3,"1,653",The University of Manchester,"13,514",81.1,44%,56%,27%,73%,=40,"4,910","36,670",https://www.topuniversities.com/universities/university-manchester
+40,77.2,United States,93.2,473,"University of Maryland, College Park","4,683",81.1,73%,27%,25%,75%,=40,"3,920","35,504",https://www.topuniversities.com/universities/university-maryland-college-park
+41,75.1,Russia,92.2,129,Moscow Institute of Physics and Technology (MIPT / Moscow Phystech),786,80.9,44%,44%,36%,60%,=42,"1,144","5,922",https://www.topuniversities.com/universities/moscow-institute-physics-technology-mipt-moscow-phystech
+42,75.5,United States,91.9,108,University of Texas at Austin,"4,744",80.9,62%,38%,22%,78%,=42,"2,833","47,995",https://www.topuniversities.com/universities/university-texas-austin
+43,79.8,South Korea,84.5,147,KAIST - Korea Advanced Institute of Science & Technology,584,80.8,67%,33%,62%,38%,=44,"1,250","9,826",https://www.topuniversities.com/universities/kaist-korea-advanced-institute-science-technology
+44,79.9,Italy,85.8,123,Sapienza University of Rome,"7,650",80.8,47%,53%,50%,50%,=44,"3,381","108,229",https://www.topuniversities.com/universities/sapienza-university-rome
+45,79.4,United Kingdom,86,"2,554",UCL (University College London),"14,854",80.8,55%,45%,48%,52%,=44,"6,345","31,080",https://www.topuniversities.com/universities/ucl-university-college-london
+46,76.7,Singapore,87.1,"2,993","Nanyang Technological University, Singapore (NTU)","7,251",80.7,46%,54%,18%,82%,47,"4,338","25,738",https://www.topuniversities.com/universities/nanyang-technological-university-singapore-ntu
+47,74.2,Australia,89.4,"1,477",The University of Melbourne,"18,030",80.6,54%,46%,47%,53%,48,"3,311","42,182",https://www.topuniversities.com/universities/university-melbourne
+48,79.5,Japan,83.5,206,Nagoya University,"1,547",80.3,80%,20%,38%,62%,49,"2,665","15,838",https://www.topuniversities.com/universities/nagoya-university
+49,73,Russia,81.3,45,Novosibirsk State University,"1,342",80,25%,75%,26%,74%,50,"1,038","7,204",https://www.topuniversities.com/universities/novosibirsk-state-university
+50,79.8,Australia,87.6,927,The Australian National University,"5,551",,61%,39%,43%,57%,51-100,"1,600","14,442",https://www.topuniversities.com/universities/australian-national-university
+51,70.9,United States,93.9,379,Boston University,"7,041",,41%,59%,36%,64%,51-100,"3,157","25,662",https://www.topuniversities.com/universities/boston-university
+52,71.7,United States,88.1,425,Carnegie Mellon University,"6,385",,71%,29%,51%,49%,51-100,"1,342","13,356",https://www.topuniversities.com/universities/carnegie-mellon-university
+53,78.6,Netherlands,83.2,701,Delft University of Technology,"4,634",,88%,12%,52%,48%,51-100,"1,669","16,527",https://www.topuniversities.com/universities/delft-university-technology
+54,72.3,United Kingdom,92.6,586,Durham University,"4,690",,48%,52%,22%,78%,51-100,"1,539","16,745",https://www.topuniversities.com/universities/durham-university
+55,86.2,France,84.5,75,"Ecole normale supérieure, Paris",374,,98%,2%,93%,7%,51-100,178,"1,907",https://www.topuniversities.com/universities/ecole-normale-sup%C3%A9rieure-paris
+56,71.5,China,85.1,"1,178",Fudan University,"4,680",,37%,63%,50%,50%,51-100,"4,037","29,135",https://www.topuniversities.com/universities/fudan-university
+57,71.5,United States,88,75,Georgia Institute of Technology,"4,761",,68%,32%,34%,66%,51-100,"1,133","21,082",https://www.topuniversities.com/universities/georgia-institute-technology
+58,74.2,Germany,90.8,407,Humboldt-Universität zu Berlin,"4,805",,59%,41%,37%,63%,51-100,"1,966","33,198",https://www.topuniversities.com/universities/humboldt-universit%C3%A4t-zu-berlin
+59,73.3,United States,88.9,"1,061",Johns Hopkins University,"4,105",,79%,21%,63%,37%,51-100,"4,462","16,146",https://www.topuniversities.com/universities/johns-hopkins-university
+60,66.8,South Korea,84.4,339,Korea University,"3,638",,18%,82%,23%,77%,51-100,"3,745","25,892",https://www.topuniversities.com/universities/korea-university
+61,72.2,Sweden,79.8,494,KTH Royal Institute of Technology,"1,937",,88%,12%,41%,59%,51-100,"1,500","12,658",https://www.topuniversities.com/universities/kth-royal-institute-technology
+62,78.8,Netherlands,90.2,581,Leiden University,"3,488",,63%,37%,39%,61%,51-100,"2,324","26,513",https://www.topuniversities.com/universities/leiden-university
+63,75.5,Russia,69.2,186,National Research Nuclear University MEPhI (Moscow Engineering Physics Institute),"1,399",,81%,19%,69%,31%,51-100,"1,159","6,804",https://www.topuniversities.com/universities/national-research-nuclear-university-mephi-moscow-engineering-physics-institute
+64,71.6,Taiwan,83,119,National Tsing Hua University,"1,187",,63%,37%,38%,62%,51-100,"1,020","13,890",https://www.topuniversities.com/universities/national-tsing-hua-university
+65,65.9,,95.1,,New York University (NYU),,,,,,,51-100,,,https://www.topuniversities.com/universities/new-york-university-nyu
+66,69.6,United States,91.1,"1,141",Northwestern University,"3,422",,79%,21%,55%,45%,51-100,"4,231","18,675",https://www.topuniversities.com/universities/northwestern-university
+67,60.5,United States,91.9,"1,696",The Ohio State University,"6,874",,36%,64%,25%,75%,51-100,"5,911","43,156",https://www.topuniversities.com/universities/ohio-state-university
+68,67.1,United States,87.8,211,Pennsylvania State University,"7,081",,35%,65%,12%,88%,51-100,"3,509","45,612",https://www.topuniversities.com/universities/pennsylvania-state-university
+69,74.1,South Korea,83.7,113,Pohang University of Science And Technology (POSTECH),126,,100%,%,56%,44%,51-100,664,"3,117",https://www.topuniversities.com/universities/pohang-university-science-technology-postech
+70,72.7,Chile,83,198,Pontificia Universidad Católica de Chile (UC),991,,70%,30%,16%,84%,51-100,"2,260","27,003",https://www.topuniversities.com/universities/pontificia-universidad-cat%C3%B3lica-de-chile-uc
+71,64.6,United States,87.4,"1,334",Purdue University,"8,787",,41%,59%,23%,77%,51-100,"3,247","38,143",https://www.topuniversities.com/universities/purdue-university
+72,69.2,Germany,89.4,300,Rheinische Friedrich-Wilhelms-Universität Bonn,"4,522",,53%,47%,29%,71%,51-100,"3,670","35,619",https://www.topuniversities.com/universities/rheinische-friedrich-wilhelms-universit%C3%A4t-bonn
+73,70.1,China,80.8,887,Shanghai Jiao Tong University,"2,858",,33%,67%,54%,46%,51-100,"3,544","38,931",https://www.topuniversities.com/universities/shanghai-jiao-tong-university
+74,67.3,South Korea,87.9,324,Sungkyunkwan University (SKKU),"2,818",,24%,76%,24%,76%,51-100,"3,556","23,921",https://www.topuniversities.com/universities/sungkyunkwan-university-skku
+75,72.7,Germany,82.9,377,Technische Universität Berlin (TU Berlin),"4,494",,51%,49%,39%,61%,51-100,"2,562","22,176",https://www.topuniversities.com/universities/technische-universit%C3%A4t-berlin-tu-berlin
+76,77.3,"Hong Kong S.A.R., China",87.3,835,The Hong Kong University of Science and Technology,"2,921",,48%,52%,15%,85%,51-100,"1,150","10,375",https://www.topuniversities.com/universities/hong-kong-university-science-technology
+77,73.5,Australia,85.3,"1,829",The University of Sydney,"17,030",,58%,42%,38%,62%,51-100,"3,360","46,678",https://www.topuniversities.com/universities/university-sydney
+78,68.8,Spain,91.2,181,Universidad Autónoma de Madrid,"2,976",,42%,58%,23%,77%,51-100,"2,738","26,511",https://www.topuniversities.com/universities/universidad-aut%C3%B3noma-de-madrid
+79,67.8,Italy,83.2,153,Alma Mater Studiorum - University of Bologna,"4,195",,50%,50%,43%,57%,51-100,"2,990","63,399",https://www.topuniversities.com/universities/alma-mater-studiorum-university-bologna
+80,75.3,Italy,87.6,148,University of Pisa,"2,092",,39%,61%,39%,61%,51-100,"2,517","51,510",https://www.topuniversities.com/universities/university-pisa
+81,69.9,Spain,91.8,108,Universitat de Barcelona,"6,134",,39%,61%,18%,82%,51-100,"3,863","46,002",https://www.topuniversities.com/universities/universitat-de-barcelona
+82,75.5,Germany,91.6,469,Universität Hamburg,"4,391",,62%,38%,52%,48%,51-100,"4,257","38,182",https://www.topuniversities.com/universities/universit%C3%A4t-hamburg
+83,67.2,France,89.1,640,Université Paris-Sud,"4,421",,68%,32%,47%,53%,51-100,"3,754","26,945",https://www.topuniversities.com/universities/universit%C3%A9-paris-sud
+84,73.2,France,89,253,Université Pierre et Marie Curie (UPMC),"4,213",,64%,36%,48%,52%,51-100,"2,273","24,305",https://www.topuniversities.com/universities/universit%C3%A9-pierre-et-marie-curie-upmc
+85,73.6,Netherlands,94.9,707,University of Amsterdam,"3,785",,66%,34%,37%,63%,51-100,"2,600","25,967",https://www.topuniversities.com/universities/university-amsterdam
+86,67.9,United Kingdom,88.6,942,University of Bristol,"5,099",,47%,53%,21%,79%,51-100,"2,870","20,630",https://www.topuniversities.com/universities/university-bristol
+87,75.2,United States,88,870,"University of California, San Diego (UCSD)","6,644",,31%,69%,19%,81%,51-100,"3,694","32,237",https://www.topuniversities.com/universities/university-california-san-diego-ucsd
+88,75.4,United States,90.9,566,University of Colorado Boulder,"2,679",,27%,73%,13%,87%,51-100,"3,685","30,219",https://www.topuniversities.com/universities/university-colorado-boulder
+89,69.2,Denmark,90.3,"2,336",University of Copenhagen,"3,683",,61%,39%,49%,51%,51-100,"7,483","32,119",https://www.topuniversities.com/universities/university-copenhagen
+90,75.1,United Kingdom,90.6,"1,553",The University of Edinburgh,"10,551",,48%,52%,28%,72%,51-100,"4,075","28,040",https://www.topuniversities.com/universities/university-edinburgh
+91,70.8,Switzerland,94.3,"1,029",University of Geneva,"6,104",,61%,39%,48%,52%,51-100,"1,752","15,844",https://www.topuniversities.com/universities/university-geneva
+92,72.2,"Hong Kong S.A.R., China",89.3,"2,085",The University of Hong Kong,"8,230",,54%,46%,35%,65%,51-100,"3,012","20,214",https://www.topuniversities.com/universities/university-hong-kong
+93,72.3,United States,92.3,"1,383",University of Pennsylvania,"4,250",,72%,28%,52%,48%,51-100,"5,499","20,639",https://www.topuniversities.com/universities/university-pennsylvania
+94,71.1,China,84.5,155,University of Science and Technology of China,548,,96%,4%,54%,46%,51-100,"1,992","16,032",https://www.topuniversities.com/universities/university-science-technology-china
+95,75,United Kingdom,85.5,"1,017",University of Southampton,"7,789",,53%,47%,28%,72%,51-100,"2,820","23,775",https://www.topuniversities.com/universities/university-southampton
+96,70.2,United States,93,550,University of Washington,"8,373",,37%,63%,32%,68%,51-100,"2,484","56,973",https://www.topuniversities.com/universities/university-washington
+97,67.8,United States,91.4,"1,151",University of Wisconsin-Madison,"4,920",,51%,49%,27%,73%,51-100,"5,722","38,985",https://www.topuniversities.com/universities/university-wisconsin-madison
+98,65.6,Switzerland,99.1,"2,617",University of Zurich,"5,036",,71%,29%,48%,52%,51-100,"4,997","26,065",https://www.topuniversities.com/universities/university-zurich
+99,69.4,South Korea,81.1,290,Yonsei University,"3,379",,15%,85%,24%,76%,51-100,"3,621","25,903",https://www.topuniversities.com/universities/yonsei-university
+100,62.9,United States,95.4,379,Brown University,"1,825",,49%,51%,29%,71%,101-150,"1,303","9,251",https://www.topuniversities.com/universities/brown-university
+101,73.4,Sweden,81.4,336,Chalmers University of Technology,"1,465",,92%,8%,45%,55%,101-150,"1,077","9,257",https://www.topuniversities.com/universities/chalmers-university-technology
+102,61,United States,91,226,Duke University,"2,864",,77%,23%,58%,42%,101-150,"2,938","15,320",https://www.topuniversities.com/universities/duke-university
+103,72.1,Germany,89.9,305,Freie Universitaet Berlin,"5,735",,54%,46%,38%,62%,101-150,"1,375","32,912",https://www.topuniversities.com/universities/freie-universitaet-berlin
+104,64.5,Germany,86.7,641,University of Göttingen,"3,736",,62%,38%,33%,67%,101-150,"3,678","30,402",https://www.topuniversities.com/universities/university-g%C3%B6ttingen
+105,73.9,India,77.1,19,Indian Institute of Technology Bombay (IITB),93,,88%,12%,56%,44%,101-150,876,"9,402",https://www.topuniversities.com/universities/indian-institute-technology-bombay-iitb
+106,62.7,Germany,91.4,493,Johannes Gutenberg Universität Mainz,"3,493",,56%,44%,50%,50%,101-150,"3,316","31,920",https://www.topuniversities.com/universities/johannes-gutenberg-universit%C3%A4t-mainz
+107,67.8,United Kingdom,89.7,"1,513",King's College London,"9,451",,50%,50%,36%,64%,101-150,"3,650","23,780",https://www.topuniversities.com/universities/kings-college-london
+108,72.3,Sweden,85.8,"1,002",Lund University,"6,408",,55%,45%,31%,69%,101-150,"3,031","27,786",https://www.topuniversities.com/universities/lund-university
+109,67.2,Australia,84.5,"1,679",Monash University,"20,578",,43%,57%,25%,75%,101-150,"3,204","57,433",https://www.topuniversities.com/universities/monash-university
+110,69.1,Italy,80.5,231,Politecnico di Milano,"5,593",,73%,27%,41%,59%,101-150,"1,500","36,277",https://www.topuniversities.com/universities/politecnico-di-milano
+111,62.6,United Kingdom,88.1,801,Queen Mary University of London,"6,806",,41%,59%,25%,75%,101-150,"1,885","16,135",https://www.topuniversities.com/universities/queen-mary-university-london
+112,62.8,United States,97.9,316,Rice University,"1,847",,66%,34%,42%,58%,101-150,969,"6,610",https://www.topuniversities.com/universities/rice-university
+113,62.3,United States,92.8,490,Rutgers University - New Brunswick,"5,171",,43%,57%,23%,77%,101-150,"4,041","45,214",https://www.topuniversities.com/universities/rutgers-university-new-brunswick
+114,73.9,,69.1,,Saint Petersburg State University,,,,,,,101-150,,,https://www.topuniversities.com/universities/saint-petersburg-state-university
+115,63.2,Sweden,91.9,646,Stockholm University,"2,636",,50%,50%,24%,76%,101-150,"2,154","28,281",https://www.topuniversities.com/universities/stockholm-university
+116,68.1,Israel,83.6,216,Technion - Israel Institute of Technology,735,,65%,35%,28%,72%,101-150,936,"13,132",https://www.topuniversities.com/universities/technion-israel-institute-technology
+117,65.7,Germany,84,162,Technische Universität Darmstadt,"3,106",,57%,43%,42%,58%,101-150,779,"18,166",https://www.topuniversities.com/universities/technische-universit%C3%A4t-darmstadt
+118,67.3,Germany,82.3,669,Technische Universität Dresden,"4,929",,86%,14%,76%,24%,101-150,"4,913","34,029",https://www.topuniversities.com/universities/technische-universit%C3%A4t-dresden
+119,68.8,Austria,82.8,172,Vienna University of Technology,"5,199",,41%,59%,35%,65%,101-150,706,"17,479",https://www.topuniversities.com/universities/vienna-university-technology
+120,65.4,New Zealand,76.6,645,The University of Auckland,"8,568",,29%,71%,17%,83%,101-150,"2,047","29,641",https://www.topuniversities.com/universities/university-auckland
+121,72.6,Australia,84,"1,612",The University of New South Wales (UNSW Sydney),"14,292",,51%,49%,28%,72%,101-150,"2,924","39,784",https://www.topuniversities.com/universities/university-new-south-wales-unsw-sydney
+122,67.1,Australia,88.7,"1,870",The University of Queensland,"10,420",,44%,56%,22%,78%,101-150,"3,158","37,497",https://www.topuniversities.com/universities/university-queensland
+123,62.6,United Kingdom,87.6,890,The University of Warwick,"7,703",,49%,51%,31%,69%,101-150,"2,093","19,855",https://www.topuniversities.com/universities/university-warwick
+124,69.3,Argentina,83.6,"3,165",Universidad de Buenos Aires (UBA),"27,109",,8%,92%,7%,93%,101-150,"16,421","122,301",https://www.topuniversities.com/universities/universidad-de-buenos-aires-uba
+125,73.5,Mexico,74.1,949,Universidad Nacional Autónoma de México  (UNAM),"2,173",,78%,22%,20%,80%,101-150,"15,073","141,939",https://www.topuniversities.com/universities/universidad-nacional-aut%C3%B3noma-de-m%C3%A9xico-unam
+126,73.4,Brazil,77.4,279,Universidade de São Paulo,"2,086",,83%,17%,46%,54%,101-150,"5,582","65,711",https://www.topuniversities.com/universities/universidade-de-s%C3%A3o-paulo
+127,70.3,Brazil,81.5,109,Universidade Estadual de Campinas (Unicamp),966,,88%,12%,44%,56%,101-150,"1,968","26,572",https://www.topuniversities.com/universities/universidade-estadual-de-campinas-unicamp
+128,70.3,Brazil,84.7,152,Universidade Federal do Rio de Janeiro,"1,184",,59%,41%,24%,76%,101-150,"3,988","55,109",https://www.topuniversities.com/universities/universidade-federal-do-rio-de-janeiro
+129,67.3,Italy,85.9,31,Università di Padova,"2,693",,48%,52%,42%,58%,101-150,"2,038","61,801",https://www.topuniversities.com/universities/universit%C3%A0%C2%A0di-padova
+130,67,Italy,86.9,89,"University of Rome ""Tor Vergata""","3,790",,38%,59%,14%,86%,101-150,"1,694","36,930",https://www.topuniversities.com/universities/university-rome-tor-vergata
+131,68.7,Spain,92.2,230,Universitat Autònoma de Barcelona,"3,848",,69%,31%,25%,75%,101-150,"2,187","31,986",https://www.topuniversities.com/universities/universitat-aut%C3%B2noma-de-barcelona
+132,64.6,Germany,85.6,120,Friedrich-Alexander-Universität Erlangen-Nürnberg,"4,462",,57%,43%,42%,58%,101-150,"1,058","38,111",https://www.topuniversities.com/universities/friedrich-alexander-universit%C3%A4t-erlangen-n%C3%BCrnberg
+133,71.5,Germany,85.4,137,Universität Stuttgart,"4,876",,59%,41%,40%,60%,101-150,923,"24,391",https://www.topuniversities.com/universities/universit%C3%A4t-stuttgart
+134,70.5,Austria,89.5,"1,400",University of Vienna,"14,468",,44%,56%,40%,60%,101-150,"3,411","45,967",https://www.topuniversities.com/universities/university-vienna
+135,61,Belgium,88.3,406,Université catholique de Louvain (UCL),"4,468",,53%,47%,51%,49%,101-150,"1,219","24,277",https://www.topuniversities.com/universities/universit%C3%A9-catholique-de-louvain-ucl
+136,65.9,France,82.3,244,Université Grenoble-Alpes,"5,308",,63%,37%,37%,63%,101-150,"2,374","40,758",https://www.topuniversities.com/universities/universit%C3%A9-grenoble-alpes
+137,65.5,Belgium,89.9,286,Universite libre de Bruxelles,"7,539",,53%,47%,48%,52%,101-150,810,"23,021",https://www.topuniversities.com/universities/universite-libre-de-bruxelles
+138,68.2,France,89.7,219,Université Paris Diderot - Paris 7,"5,155",,53%,27%,50%,52%,101-150,"2,097","27,624",https://www.topuniversities.com/universities/universit%C3%A9-paris-diderot-paris-7
+139,68.9,United States,85.5,266,The University of Arizona,"3,561",,42%,58%,20%,80%,101-150,"2,906","38,379",https://www.topuniversities.com/universities/university-arizona
+140,69.8,United Kingdom,87.5,"1,028",University of Birmingham,"7,795",,57%,43%,30%,70%,101-150,"2,962","28,660",https://www.topuniversities.com/universities/university-birmingham
+141,59.6,United States,89.8,549,"University of California, Davis","4,529",,31%,69%,19%,81%,101-150,"3,843","34,244",https://www.topuniversities.com/universities/university-california-davis
+142,61.2,United States,93.5,377,"University of California, Irvine","8,538",,21%,79%,16%,84%,101-150,"1,926","32,151",https://www.topuniversities.com/universities/university-california-irvine
+143,67.6,United Kingdom,88.9,956,University of Glasgow,"8,149",,50%,50%,28%,72%,101-150,"2,775","23,815",https://www.topuniversities.com/universities/university-glasgow
+144,64.3,Finland,88.7,535,University of Helsinki,"1,234",,85%,15%,41%,59%,101-150,"2,645","22,419",https://www.topuniversities.com/universities/university-helsinki
+145,61.1,United States,92.2,195,University of Minnesota,"6,542",,39%,61%,24%,76%,101-150,"4,919","59,742",https://www.topuniversities.com/universities/university-minnesota
+146,62.6,United States,89.9,488,University of Rochester,"2,805",,55%,45%,38%,62%,101-150,"2,569","9,636",https://www.topuniversities.com/universities/university-rochester
+147,67.7,Japan,81.9,174,University of Tsukuba,"2,149",,79%,21%,40%,60%,101-150,"2,128","16,637",https://www.topuniversities.com/universities/university-tsukuba
+148,64.2,Canada,89.8,473,University of Waterloo,"8,962",,25%,75%,14%,86%,101-150,"1,689","35,541",https://www.topuniversities.com/universities/university-waterloo
+149,65.7,Sweden,83.6,584,Uppsala University,"5,198",,72%,28%,30%,70%,101-150,"2,567","25,371",https://www.topuniversities.com/universities/uppsala-university
+150,68.5,Netherlands,85,653,Utrecht University,"2,771",,70%,30%,39%,61%,101-150,"3,067","31,754",https://www.topuniversities.com/universities/utrecht-university
+151,61.1,Japan,82.1,492,Waseda University,"6,230",,47%,53%,17%,83%,101-150,"3,850","46,301",https://www.topuniversities.com/universities/waseda-university
+152,63.5,Denmark,87.8,602,Aarhus University,"3,762",,73%,27%,48%,52%,151-200,"2,316","26,226",https://www.topuniversities.com/universities/aarhus-university
+153,58.4,Czech Republic,83,404,Charles University,"8,112",,78%,22%,64%,36%,151-200,"4,618","50,495",https://www.topuniversities.com/universities/charles-university
+154,61.8,"Hong Kong S.A.R., China",84.8,"1,027",City University of Hong Kong,"3,273",,66%,34%,30%,70%,151-200,"1,349","9,240",https://www.topuniversities.com/universities/city-university-hong-kong
+155,63.2,Czech Republic,74.9,57,Czech Technical University in Prague,"3,137",,33%,67%,38%,62%,151-200,"1,597","20,408",https://www.topuniversities.com/universities/czech-technical-university-prague
+156,58.4,Germany,87.7,796,Eberhard Karls Universität Tübingen,"3,860",,57%,43%,56%,44%,151-200,"3,844","27,366",https://www.topuniversities.com/universities/eberhard-karls-universit%C3%A4t-t%C3%BCbingen
+157,64.1,Netherlands,83.1,322,Eindhoven University of Technology,"1,275",,82%,18%,50%,50%,151-200,801,"7,636",https://www.topuniversities.com/universities/eindhoven-university-technology
+158,61.2,South Korea,80.3,364,Hanyang University,"3,397",,25%,75%,9%,91%,151-200,"3,085","23,348",https://www.topuniversities.com/universities/hanyang-university
+159,65.4,Japan,77.5,210,Hokkaido University,"1,347",,87%,13%,34%,66%,151-200,"2,605","17,552",https://www.topuniversities.com/universities/hokkaido-university
+160,72.2,India,80,,Indian Institute of Science (IISc) Bangalore,47,,85%,15%,88%,12%,151-200,423,"4,071",https://www.topuniversities.com/universities/indian-institute-science-iisc-bangalore
+161,66.6,India,79.1,11,Indian Institute of Technology Madras (IITM),6,,83%,17%,61%,39%,151-200,673,"8,923",https://www.topuniversities.com/universities/indian-institute-technology-madras-iitm
+162,53.8,United States,94.6,766,Indiana University Bloomington,"7,434",,39%,61%,21%,79%,151-200,"4,907","65,397",https://www.topuniversities.com/universities/indiana-university-bloomington
+163,69.3,Belgium,79.5,784,KU Leuven,"6,926",,78%,22%,52%,48%,151-200,"2,515","45,538",https://www.topuniversities.com/universities/ku-leuven
+164,65.9,Japan,75.6,246,Kyushu University,"1,787",,84%,16%,37%,63%,151-200,"2,858","18,660",https://www.topuniversities.com/universities/kyushu-university
+165,62.4,Canada,84.2,"1,170",McMaster University,"3,548",,31%,69%,17%,83%,151-200,"3,231","23,702",https://www.topuniversities.com/universities/mcmaster-university
+166,61.3,,88,,Michigan State University,,,,,,,151-200,,,https://www.topuniversities.com/universities/michigan-state-university
+167,65.5,China,83.6,617,Nanjing University,"2,960",,45%,55%,55%,45%,151-200,"2,449","32,495",https://www.topuniversities.com/universities/nanjing-university
+168,54.9,Taiwan,80.7,78,National Central University,"1,049",,50%,50%,45%,55%,151-200,943,"11,060",https://www.topuniversities.com/universities/national-central-university
+169,64.7,Taiwan,82.5,162,National Chiao Tung University,"1,854",,56%,44%,50%,50%,151-200,"1,086","10,376",https://www.topuniversities.com/universities/national-chiao-tung-university
+170,64.5,Italy,78.4,9,Politecnico di Torino,"4,485",,44%,56%,36%,64%,151-200,840,"31,166",https://www.topuniversities.com/universities/politecnico-di-torino
+171,68.8,United States,95.1,126,"Stony Brook University, State University of New York","6,436",,36%,64%,27%,73%,151-200,"2,147","24,026",https://www.topuniversities.com/universities/stony-brook-university-state-university-new-york
+172,65.8,Denmark,84.2,966,Technical University of Denmark,"2,098",,82%,18%,43%,57%,151-200,"2,117","8,878",https://www.topuniversities.com/universities/technical-university-denmark
+173,64.8,Israel,87.9,136,Tel Aviv University,"1,088",,63%,37%,38%,62%,151-200,"1,028","21,841",https://www.topuniversities.com/universities/tel-aviv-university
+174,59,United States,88.2,206,Texas A&M University,"4,900",,89%,11%,21%,79%,151-200,"3,446","60,294",https://www.topuniversities.com/universities/texas-am-university
+175,64.1,"Hong Kong S.A.R., China",87.9,"1,074",The Chinese University of Hong Kong (CUHK),"4,824",,35%,65%,15%,85%,151-200,"2,208","18,037",https://www.topuniversities.com/universities/chinese-university-hong-kong-cuhk
+176,63.7,"Hong Kong S.A.R., China",82.8,"1,275",The Hong Kong Polytechnic University,"5,251",,63%,37%,27%,73%,151-200,"2,447","20,972",https://www.topuniversities.com/universities/hong-kong-polytechnic-university
+177,61.9,Australia,84.6,633,The University of Adelaide,"8,114",,39%,61%,23%,77%,151-200,"1,729","21,240",https://www.topuniversities.com/universities/university-adelaide
+178,59.8,United Kingdom,89.6,"1,135",The University of Nottingham,"7,993",,42%,58%,22%,78%,151-200,"3,360","29,165",https://www.topuniversities.com/universities/university-nottingham
+179,61.4,United Kingdom,83.5,938,The University of Sheffield,"8,745",,51%,49%,28%,72%,151-200,"3,065","25,430",https://www.topuniversities.com/universities/university-sheffield
+180,65.2,Italy,83.6,137,University of Florence,"3,897",,40%,60%,44%,56%,151-200,"3,195","53,016",https://www.topuniversities.com/universities/university-florence
+181,65.1,Italy,83.8,171,University of Milan,"3,260",,37%,63%,40%,60%,151-200,"2,454","56,425",https://www.topuniversities.com/universities/university-milan
+182,57.2,Italy,81.7,12,University of Naples - Federico II,369,,12%,88%,18%,82%,151-200,"2,359","79,894",https://www.topuniversities.com/universities/university-naples-federico-ii
+183,59.2,Italy,87.8,59,University of Trieste,"1,358",,46%,54%,43%,57%,151-200,"1,340","15,728",https://www.topuniversities.com/universities/university-trieste
+184,66.9,Germany,85.6,288,Universität Frankfurt am Main,"6,562",,31%,69%,27%,73%,151-200,"3,430","45,427",https://www.topuniversities.com/universities/universit%C3%A4t-frankfurt-am-main
+185,63.6,Germany,87.6,413,Albert-Ludwigs-Universitaet Freiburg,"3,897",,51%,49%,43%,57%,151-200,"1,966","23,214",https://www.topuniversities.com/universities/albert-ludwigs-universitaet-freiburg
+186,66.2,Austria,91.6,665,Universität Innsbruck,"5,744",,44%,56%,46%,54%,151-200,"1,571","14,648",https://www.topuniversities.com/universities/universit%C3%A4t-innsbruck
+187,59.2,Canada,79.9,"1,037",Université de Montréal ,"9,688",,44%,56%,34%,66%,151-200,"2,961","39,112",https://www.topuniversities.com/universities/universite-de-montreal
+188,62.3,France,87.3,354,Université de Strasbourg,"7,522",,53%,47%,43%,57%,151-200,"2,349","43,319",https://www.topuniversities.com/universities/universit%C3%A9-de-strasbourg
+189,53.5,Ireland,88.9,627,University College Dublin,"3,876",,48%,52%,24%,76%,151-200,"1,604","19,833",https://www.topuniversities.com/universities/university-college-dublin
+190,60.8,Canada,85.1,"1,294",University of Alberta,"8,203",,38%,62%,20%,80%,151-200,"3,561","31,765",https://www.topuniversities.com/universities/university-alberta
+191,54.1,Switzerland,89.1,661,University of Bern,"1,618",,81%,19%,51%,49%,151-200,"1,172","10,758",https://www.topuniversities.com/universities/university-bern
+192,67.4,United States,93.2,89,"University of California, Santa Cruz",938,,39%,61%,9%,91%,151-200,928,"17,550",https://www.topuniversities.com/universities/university-california-santa-cruz
+193,56,United States,90.3,504,University of Florida,"4,597",,88%,12%,31%,69%,151-200,"5,419","45,485",https://www.topuniversities.com/universities/university-florida
+194,69.4,Netherlands,87.8,"1,137",University of Groningen,"10,780",,50%,50%,36%,64%,151-200,"3,351","27,549",https://www.topuniversities.com/universities/university-groningen
+195,59.7,United States,82.8,342,"University of Illinois, Chicago (UIC)","5,148",,57%,43%,35%,65%,151-200,"2,284","26,046",https://www.topuniversities.com/universities/university-illinois-chicago-uic
+196,58,Portugal,83.6,115,University of Lisbon ,"6,548",,71%,29%,40%,60%,151-200,"3,027","50,667",https://www.topuniversities.com/universities/university-lisbon
+197,59.7,United Kingdom,89.3,717,University of Liverpool,"7,502",,27%,73%,16%,84%,151-200,"2,390","22,065",https://www.topuniversities.com/universities/university-liverpool
+198,59.2,Italy,88.7,39,University of Milano-Bicocca ,"1,994",,29%,71%,36%,64%,151-200,"1,205","33,945",https://www.topuniversities.com/universities/university-milano-bicocca
+199,56.5,United States,86.3,551,University of Southern California,"9,170",,73%,27%,53%,47%,151-200,"3,124","38,749",https://www.topuniversities.com/universities/university-southern-california
+200,64.2,United Kingdom,86.8,485,University of St Andrews,"4,030",,30%,70%,21%,79%,151-200,"1,140","8,800",https://www.topuniversities.com/universities/university-st-andrews
+201,58.2,China,81.5,"1,913",Zhejiang University,"4,625",,40%,60%,51%,49%,151-200,"4,507","40,869",https://www.topuniversities.com/universities/zhejiang-university
+202,59.9,Finland,84.3,370,Aalto University,"1,831",,92%,8%,54%,46%,201-250,"1,257","12,147",https://www.topuniversities.com/universities/aalto-university
+203,62.1,China,74.5,92,Beijing Institute of Technology,"1,607",,45%,55%,43%,57%,201-250,"2,229","25,996",https://www.topuniversities.com/universities/beijing-institute-technology
+204,57.3,China,82.4,248,Beijing Normal University ,"1,586",,%,%,58%,42%,201-250,"1,734","20,252",https://www.topuniversities.com/universities/beijing-normal-university
+205,59.5,,75.6,,Institut polytechnique de Grenoble - Grenoble Institute of Technology,,,,,,,201-250,,,https://www.topuniversities.com/universities/institut-polytechnique-de-grenoble-grenoble-institute-technology
+206,69,India,75.7,4,Indian Institute of Technology Delhi (IITD),80,,100%,%,48%,52%,201-250,466,"7,477",https://www.topuniversities.com/universities/indian-institute-technology-delhi-iitd
+207,59.1,Mexico,72.6,140,Instituto Politécnico Nacional (IPN),170,,92%,%,7%,93%,201-250,"7,862","100,852",https://www.topuniversities.com/universities/instituto-polit%C3%A9cnico-nacional-ipn
+208,58.4,Japan,77.5,261,Keio University CEMS MIM,"2,178",,48%,52%,14%,86%,201-250,"3,905","33,500",https://www.topuniversities.com/universities/keio-university-cems-mim
+209,51.5,Japan,84.2,102,Kobe University,956,,88%,12%,28%,72%,201-250,"1,926","16,356",https://www.topuniversities.com/universities/kobe-university
+210,49.2,South Korea,82.8,87,Kyungpook National University,927,,48%,52%,17%,83%,201-250,"2,082","28,583",https://www.topuniversities.com/universities/kyungpook-national-university
+211,48.4,United Kingdom,89.8,435,Lancaster University,"4,464",,36%,64%,24%,76%,201-250,"1,245","12,300",https://www.topuniversities.com/universities/lancaster-university
+212,55.4,Taiwan,78.4,170,National Cheng Kung University (NCKU),"2,432",,38%,62%,42%,58%,201-250,"2,000","21,088",https://www.topuniversities.com/universities/national-cheng-kung-university-ncku
+213,56.2,Greece,78.1,3,National Technical University of Athens,360,,%,%,6%,94%,201-250,501,"22,860",https://www.topuniversities.com/universities/national-technical-university-athens
+214,51.8,United States,88,573,North Carolina State University,"4,120",,66%,34%,24%,76%,201-250,"2,562","27,748",https://www.topuniversities.com/universities/north-carolina-state-university
+215,64.5,Russia,68.4,210,Peter the Great Saint-Petersburg Polytechnic University,"3,282",,24%,76%,24%,76%,201-250,"2,978","17,571",https://www.topuniversities.com/universities/peter-great-saint-petersburg-polytechnic-university
+216,58.3,United Kingdom,85.3,767,Queen's University Belfast,"5,715",,22%,78%,19%,81%,201-250,"1,720","17,831",https://www.topuniversities.com/universities/queens-university-belfast
+217,59.7,Netherlands,86.1,411,Radboud University,"3,133",,38%,62%,38%,62%,201-250,"2,325","20,958",https://www.topuniversities.com/universities/radboud-university
+218,55.1,Germany,83.6,137,Ruhr-Universität Bochum,"5,821",,41%,59%,32%,68%,201-250,"1,100","42,427",https://www.topuniversities.com/universities/ruhr-universit%C3%A4t-bochum
+219,53.6,South Korea,81.6,77,Sejong University ,994,,42%,58%,12%,88%,201-250,918,"11,882",https://www.topuniversities.com/universities/sejong-university
+220,62.7,Australia,89.1,360,Swinburne University of Technology,"3,264",,52%,48%,19%,81%,201-250,821,"12,419",https://www.topuniversities.com/universities/swinburne-university-technology
+221,64.6,,85.7,,"Tata Institute of Fundamental Research (TIFR), Mumbai",,,,,,,201-250,,,https://www.topuniversities.com/universities/tata-institute-fundamental-research-tifr-mumbai
+222,49.8,Germany,91.1,178,TU Dortmund University,"2,660",,39%,61%,24%,76%,201-250,"1,889","29,914",https://www.topuniversities.com/universities/tu-dortmund-university
+223,62.7,Australia,82.2,809,The University of Western Australia,"4,575",,48%,52%,34%,66%,201-250,"1,420","18,531",https://www.topuniversities.com/universities/university-western-australia
+224,69.9,Russia,61.4,180,Tomsk State University,"1,754",,32%,68%,36%,64%,201-250,"1,674","8,022",https://www.topuniversities.com/universities/tomsk-state-university
+225,53.8,Ireland,90.3,544,"Trinity College Dublin, The University of Dublin","4,311",,33%,67%,23%,77%,201-250,"1,249","14,961",https://www.topuniversities.com/universities/trinity-college-dublin-university-dublin
+226,64.3,Spain,82.2,67,University Complutense Madrid,"9,697",,29%,71%,17%,83%,201-250,"4,647","72,654",https://www.topuniversities.com/universities/university-complutense-madrid
+227,55.3,Italy,85.2,149,University of Turin,"4,267",,38%,62%,42%,58%,201-250,"2,679","62,026",https://www.topuniversities.com/universities/university-turin
+228,62.9,Italy,87.5,153,University of Trento,"1,116",,62%,38%,47%,53%,201-250,931,"16,881",https://www.topuniversities.com/universities/university-trento
+229,57.2,Spain,88.3,35,Universitat de Valencia,"3,046",,55%,45%,19%,81%,201-250,"2,925","51,813",https://www.topuniversities.com/universities/universitat-de-valencia
+230,57.6,Germany,91.4,253,Universität Regensburg,"1,611",,22%,41%,12%,80%,201-250,"1,670","21,322",https://www.topuniversities.com/universities/universit%C3%A4t-regensburg
+231,56.5,Germany,89.7,250,University Ulm,"1,440",,54%,46%,32%,68%,201-250,"1,284","10,719",https://www.topuniversities.com/universities/university-ulm
+232,56.3,France,84.8,477,Aix-Marseille University,"9,206",,50%,50%,37%,63%,201-250,"3,930","66,007",https://www.topuniversities.com/universities/aix-marseille-university
+233,61.6,Malaysia,68.5,655,Universiti Malaya (UM),"3,476",,75%,25%,46%,54%,201-250,"2,755","17,902",https://www.topuniversities.com/universities/universiti-malaya-um
+234,59.6,Switzerland,90,684,University of Basel,"3,441",,64%,36%,49%,51%,201-250,"1,057","12,852",https://www.topuniversities.com/universities/university-basel
+235,59.4,Canada,83.5,809,University of Calgary,"5,980",,38%,62%,19%,81%,201-250,"2,689","30,195",https://www.topuniversities.com/universities/university-calgary
+236,54.8,South Africa,80,379,University of Cape Town,"3,325",,30%,70%,18%,82%,201-250,"1,733","19,593",https://www.topuniversities.com/universities/university-cape-town
+237,59,Belgium,84,482,Ghent University,"3,766",,80%,20%,45%,55%,201-250,"2,520","35,968",https://www.topuniversities.com/universities/ghent-university
+238,56.3,United Kingdom,82.2,870,University of Leeds,"7,534",,57%,43%,25%,75%,201-250,"3,025","29,645",https://www.topuniversities.com/universities/university-leeds
+239,55.1,United States,93.7,148,University of Massachusetts Amherst,"1,921",,54%,46%,15%,85%,201-250,"1,654","25,111",https://www.topuniversities.com/universities/university-massachusetts-amherst
+240,52.8,United States,88,351,University of Notre Dame,"1,176",,66%,34%,30%,70%,201-250,"1,170","12,054",https://www.topuniversities.com/universities/university-notre-dame
+241,54.7,Norway,83.3,711,University of Oslo,"3,667",,62%,38%,49%,51%,201-250,"2,509","24,304",https://www.topuniversities.com/universities/university-oslo
+242,53.9,United States,92,572,University of Pittsburgh,"2,937",,77%,23%,31%,69%,201-250,"4,982","26,393",https://www.topuniversities.com/universities/university-pittsburgh
+243,57,Canada,89.5,246,University of Victoria,"3,103",,30%,70%,16%,84%,201-250,818,"19,087",https://www.topuniversities.com/universities/university-victoria
+244,55.8,United States,85,487,University of Virginia,"1,899",,61%,39%,29%,71%,201-250,"2,509","21,560",https://www.topuniversities.com/universities/university-virginia
+245,60.4,Poland,86.2,168,University of Warsaw ,"2,712",,53%,47%,48%,52%,201-250,"3,522","42,844",https://www.topuniversities.com/universities/university-warsaw
+246,45.8,United States,88.4,470,Vanderbilt University,"1,671",,55%,45%,43%,57%,201-250,"4,220","12,037",https://www.topuniversities.com/universities/vanderbilt-university
+247,58.3,Netherlands,88.6,331,Vrije Universiteit Amsterdam,"1,805",,75%,25%,42%,58%,201-250,"2,095","23,278",https://www.topuniversities.com/universities/vrije-universiteit-amsterdam
+248,58.4,Belgium,81.1,515,Vrije Universiteit Brussel (VUB),"1,853",,81%,19%,53%,47%,201-250,"1,792","9,284",https://www.topuniversities.com/universities/vrije-universiteit-brussel-vub
+249,73.1,Israel,95.5,2,Weizmann Institute of Science,41,,%,%,92%,%,201-250,205,906,https://www.topuniversities.com/universities/weizmann-institute-science
+250,49.9,Greece,78.1,11,Aristotle University of Thessaloniki,"4,387",,11%,89%,18%,82%,251-300,"1,848","45,712",https://www.topuniversities.com/universities/aristotle-university-thessaloniki
+251,54,United States,85.3,588,Arizona State University,"9,722",,35%,65%,16%,84%,251-300,"2,578","47,503",https://www.topuniversities.com/universities/arizona-state-university
+252,57.1,United Kingdom,86.3,705,Cardiff University,"6,090",,47%,53%,22%,78%,251-300,"2,755","24,565",https://www.topuniversities.com/universities/cardiff-university
+253,45.1,South Korea,86.5,148,Ewha Womans University,"2,768",,16%,84%,23%,77%,251-300,"2,509","17,190",https://www.topuniversities.com/universities/ewha-womans-university
+254,51.7,United States,87.2,121,Florida State University,"1,614",,77%,23%,18%,82%,251-300,"2,022","36,701",https://www.topuniversities.com/universities/florida-state-university
+255,53.2,China,72.8,160,Harbin Institute of Technology,"1,408",,67%,33%,46%,54%,251-300,"3,157","29,931",https://www.topuniversities.com/universities/harbin-institute-technology
+256,62,Israel,86.7,454,The Hebrew University of Jerusalem,"1,034",,60%,40%,43%,57%,251-300,"2,249","16,531",https://www.topuniversities.com/universities/hebrew-university-jerusalem
+257,52.8,United Kingdom,85.3,307,Heriot-Watt University,"3,529",,54%,46%,27%,73%,251-300,795,"9,170",https://www.topuniversities.com/universities/heriot-watt-university
+258,61,Japan,84.2,152,Hiroshima University,"1,225",,91%,9%,29%,71%,251-300,"2,257","15,429",https://www.topuniversities.com/universities/hiroshima-university
+259,68.3,India,72.7,4,Indian Institute of Technology Kanpur (IITK),34,,100%,%,48%,52%,251-300,416,"6,609",https://www.topuniversities.com/universities/indian-institute-technology-kanpur-iitk
+260,53.1,Poland,81.8,91,Jagiellonian University,"2,506",,65%,35%,57%,43%,251-300,"3,901","41,492",https://www.topuniversities.com/universities/jagiellonian-university
+261,56.1,Germany,86.1,32,Leibniz Universität Hannover,"3,020",,48%,52%,31%,69%,251-300,533,"26,081",https://www.topuniversities.com/universities/leibniz-universit%C3%A4t-hannover
+262,64.8,Russia,60.3,18,Lobachevsky University,"1,245",,20%,80%,25%,75%,251-300,"1,886","16,558",https://www.topuniversities.com/universities/lobachevsky-university
+263,56.8,Australia,82.6,413,Macquarie University,"5,550",,48%,52%,23%,77%,251-300,"1,517","22,765",https://www.topuniversities.com/universities/macquarie-university
+264,60.2,Taiwan,71.1,82,National Taiwan University of Science and Technology (Taiwan Tech),965,,63%,37%,42%,58%,251-300,"1,121","8,029",https://www.topuniversities.com/universities/national-taiwan-university-science-technology-taiwan-tech
+265,43.7,United States,88.9,409,Northeastern University,"6,813",,55%,45%,32%,68%,251-300,"1,544","19,976",https://www.topuniversities.com/universities/northeastern-university
+266,55.2,South Korea,80.8,106,Pusan National University,"1,595",,39%,61%,25%,75%,251-300,"2,203","24,822",https://www.topuniversities.com/universities/pusan-national-university
+267,51.3,Canada,81.6,309,Queen's University at Kingston,"2,589",,46%,54%,18%,82%,251-300,"1,161","23,065",https://www.topuniversities.com/universities/queens-university-kingston
+268,49.6,United States,89.6,97,Rensselaer Polytechnic Institute,"1,137",,46%,54%,15%,85%,251-300,588,"6,834",https://www.topuniversities.com/universities/rensselaer-polytechnic-institute
+269,56.4,South Korea,79.7,60,Sogang University,672,,35%,65%,23%,77%,251-300,957,"9,596",https://www.topuniversities.com/universities/sogang-university
+270,40.3,China,85.3,670,Sun Yat-sen University,"2,921",,26%,74%,32%,68%,251-300,"4,956","49,362",https://www.topuniversities.com/universities/sun-yat-sen-university
+271,55.3,Finland,78.8,100,Tampere University of Technology ,563,,94%,6%,48%,52%,251-300,705,"5,718",https://www.topuniversities.com/universities/tampere-university-technology
+272,59.4,Japan,78.5,78,Tokyo University of Science,457,,24%,76%,16%,84%,251-300,"1,212","19,732",https://www.topuniversities.com/universities/tokyo-university-science
+273,64,Russia,59.9,157,National Research Tomsk Polytechnic University,"2,473",,47%,53%,48%,52%,251-300,"1,626","9,662",https://www.topuniversities.com/universities/national-research-tomsk-polytechnic-university
+274,64.5,Chile,78.5,127,Universidad de Chile,"2,134",,50%,50%,21%,79%,251-300,"2,256","38,848",https://www.topuniversities.com/universities/universidad-de-chile
+275,46.3,Spain,84.9,77,University of Granada,"5,626",,21%,79%,10%,90%,251-300,"3,230","55,736",https://www.topuniversities.com/universities/university-granada
+276,57.2,Argentina,76.5,,Universidad Nacional de La Plata (UNLP),"1,654",,6%,94%,8%,106%,251-300,"6,547","88,191",https://www.topuniversities.com/universities/universidad-nacional-de-la-plata-unlp
+277,61.8,Brazil,74.1,119,UNESP,891,,62%,38%,33%,67%,251-300,"3,315","42,201",https://www.topuniversities.com/universities/unesp
+278,51.3,Italy,81.6,54,Università degli Studi di Pavia,"1,652",,52%,48%,49%,51%,251-300,"1,141","23,927",https://www.topuniversities.com/universities/universit%C3%A0-degli-studi-di-pavia
+279,54.3,Germany,86.2,131,Universität Jena,"2,270",,%,%,%,%,251-300,"2,936","18,201",https://www.topuniversities.com/universities/universit%C3%A4t-jena
+280,61.9,Germany,83.4,597,University of Cologne,"4,507",,53%,47%,42%,58%,251-300,"4,860","45,086",https://www.topuniversities.com/universities/university-cologne
+281,55,Spain,79.5,120,Universitat Politècnica de Catalunya ,"2,659",,71%,29%,25%,75%,251-300,"2,334","21,126",https://www.topuniversities.com/universities/universitat-polit%C3%A8cnica-de-catalunya
+282,54,France,83.7,309,Université Nice Sophia Antipolis,"6,177",,58%,42%,41%,59%,251-300,"1,333","29,547",https://www.topuniversities.com/universities/universit%C3%A9-nice-sophia-antipolis
+283,52.5,Ireland,81.9,459,University College Cork,"2,171",,41%,59%,21%,79%,251-300,"1,206","15,933",https://www.topuniversities.com/universities/university-college-cork
+284,51.3,Belgium,84.2,628,University of Antwerp,"2,563",,55%,45%,40%,60%,251-300,"2,644","15,841",https://www.topuniversities.com/universities/university-antwerp
+285,48.2,United States,94.8,193,"University of California, Riverside","1,657",,55%,45%,13%,87%,251-300,"1,186","21,066",https://www.topuniversities.com/universities/university-california-riverside
+286,50,New Zealand,76.2,316,University of Canterbury,"2,338",,38%,62%,18%,82%,251-300,698,"11,324",https://www.topuniversities.com/universities/university-canterbury
+287,54.3,United States,84,133,University of Central Florida,"1,324",,62%,38%,11%,89%,251-300,"1,866","48,364",https://www.topuniversities.com/universities/university-central-florida
+288,57.5,India,75.9,17,University of Delhi,183,,95%,5%,96%,4%,251-300,"1,205","23,218",https://www.topuniversities.com/universities/university-delhi
+289,54.9,Slovenia,84.9,73,University of Ljubljana,"2,113",,50%,45%,39%,61%,251-300,"3,629","40,432",https://www.topuniversities.com/universities/university-ljubljana
+290,48.3,United States,84.2,145,University of New Mexico,903,,69%,31%,20%,80%,251-300,"2,219","21,521",https://www.topuniversities.com/universities/university-new-mexico
+291,52.2,United States,84.8,524,"University of North Carolina, Chapel Hill","1,934",,52%,48%,30%,70%,251-300,"4,083","25,373",https://www.topuniversities.com/universities/university-north-carolina-chapel-hill
+292,57.5,United Kingdom,82.1,467,University of Strathclyde,"4,220",,56%,44%,27%,73%,251-300,"1,430","17,425",https://www.topuniversities.com/universities/university-strathclyde
+293,64.9,United Kingdom,82,395,University of Surrey,"4,940",,40%,60%,23%,77%,251-300,"1,050","13,215",https://www.topuniversities.com/universities/university-surrey
+294,52.3,United Kingdom,88.1,452,University of Sussex,"5,152",,39%,61%,25%,75%,251-300,"1,215","14,245",https://www.topuniversities.com/universities/university-sussex
+295,46.1,United States,89.7,64,"The University of Tennessee, Knoxville","1,001",,62%,38%,19%,81%,251-300,"1,819","25,907",https://www.topuniversities.com/universities/university-tennessee-knoxville
+296,54.2,United Kingdom,84.7,636,University of York,"3,364",,53%,47%,22%,78%,251-300,"1,833","15,999",https://www.topuniversities.com/universities/university-york
+297,49.8,Lithuania,77.3,84,Vilnius University ,484,,79%,21%,37%,63%,251-300,"2,003","15,756",https://www.topuniversities.com/universities/vilnius-university
+298,49.1,United States,87.5,241,Virginia Polytechnic Institute and State University,"3,509",,56%,44%,20%,80%,251-300,"2,436","33,041",https://www.topuniversities.com/universities/virginia-polytechnic-institute-state-university
+299,55,Poland,76.8,23,Warsaw University of Technology,"1,507",,49%,48%,34%,66%,251-300,"2,349","34,915",https://www.topuniversities.com/universities/warsaw-university-technology
+300,73,Russia,40.9,16,Bauman Moscow State Technical University,"1,452",,38%,62%,57%,43%,301-350,"4,897","20,328",https://www.topuniversities.com/universities/bauman-moscow-state-technical-university
+301,51.4,China,74.8,56,Beihang University (former BUAA),"1,495",,57%,43%,39%,61%,301-350,"2,541","46,241",https://www.topuniversities.com/universities/beihang-university-former-buaa
+302,56.3,China,70.1,79,Beijing University of Technology,453,,29%,71%,33%,67%,301-350,"1,601","20,958",https://www.topuniversities.com/universities/beijing-university-technology
+303,49.4,Turkey,78.4,163,Bilkent University,775,,25%,75%,14%,86%,301-350,712,"10,639",https://www.topuniversities.com/universities/bilkent-university
+304,49.9,United States,72.2,35,Brandeis University,"1,400",,48%,52%,32%,68%,301-350,433,"5,328",https://www.topuniversities.com/universities/brandeis-university
+305,52.6,France,68.5,137,CentraleSupélec,"1,132",,81%,19%,74%,26%,301-350,529,"3,877",https://www.topuniversities.com/universities/centralesup%C3%A9lec
+306,50,South Korea,83.8,108,Chonbuk National University,825,,64%,36%,17%,83%,301-350,"2,248","20,790",https://www.topuniversities.com/universities/chonbuk-national-university
+307,54.4,Thailand,63.1,219,Chulalongkorn University,645,,84%,16%,34%,66%,301-350,"2,841","38,734",https://www.topuniversities.com/universities/chulalongkorn-university
+308,42.4,United States,86.1,398,City University of New York,"7,421",,24%,76%,12%,88%,301-350,"8,139","128,410",https://www.topuniversities.com/universities/city-university-new-york
+309,65.8,France,79.2,91,École Normale Supérieure de Lyon,221,,94%,6%,86%,14%,301-350,382,"2,020",https://www.topuniversities.com/universities/%C3%A9cole-normale-sup%C3%A9rieure-de-lyon
+310,53.8,South Korea,83.8,11,Gwangju Institute of Science and Technology (GIST),109,,99%,1%,67%,33%,301-350,169,"1,837",https://www.topuniversities.com/universities/gwangju-institute-science-technology-gist
+311,61.2,India,74.4,24,Indian Institute of Technology Kharagpur (IIT-KGP),5,,%,100%,52%,48%,301-350,638,"11,026",https://www.topuniversities.com/universities/indian-institute-technology-kharagpur-iit-kgp
+312,46.3,United States,90.7,278,Iowa State University,"3,561",,46%,54%,13%,87%,301-350,"2,193","33,306",https://www.topuniversities.com/universities/iowa-state-university
+313,53.6,Germany,91,234,Julius-Maximilians-Universität Würzburg,"2,000",,60%,40%,54%,46%,301-350,"1,619","26,585",https://www.topuniversities.com/universities/julius-maximilians-universit%C3%A4t-w%C3%BCrzburg
+314,49,South Korea,82.4,193,Kyung Hee University,"3,033",,32%,68%,14%,86%,301-350,"3,267","25,356",https://www.topuniversities.com/universities/kyung-hee-university
+315,47.6,Canada,77.3,553,Laval University,"3,709",,66%,34%,26%,74%,301-350,"2,274","28,236",https://www.topuniversities.com/universities/laval-university
+316,49.3,Sweden,79.9,370,Linköping University,"1,564",,65%,35%,37%,63%,301-350,"2,310","18,148",https://www.topuniversities.com/universities/link%C3%B6ping-university
+317,44.5,Turkey,76.2,68,Middle East Technical University,"1,474",,33%,67%,31%,69%,301-350,"1,123","27,295",https://www.topuniversities.com/universities/middle-east-technical-university
+318,49.8,Taiwan,78.1,61,National Sun Yat-sen University,428,,49%,51%,45%,55%,301-350,664,"8,345",https://www.topuniversities.com/universities/national-sun-yat-sen-university
+319,46,Norway,80,507,Norwegian University of Science And Technology,"1,988",,106%,11%,77%,23%,301-350,"1,952","20,841",https://www.topuniversities.com/universities/norwegian-university-science-technology
+320,57.7,Brazil,79.8,62,Pontifícia Universidade Católica do Rio de Janeiro,678,,46%,54%,17%,83%,301-350,753,"15,425",https://www.topuniversities.com/universities/pontif%C3%ADcia-universidade-cat%C3%B3lica-do-rio-de-janeiro
+321,51,Pakistan,70.7,8,Quaid-i-Azam University,39,,103%,10%,52%,48%,301-350,401,"13,724",https://www.topuniversities.com/universities/quaid-i-azam-university
+322,52.2,Australia,78.4,"1,066",RMIT University,"8,674",,47%,53%,24%,76%,301-350,"1,915","32,667",https://www.topuniversities.com/universities/rmit-university
+323,42.4,China,79,193,Shandong University,"1,342",,29%,107%,30%,70%,301-350,"4,176","56,280",https://www.topuniversities.com/universities/shandong-university
+324,55.3,China,73.7,465,Shanghai University,732,,56%,44%,38%,62%,301-350,"3,523","33,834",https://www.topuniversities.com/universities/shanghai-university
+325,44.9,,79.1,,Simon Fraser University,,,,,,,301-350,,,https://www.topuniversities.com/universities/simon-fraser-university
+326,44,United States,92.2,71,Syracuse University,"3,972",,54%,46%,26%,74%,301-350,"1,346","20,092",https://www.topuniversities.com/universities/syracuse-university
+327,53.6,Japan,83.1,59,Tokyo Metropolitan University,402,,79%,21%,25%,75%,301-350,929,"9,263",https://www.topuniversities.com/universities/tokyo-metropolitan-university
+328,51.8,Spain,80,100,Universitat Politècnica de València,"2,519",,53%,47%,26%,74%,301-350,"3,132","20,881",https://www.topuniversities.com/universities/universitat-polit%C3%A8cnica-de-val%C3%A8ncia
+329,66,Brazil,74,148,Universidade Federal de Minas Gerais      ,"1,162",,58%,42%,28%,72%,301-350,"3,258","48,388",https://www.topuniversities.com/universities/universidade-federal-de-minas-gerais
+330,56.3,Italy,79.2,3,Catania University,274,,43%,57%,41%,59%,301-350,"1,384","42,915",https://www.topuniversities.com/universities/catania-university
+331,47.9,Italy,83.6,13,University of Genoa,"2,879",,32%,68%,38%,62%,301-350,"1,294","31,222",https://www.topuniversities.com/universities/university-genoa
+332,50.6,Germany,80.6,53,University Duesseldorf,"3,384",,46%,68%,41%,72%,301-350,"1,760","26,461",https://www.topuniversities.com/universities/university-duesseldorf
+333,51.5,Germany,80.7,223,Universität Konstanz,"1,500",,44%,54%,23%,78%,301-350,"1,064","11,420",https://www.topuniversities.com/universities/universit%C3%A4t-konstanz
+334,58.7,France,86.1,333,University of Bordeaux,"4,607",,64%,36%,46%,54%,301-350,"2,833","47,235",https://www.topuniversities.com/universities/university-bordeaux
+335,47.8,France,88.1,148,Université de Montpellier ,"5,860",,51%,49%,42%,58%,301-350,"2,107","40,480",https://www.topuniversities.com/universities/universit%C3%A9-de-montpellier
+336,60.4,Malaysia,64.5,288,Universiti Sains Malaysia (USM),"2,462",,71%,29%,33%,67%,301-350,"2,318","20,955",https://www.topuniversities.com/universities/universiti-sains-malaysia-usm
+337,64.4,Malaysia,67.8,356,Universiti Teknologi Malaysia ,"3,046",,89%,11%,40%,60%,301-350,"2,613","17,419",https://www.topuniversities.com/universities/universiti-teknologi-malaysia
+338,45.7,Italy,87.7,67,University of Bari,770,,39%,61%,42%,58%,301-350,"1,788","48,519",https://www.topuniversities.com/universities/university-bari
+339,48.2,United Kingdom,81.1,440,University of Bath,"4,213",,37%,63%,19%,81%,301-350,"1,165","14,370",https://www.topuniversities.com/universities/university-bath
+340,43.5,Portugal,88.2,69,University of Coimbra,"3,623",,56%,44%,58%,42%,301-350,"1,407","21,214",https://www.topuniversities.com/universities/university-coimbra
+341,47.5,United Kingdom,81.9,597,The University of Exeter,"5,504",,33%,67%,18%,82%,301-350,"1,756","20,749",https://www.topuniversities.com/universities/university-exeter
+342,52,United States,86.8,64,University of Houston,"3,510",,64%,36%,20%,80%,301-350,"1,500","32,750",https://www.topuniversities.com/universities/university-houston
+343,48.2,Finland,85.5,249,University of Jyväskylä,603,,95%,5%,44%,56%,301-350,"1,464","10,339",https://www.topuniversities.com/universities/university-jyv%C3%A4skyl%C3%A4
+344,42.8,United States,81.7,284,University of Kansas,"2,070",,55%,45%,27%,73%,301-350,"3,324","24,133",https://www.topuniversities.com/universities/university-kansas
+345,54.4,United Kingdom,81.9,450,University of Leicester,"4,080",,45%,55%,22%,78%,301-350,"1,391","13,745",https://www.topuniversities.com/universities/university-leicester
+346,45,South Korea,70.6,36,University of Seoul ,367,,58%,42%,18%,82%,301-350,794,"8,825",https://www.topuniversities.com/universities/university-seoul
+347,49.7,United States,88.6,784,Washington University in St. Louis,"2,706",,80%,20%,48%,52%,301-350,"2,699","13,474",https://www.topuniversities.com/universities/washington-university-st-louis
+348,48.5,Canada,79.7,702,The University of Western Ontario,"4,826",,34%,66%,19%,81%,301-350,"1,546","29,037",https://www.topuniversities.com/universities/university-western-ontario
+349,46.6,China,78.9,739,Wuhan University,"3,709",,39%,61%,44%,56%,301-350,"3,700","50,007",https://www.topuniversities.com/universities/wuhan-university
+350,55.1,China,73.8,452,Xi’an Jiaotong University,"2,378",,33%,67%,49%,51%,301-350,"3,483","33,604",https://www.topuniversities.com/universities/xi%E2%80%99-jiaotong-university
+351,54.5,Mexico,65.2,59,Benemérita Universidad Autónoma de Puebla,261,,28%,72%,6%,94%,351-400,"3,541","66,992",https://www.topuniversities.com/universities/benemerita-universidad-autonoma-de-puebla
+352,45.9,,77.9,,Boston College,,,,,,,351-400,,,https://www.topuniversities.com/universities/boston-college
+353,54.9,Hungary,76.9,13,Budapest University of Technology and Economics,807,,34%,66%,25%,75%,351-400,"1,375","19,499",https://www.topuniversities.com/universities/budapest-university-technology-economics
+354,45.3,Japan,81.7,86,Chiba University,634,,70%,30%,24%,76%,351-400,"1,947","13,903",https://www.topuniversities.com/universities/chiba-university
+355,36,South Korea,86.8,104,Chonnam National University,875,,52%,48%,18%,82%,351-400,"2,428","22,745",https://www.topuniversities.com/universities/chonnam-national-university
+356,43.9,United States,92.9,45,College of William & Mary,689,,45%,55%,24%,76%,351-400,761,"8,193",https://www.topuniversities.com/universities/college-william-mary
+357,37.3,Slovakia,70.9,,Comenius University in Bratislava,"2,187",,5%,95%,7%,93%,351-400,"2,009","22,726",https://www.topuniversities.com/universities/comenius-university-bratislava
+358,49.1,,73.4,,George Washington University,,,,,,,351-400,,,https://www.topuniversities.com/universities/george-washington-university
+359,46.2,China,78.2,264,Huazhong University of Science and Technology,"2,833",,54%,46%,44%,56%,351-400,"3,753","56,034",https://www.topuniversities.com/universities/huazhong-university-science-technology
+360,45.6,Turkey,65.7,53,Istanbul Technical University,"1,652",,50%,50%,40%,60%,351-400,"2,410","38,387",https://www.topuniversities.com/universities/istanbul-technical-university
+361,53.8,Russia,61.9,88,ITMO University,"1,578",,53%,47%,47%,53%,351-400,"1,235","10,369",https://www.topuniversities.com/universities/itmo-university
+362,47.8,Austria,77.4,269,Karl-Franzens-Universitaet Graz,"2,917",,38%,62%,27%,73%,351-400,"1,344","20,603",https://www.topuniversities.com/universities/karl-franzens-universitaet-graz
+363,62.7,Russia,62.5,137,Kazan (Volga region) Federal University,"3,457",,25%,75%,44%,56%,351-400,"3,853","29,263",https://www.topuniversities.com/universities/kazan-volga-region-federal-university
+364,37.4,Greece,83.2,19,National and Kapodistrian University of Athens,"5,834",,5%,95%,39%,61%,351-400,"1,758","65,252",https://www.topuniversities.com/universities/national-kapodistrian-university-athens
+365,47,Japan,83.3,33,Osaka City University,337,,72%,28%,21%,79%,351-400,982,"8,313",https://www.topuniversities.com/universities/osaka-city-university
+366,63.6,,91.5,,International School for Advanced Studies of Trieste,,,,,,,351-400,,,https://www.topuniversities.com/universities/international-school-advanced-studies-trieste
+367,44.9,Italy,84.8,1,Scuola Normale Superiore di Pisa,48,,98%,2%,45%,55%,351-400,86,532,https://www.topuniversities.com/universities/scuola-normale-superiore-di-pisa
+368,51.6,Ukraine,64.1,17,Taras Shevchenko National University of Kyiv,755,,26%,74%,30%,70%,351-400,"2,951","23,354",https://www.topuniversities.com/universities/taras-shevchenko-national-university-kyiv
+369,47,Germany,75.2,,Technische Universität Braunschweig,"2,774",,58%,42%,43%,57%,351-400,"2,348","19,827",https://www.topuniversities.com/universities/technische-universit%C3%A4t-braunschweig
+370,47.1,Spain,83.6,77,Universidad de Zaragoza,"2,070",,21%,79%,12%,88%,351-400,"3,833","30,168",https://www.topuniversities.com/universities/universidad-de-zaragoza
+371,52.4,Chile,68.5,53,Universidad Técnica Federico Santa María (USM),180,,24%,76%,7%,93%,351-400,616,"13,014",https://www.topuniversities.com/universities/universidad-t%C3%A9cnica-federico-santa-mar%C3%ADa-usm
+372,47.1,Spain,87.2,18,Universidade de Santiago de Compostela,"1,154",,60%,40%,18%,82%,351-400,"1,723","24,681",https://www.topuniversities.com/universities/universidade-de-santiago-de-compostela
+373,61.2,Brazil,65.5,19,Universidade Federal de Pernambuco (UFPE),249,,78%,22%,34%,66%,351-400,"2,609","37,557",https://www.topuniversities.com/universities/universidade-federal-de-pernambuco-ufpe
+374,63.8,Brazil,72.4,46,Universidade Federal do Rio Grande Do Sul ,609,,100%,21%,22%,78%,351-400,"2,576","42,735",https://www.topuniversities.com/universities/universidade-federal-do-rio-grande-do-sul
+375,40.7,Germany,84.5,138,Universität Bielefeld,"1,845",,55%,45%,42%,58%,351-400,"1,433","24,255",https://www.topuniversities.com/universities/universit%C3%A4t-bielefeld
+376,51.9,Germany,76.6,134,Universität  Leipzig,"3,510",,%,%,%,%,351-400,"2,475","28,907",https://www.topuniversities.com/universities/universit%C3%A4t-leipzig
+377,45.4,Canada,80.4,264,Université de Sherbrooke,"1,115",,63%,37%,21%,79%,351-400,"1,168","14,373",https://www.topuniversities.com/universities/universit%C3%A9-de-sherbrooke
+378,49.1,France,78,119,"Université Lille 1, Sciences et Technologies","4,071",,56%,44%,38%,62%,351-400,"1,189","20,115",https://www.topuniversities.com/universities/universit%C3%A9-lille-1-sciences-et-technologies
+379,53.9,France,72.9,132,Université Paul Sabatier Toulouse III,"4,049",,41%,59%,40%,60%,351-400,"2,383","28,766",https://www.topuniversities.com/universities/universit%C3%A9-paul-sabatier-toulouse-iii
+380,58.3,Malaysia,67.9,435,Universiti Kebangsaan Malaysia (UKM),"2,681",,81%,19%,35%,65%,351-400,"2,460","18,094",https://www.topuniversities.com/universities/universiti-kebangsaan-malaysia-ukm
+381,56.4,Malaysia,66.9,401,Universiti Putra Malaysia (UPM),"4,778",,81%,19%,45%,55%,351-400,"2,334","20,924",https://www.topuniversities.com/universities/universiti-putra-malaysia-upm
+382,42,United States,81.3,472,University at Buffalo SUNY,"5,604",,49%,51%,31%,69%,351-400,"1,440","27,631",https://www.topuniversities.com/universities/university-buffalo-suny
+383,46.2,Norway,63.2,484,University of Bergen,767,,79%,21%,57%,43%,351-400,"1,513","10,671",https://www.topuniversities.com/universities/university-bergen
+384,40.8,United States,91,96,University of Cincinnati,"2,733",,63%,37%,25%,75%,351-400,"2,415","29,306",https://www.topuniversities.com/universities/university-cincinnati
+385,41.5,United States,84.9,485,University of Connecticut,"2,797",,65%,35%,26%,74%,351-400,"2,290","24,607",https://www.topuniversities.com/universities/university-connecticut
+386,51.9,Greece,85.3,13,University of Crete,639,,13%,87%,11%,89%,351-400,594,"14,868",https://www.topuniversities.com/universities/university-crete
+387,52.7,Sweden,71.4,434,University of Gothenburg,"3,518",,49%,51%,27%,73%,351-400,"2,683","26,630",https://www.topuniversities.com/universities/university-gothenburg
+388,50.2,Belgium,79.2,53,Université de Liège,"4,236",,64%,36%,51%,49%,351-400,796,"20,736",https://www.topuniversities.com/universities/universit%C3%A9-de-li%C3%A8ge
+389,32,United States,78.8,403,University of Oklahoma,"1,871",,42%,58%,24%,76%,351-400,"3,088","26,824",https://www.topuniversities.com/universities/university-oklahoma
+390,52.2,New Zealand,63.6,759,University of Otago,"3,871",,29%,71%,17%,83%,351-400,"1,266","18,532",https://www.topuniversities.com/universities/university-otago
+391,45.5,Canada,85.2,497,University of Ottawa,"6,181",,34%,66%,23%,77%,351-400,"1,586","35,003",https://www.topuniversities.com/universities/university-ottawa
+392,43.1,Denmark,82.9,463,University of Southern Denmark,"2,766",,61%,39%,41%,59%,351-400,"1,747","18,209",https://www.topuniversities.com/universities/university-southern-denmark
+393,48.8,Estonia,70.9,119,University of Tartu,832,,87%,13%,48%,52%,351-400,"1,402","10,071",https://www.topuniversities.com/universities/university-tartu
+394,43.4,United States,84,116,University of Texas Dallas,"5,145",,91%,9%,34%,66%,351-400,"1,032","20,767",https://www.topuniversities.com/universities/university-texas-dallas
+395,41.2,South Africa,71.4,485,University of the Witwatersrand,"2,097",,42%,58%,13%,87%,351-400,"1,550","26,900",https://www.topuniversities.com/universities/university-witwatersrand
+396,46.5,Finland,79.2,270,University of Turku,580,,94%,6%,43%,57%,351-400,"1,394","12,416",https://www.topuniversities.com/universities/university-turku
+397,42.6,Poland,80.3,49,University of Wroclaw,"1,497",,%,100%,6%,94%,351-400,"1,869","27,572",https://www.topuniversities.com/universities/university-wroclaw
+398,60.6,Russia,58.2,311,Ural Federal University,"2,464",,34%,66%,28%,72%,351-400,"4,203","26,345",https://www.topuniversities.com/universities/ural-federal-university
+399,48.3,Germany,89.9,487,Westfälische Wilhelms-Universität Münster ,"2,809",,61%,39%,53%,47%,351-400,"4,202","42,715",https://www.topuniversities.com/universities/westf%C3%A4lische-wilhelms-universit%C3%A4t-m%C3%BCnster
+400,43.6,Canada,79.1,328,York University,"8,932",,12%,88%,8%,92%,351-400,"2,357","40,325",https://www.topuniversities.com/universities/york-university
+401,32,Poland,77.7,,AGH University of Science and Technology,465,,11%,%,10%,%,401-450,"1,823","26,882",https://www.topuniversities.com/universities/agh-university-science-technology
+402,44.8,United Kingdom,73.3,243,Aston University,"3,006",,33%,67%,15%,85%,401-450,620,"10,835",https://www.topuniversities.com/universities/aston-university
+403,45.2,Egypt,69.5,138,Cairo University,"8,371",,20%,80%,5%,95%,401-450,"11,873","183,830",https://www.topuniversities.com/universities/cairo-university
+404,43.4,Canada,72.2,134,Carleton University,"4,389",,21%,79%,14%,86%,401-450,"1,124","25,479",https://www.topuniversities.com/universities/carleton-university
+405,46.1,Germany,81.8,186,Christian-Albrechts-University zu Kiel,"1,939",,%,%,%,%,401-450,"2,780","24,674",https://www.topuniversities.com/universities/christian-albrechts-university-zu-kiel
+406,43.1,United States,83.5,350,Colorado State University,"1,656",,45%,55%,13%,87%,401-450,"2,967","25,902",https://www.topuniversities.com/universities/colorado-state-university
+407,47.8,United Kingdom,62.6,246,Cranfield University,"2,056",,100%,%,100%,%,401-450,650,"2,750",https://www.topuniversities.com/universities/cranfield-university
+408,49.4,Australia,73.2,"1,225",Curtin University,"5,284",,40%,60%,17%,83%,401-450,"1,917","25,604",https://www.topuniversities.com/universities/curtin-university
+409,45.5,China,73.4,142,Dalian University of Technology,"1,007",,51%,49%,37%,63%,401-450,"2,456","40,421",https://www.topuniversities.com/universities/dalian-university-technology
+410,45,United States,72.5,27,Dartmouth College,945,,62%,38%,32%,68%,401-450,939,"6,224",https://www.topuniversities.com/universities/dartmouth-college
+411,48.3,Hungary,84.7,33,Eötvös Lorànd University   ,"1,675",,48%,52%,42%,58%,401-450,"1,540","22,933",https://www.topuniversities.com/universities/e%C3%B6tv%C3%B6s-lor%C3%A0nd-university
+412,44.9,South Korea,77.1,113,Inha University,872,,39%,61%,13%,87%,401-450,"2,001","18,611",https://www.topuniversities.com/universities/inha-university
+413,44.5,China,77.4,611,Jilin University,"1,381",,32%,68%,34%,66%,401-450,"6,994","65,300",https://www.topuniversities.com/universities/jilin-university
+414,51.8,Austria,75.7,166,Johannes Kepler University Linz,602,,53%,47%,55%,45%,401-450,680,"5,589",https://www.topuniversities.com/universities/johannes-kepler-university-linz
+415,43.6,Saudi Arabia,86.3,130,King Abdullah University of Science & Technology,633,,100%,%,100%,%,401-450,133,901,https://www.topuniversities.com/universities/king-abdullah-university-science-technology
+416,41.7,South Korea,75.8,178,Konkuk University,"1,719",,27%,73%,13%,87%,401-450,"2,566","22,790",https://www.topuniversities.com/universities/konkuk-university
+417,53.6,United Kingdom,71.8,376,Loughborough University,"3,222",,56%,44%,19%,81%,401-450,"1,315","15,335",https://www.topuniversities.com/universities/loughborough-university
+418,43.6,China,86.3,266,Nankai University,"1,334",,32%,68%,44%,56%,401-450,"2,353","26,544",https://www.topuniversities.com/universities/nankai-university
+419,53.4,Taiwan,66.8,99,National Taiwan Normal University,"2,269",,34%,66%,36%,64%,401-450,"1,245","8,341",https://www.topuniversities.com/universities/national-taiwan-normal-university
+420,54.5,Russia,53.1,7,Novosibirsk State Technical University,"1,920",,14%,86%,23%,77%,401-450,799,"12,164",https://www.topuniversities.com/universities/novosibirsk-state-technical-university
+421,37.8,,68.6,183,Palacký University in Olomouc,"1,811",,23%,77%,28%,72%,401-450,"1,511","17,968",https://www.topuniversities.com/universities/palack%C3%BD-university-olomouc
+422,44.4,Germany,79,217,Philipps-Universität Marburg ,"3,032",,45%,27%,66%,40%,401-450,"2,128","25,419",https://www.topuniversities.com/universities/philipps-universit%C3%A4t-marburg
+423,50.3,United Kingdom,77.3,308,Swansea University,"3,074",,33%,67%,15%,85%,401-450,"1,285","14,535",https://www.topuniversities.com/universities/swansea-university
+424,34.2,United States,82.2,292,Tufts University,"1,267",,62%,38%,50%,50%,401-450,"1,282","10,468",https://www.topuniversities.com/universities/tufts-university
+425,53.6,Chile,74.2,119,Universidad de Concepción,279,,77%,23%,7%,93%,401-450,"1,544","27,696",https://www.topuniversities.com/universities/universidad-de-concepci%C3%B3n
+426,56.4,Colombia,44.1,148,Universidad de los Andes,293,,33%,67%,17%,83%,401-450,"1,089","16,665",https://www.topuniversities.com/universities/universidad-de-los-andes
+427,40.2,Spain,77.6,37,Universidad de Sevilla,"2,814",,39%,61%,14%,86%,401-450,"3,612","58,606",https://www.topuniversities.com/universities/universidad-de-sevilla
+428,56.1,Colombia,62.9,163,Universidad Nacional de Colombia,312,,48%,52%,19%,81%,401-450,"2,909","53,581",https://www.topuniversities.com/universities/universidad-nacional-de-colombia
+429,39.4,,60.4,,Universidade do Estado do Rio de Janeiro (UERJ),,,,,,,401-450,,,https://www.topuniversities.com/universities/universidade-do-estado-do-rio-de-janeiro-uerj
+430,51.4,Brazil,67.5,74,Universidade Federal de Santa Catarina ,581,,65%,35%,35%,65%,401-450,"2,254","39,006",https://www.topuniversities.com/universities/universidade-federal-de-santa-catarina
+431,56.1,Brazil,69,22,Universidade Federal de São Carlos (UFSCAR),217,,74%,26%,23%,87%,401-450,"1,278","12,970",https://www.topuniversities.com/universities/universidade-federal-de-s%C3%A3o-carlos-ufscar
+432,38.3,Italy,84.6,55,Università degli Studi di Perugia,"1,258",,38%,62%,44%,56%,401-450,"1,053","23,732",https://www.topuniversities.com/universities/universit%C3%A0-degli-studi-di-perugia
+433,49.3,Germany,75.8,180,Universität Bremen,"1,786",,47%,53%,28%,72%,401-450,"1,381","18,080",https://www.topuniversities.com/universities/universit%C3%A4t-bremen
+434,48.2,Germany,80.6,181,Universität Duisburg-Essen,"7,636",,44%,56%,34%,66%,401-450,"1,730","40,979",https://www.topuniversities.com/universities/universit%C3%A4t-duisburg-essen
+435,50.6,Germany,81.9,,Universität Potsdam,"2,277",,%,%,%,%,401-450,487,"20,204",https://www.topuniversities.com/universities/universit%C3%A4t-potsdam
+436,44.7,Germany,84.7,,Universität Rostock,895,,%,%,70%,34%,401-450,"1,341","13,615",https://www.topuniversities.com/universities/universit%C3%A4t-rostock
+437,40.4,,91.9,,"Université de Savoie, Chambery, Annecy",,,,,,,401-450,,,https://www.topuniversities.com/universities/universit%C3%A9-de-savoie-chambery-annecy
+438,42.6,Portugal,76.4,,University of Aveiro,864,,%,%,%,%,401-450,"1,024","13,917",https://www.topuniversities.com/universities/university-aveiro
+439,46,Romania,69.8,9,University of Bucharest,801,,20%,80%,32%,68%,401-450,"1,745","29,272",https://www.topuniversities.com/universities/university-bucharest
+440,39.1,United States,76.9,114,University of Iowa,"3,682",,35%,65%,27%,73%,401-450,"2,549","30,270",https://www.topuniversities.com/universities/university-iowa
+441,39.1,Slovenia,79.9,18,University of Maribor,561,,41%,59%,28%,72%,401-450,"1,057","14,168",https://www.topuniversities.com/universities/university-maribor
+442,48.9,United States,68.1,20,University of Massachusetts - Boston ,520,,74%,26%,18%,82%,401-450,840,"12,337",https://www.topuniversities.com/universities/university-massachusetts-boston
+443,46.9,United Kingdom,84.8,297,University of Portsmouth,"4,817",,23%,77%,12%,88%,401-450,"1,260","19,005",https://www.topuniversities.com/universities/university-portsmouth
+444,59.4,China,69,40,University of Science and Technology Beijing,863,,51%,49%,45%,55%,401-450,"1,548","24,049",https://www.topuniversities.com/universities/university-science-technology-beijing
+445,48.6,Australia,66.6,546,University of Technology Sydney,"7,769",,48%,52%,25%,75%,401-450,"1,328","24,207",https://www.topuniversities.com/universities/university-technology-sydney
+446,46.8,United States,87.2,296,University of Utah,"2,213",,47%,53%,26%,74%,401-450,"3,467","25,380",https://www.topuniversities.com/universities/university-utah
+447,46.7,Australia,78,551,University of Wollongong,"4,730",,59%,41%,24%,76%,401-450,"1,301","18,476",https://www.topuniversities.com/universities/university-wollongong
+448,40.6,,63.7,,University Politehnica of Bucharest,,,,,,,401-450,,,https://www.topuniversities.com/universities/university-politehnica-bucharest
+449,46,New Zealand,70.7,503,Victoria University of Wellington,"3,280",,34%,66%,21%,79%,401-450,985,"17,085",https://www.topuniversities.com/universities/victoria-university-wellington
+450,48.7,India,78.7,,Banaras Hindu University,515,,47%,45%,51%,55%,451-500,"1,217","24,866",https://www.topuniversities.com/universities/banaras-hindu-university
+451,45.2,China,71.8,37,Beijing Jiaotong University,"1,175",,39%,61%,40%,60%,451-500,"1,928","26,580",https://www.topuniversities.com/universities/beijing-jiaotong-university
+452,54.3,Belarus,56.1,167,Belarusian State University,"2,542",,14%,86%,12%,88%,451-500,"3,739","22,691",https://www.topuniversities.com/universities/belarusian-state-university
+453,37.2,Turkey,55.7,43,Bogaziçi Üniversitesi,"1,015",,14%,86%,24%,76%,451-500,447,"11,967",https://www.topuniversities.com/universities/bogazi%C3%A7i-%C3%BCniversitesi
+454,37.7,United States,96.7,243,Case Western Reserve University,"2,146",,70%,30%,53%,47%,451-500,"2,051","10,820",https://www.topuniversities.com/universities/case-western-reserve-university
+455,48.2,South Korea,72.8,74,Chungnam National University,782,,43%,57%,19%,81%,451-500,"1,824","23,149",https://www.topuniversities.com/universities/chungnam-national-university
+456,41.5,Ireland,68.8,306,Dublin City University,"2,263",,32%,68%,15%,85%,451-500,"1,080","12,008",https://www.topuniversities.com/universities/dublin-city-university
+457,40.9,China,78.7,326,East China Normal University,"4,179",,32%,68%,44%,56%,451-500,"2,191","25,237",https://www.topuniversities.com/universities/east-china-normal-university
+458,50.5,France,71,38,Ecole Normale Supérieure de Cachan,260,,97%,3%,85%,15%,451-500,299,"2,015",https://www.topuniversities.com/universities/ecole-normale-sup%C3%A9rieure-de-cachan
+459,33,United States,81.2,81,George Mason University,"2,090",,54%,46%,25%,75%,451-500,"1,833","25,984",https://www.topuniversities.com/universities/george-mason-university
+460,38.4,United States,80.4,61,Georgia State University,"1,495",,72%,28%,22%,78%,451-500,"1,485","26,264",https://www.topuniversities.com/universities/georgia-state-university
+461,46.7,Australia,72.9,809,Griffith University,"6,004",,33%,67%,15%,85%,451-500,"1,882","31,772",https://www.topuniversities.com/universities/griffith-university
+462,48.4,China,69.3,5,HeFei University of Technology,7,,86%,14%,24%,76%,451-500,"1,754","40,248",https://www.topuniversities.com/universities/hefei-university-technology
+463,45.7,United States,83.9,43,Illinois Institute of Technology,"3,623",,79%,21%,59%,41%,451-500,410,"6,961",https://www.topuniversities.com/universities/illinois-institute-technology
+464,46.2,India,74.9,3,Indian Institute of Technology Guwahati (IITG),50,,94%,6%,52%,48%,451-500,412,"5,473",https://www.topuniversities.com/universities/indian-institute-technology-guwahati-iitg
+465,50.6,India,69.1,4,Indian Institute of Technology Roorkee (IITR),95,,100%,%,46%,54%,451-500,496,"8,240",https://www.topuniversities.com/universities/indian-institute-technology-roorkee-iitr
+466,36,United States,80.7,72,Kansas State University ,"1,753",,41%,59%,14%,86%,451-500,"1,399","21,333",https://www.topuniversities.com/universities/kansas-state-university
+467,56.6,Sweden,57.5,590,Karolinska Institutet,"1,420",,70%,84%,27%,77%,451-500,"1,771","7,786",https://www.topuniversities.com/universities/karolinska-institutet
+468,52.2,Saudi Arabia,69.8,665,King Fahd University of Petroleum & Minerals,989,,55%,45%,14%,86%,451-500,"1,062","6,040",https://www.topuniversities.com/universities/king-fahd-university-petroleum-minerals
+469,52.9,Kazakhstan,61.2,396,L.N. Gumilyov Eurasian National University (ENU),591,,22%,78%,16%,84%,451-500,"2,857","15,794",https://www.topuniversities.com/universities/ln-gumilyov-eurasian-national-university-enu
+470,50.2,Russia,60.9,37,The National University of Science and Technology MISIS,"1,501",,49%,51%,46%,54%,451-500,880,"7,440",https://www.topuniversities.com/universities/national-university-science-technology-misis
+471,51.1,Pakistan,68.7,26,National University of Sciences And Technology (NUST) Islamabad,298,,1%,99%,30%,70%,451-500,"1,377","10,056",https://www.topuniversities.com/universities/national-university-sciences-technology-nust-islamabad
+472,45.1,Japan,77.2,84,Okayama University,496,,79%,21%,21%,79%,451-500,"1,758","12,763",https://www.topuniversities.com/universities/okayama-university
+473,38.4,United Kingdom,70.8,308,Royal Holloway University of London,"3,509",,37%,63%,24%,76%,451-500,717,"9,060",https://www.topuniversities.com/universities/royal-holloway-university-london
+474,46.8,Russia,60.6,42,Samara National Research University (Samara University),560,,34%,66%,29%,71%,451-500,"1,044","10,284",https://www.topuniversities.com/universities/samara-national-research-university-samara-university
+475,40.1,South Africa,70.8,191,Stellenbosch University,"1,805",,58%,42%,39%,61%,451-500,678,"26,039",https://www.topuniversities.com/universities/stellenbosch-university
+476,44.5,Austria,73.3,,Graz University of Technology,"1,807",,%,%,%,%,451-500,"1,187","12,050",https://www.topuniversities.com/universities/graz-university-technology
+477,57.5,Chile,59.8,53,Universidad de Santiago de Chile (USACH),108,,53%,47%,7%,93%,451-500,"1,330","22,801",https://www.topuniversities.com/universities/universidad-de-santiago-de-chile-usach
+478,44.6,Spain,84.9,,Universidad del Pais Vasco,820,,%,%,7%,93%,451-500,"3,981","39,715",https://www.topuniversities.com/universities/universidad-del-pais-vasco
+479,38.4,Portugal,71.3,89,Universidade Nova de Lisboa,"2,076",,23%,%,47%,53%,451-500,"1,746","19,490",https://www.topuniversities.com/universities/universidade-nova-de-lisboa
+480,39,Italy,78.1,4,University of Modena and Reggio Emilia,"1,367",,33%,67%,42%,58%,451-500,723,"23,336",https://www.topuniversities.com/universities/university-modena-reggio-emilia
+481,54.5,Italy,79.6,46,Università degli studi Roma Tre,"1,566",,23%,77%,24%,76%,451-500,817,"34,863",https://www.topuniversities.com/universities/universit%C3%A0-degli-studi-roma-tre
+482,39.1,Germany,77.6,300,Universität des Saarlandes,"3,061",,%,%,%,%,451-500,"1,258","17,111",https://www.topuniversities.com/universities/universit%C3%A4t-des-saarlandes
+483,42.6,,76.5,,Universität Siegen,,,,,,,451-500,,,https://www.topuniversities.com/universities/universit%C3%A4t-siegen
+484,41.2,France,86.9,201,Université de Nantes,"4,211",,47%,53%,36%,64%,451-500,"2,072","39,800",https://www.topuniversities.com/universities/universit%C3%A9-de-nantes
+485,43.6,Canada,73.6,255,Université du Québec,"3,271",,%,%,19%,81%,451-500,"1,711","46,514",https://www.topuniversities.com/universities/universit%C3%A9-du-qu%C3%A9bec
+486,46.5,United Kingdom,70.2,508,University of Aberdeen,"4,246",,36%,64%,23%,77%,451-500,"1,310","12,005",https://www.topuniversities.com/universities/university-aberdeen
+487,32.9,United States,86.6,57,University of Alabama,"1,224",,39%,61%,12%,88%,451-500,"1,508","33,227",https://www.topuniversities.com/universities/university-alabama
+488,39.1,Serbia,71.3,98,University of Belgrade,"4,604",,45%,55%,31%,69%,451-500,"3,356","101,607",https://www.topuniversities.com/universities/university-belgrade
+489,53.6,India,66.9,1,University of Calcutta,74,,16%,84%,85%,15%,451-500,600,"20,225",https://www.topuniversities.com/universities/university-calcutta
+490,42.4,China,73.2,35,University of Electronic Science and Technology of China,29,,10%,90%,35%,65%,451-500,"1,905","31,315",https://www.topuniversities.com/universities/university-electronic-science-technology-china
+491,54.6,India,69,,University of Hyderabad,61,,96%,%,106%,%,451-500,343,"4,934",https://www.topuniversities.com/universities/university-hyderabad
+492,39.1,United States,83.3,257,University of Kentucky,"1,584",,58%,42%,22%,78%,451-500,"1,926","27,625",https://www.topuniversities.com/universities/university-kentucky
+493,52.4,Switzerland,56.4,"1,031",University of Lausanne,"3,337",,59%,41%,47%,53%,451-500,"2,173","13,435",https://www.topuniversities.com/universities/university-lausanne
+494,34.5,Belgium,83.1,41,University of Mons,"1,088",,45%,55%,34%,66%,451-500,296,"6,509",https://www.topuniversities.com/universities/university-mons
+495,35.8,United States,82.9,575,University of Nebraska-Lincoln,"3,525",,32%,68%,15%,85%,451-500,"1,953","28,415",https://www.topuniversities.com/universities/university-nebraska-lincoln
+496,53,Australia,61.8,499,"The University of Newcastle, Australia (UON)","3,032",,58%,42%,9%,91%,451-500,"1,058","13,012",https://www.topuniversities.com/universities/university-newcastle-australia-uon
+497,34.7,United States,77.1,60,University of Oregon,"2,890",,14%,86%,14%,86%,451-500,"1,772","22,102",https://www.topuniversities.com/universities/university-oregon
+498,43,Portugal,78.6,61,University of Porto,"1,543",,78%,22%,28%,72%,451-500,"1,750","27,966",https://www.topuniversities.com/universities/university-porto
+499,37.4,United States,84.1,297,University of South Carolina,"1,625",,57%,43%,22%,78%,451-500,"2,196","31,213",https://www.topuniversities.com/universities/university-south-carolina
+500,39.1,Croatia,81.5,54,University of Zagreb,795,,76%,24%,50%,50%,451-500,"5,212","58,843",https://www.topuniversities.com/universities/university-zagreb-2
+501,46.5,United States,79.7,479,Washington State University,"1,899",,46%,54%,15%,85%,451-500,"1,977","26,853",https://www.topuniversities.com/universities/washington-state-university
